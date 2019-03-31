@@ -113,7 +113,7 @@ public class Abstraction_Qualitative extends Abstraction_Generic {
     public String toStringToFile() {
         StringBuilder result = new StringBuilder();
         if (!hasEqualRelation()) {
-            result.append(" -1");
+            //result.append(" -1");
         }
         return result.toString();
     }

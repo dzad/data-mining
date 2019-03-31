@@ -196,8 +196,6 @@ public class ResultConverter {
 				int index = thisLine.indexOf("=");
 				int itemID = Integer.parseInt(thisLine.substring(0, index));
 				String stringValue = thisLine.substring(index+1);
-//				System.out.println(itemID);
-//				System.out.println(stringValue);
 				mapItemIDtoStringValue.put(itemID, stringValue);
 			}
 		}// close the file

@@ -115,7 +115,9 @@ class SupportCounting {
                 /*if we have a positive result, we add the sequence Id to the list
                 * of appearances associated with the candidate pattern
                 */
+                
                 candidate.addAppearance(sequence.getId());
+                
             }
         }
     }
@@ -142,4 +144,10 @@ class SupportCounting {
     public Map<Item, Set<Pattern>> getIndexationMap() {
         return indexationMap;
     }
+    
+    /**
+     * added By Zayd
+     * get the Moy_Coh
+     * 
+     */
 }

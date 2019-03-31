@@ -24,7 +24,7 @@ public class Testgsp {
     public static void main(String[] args) {
         System.out.println("start GSP");
         // Load a sequence database
-        double support = (double)0.5, mingap = 0, maxgap = 1, windowSize = 0;
+        double support = (double)0.1, mingap = 0, maxgap = 1, windowSize = 0;
 
         boolean keepPatterns = true;
         boolean verbose=true;
@@ -37,10 +37,11 @@ public class Testgsp {
         SequenceDatabase sequenceDatabase = new SequenceDatabase(abstractionCreator);
         
         try {
-            sequenceDatabase.loadFile(fileToPath("./DatasetBiology.text"), support);
+            sequenceDatabase.loadFile(fileToPath("./contextPrefixSpanStrings.txt"), support);
         } catch (IOException ex) {
             Logger.getLogger(Testgsp.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
 
         AlgoGSP algorithm = new AlgoGSP(support, mingap, maxgap, windowSize,abstractionCreator,true);
 

@@ -89,7 +89,7 @@ public class SequenceDatabase {
             FileInputStream fis = new FileInputStream(new File(path));
             myInput = new BufferedReader(new InputStreamReader(fis));
             while ((thisLine = myInput.readLine()) != null) {
-                // Zayd have modified this
+                // Zayd has modified this
                 // if the line is not a comment
             	/*if (thisLine.charAt(0) != '#' && thisLine.charAt(0) != '%'
 						&& thisLine.charAt(0) != '@') {
@@ -251,7 +251,7 @@ public class SequenceDatabase {
                 out += line.charAt(i) + " ";
             }
             if (i==line.length()-1){
-                out += "-2";
+                out += "-1 -2";
             }else if (!betweenBrkt){
                 out += "-1 ";
             }

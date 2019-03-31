@@ -75,7 +75,7 @@ public class DescriptionAlgoGSP extends DescriptionOfAlgorithm {
 		sd.loadFile(inputFile, minSupport);
 
 		algo.runAlgorithm(sd, true, false, outputFile,outputSeqIdentifiers);
-		System.out.println(algo.printStatistics());
+		//System.out.println(algo.printStatistics());
 	}
 
 	@Override

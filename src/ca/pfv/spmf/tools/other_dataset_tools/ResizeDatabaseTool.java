@@ -65,8 +65,8 @@ public class ResizeDatabaseTool {
 		writer.close();
 		
 		int newDatabaseSize = (int) Math.ceil(percentage *  lineOfDataCount);
-		System.out.println("Number of lines of data in original database: " + lineOfDataCount);
-		System.out.println("Number of lines of data in resized database: " + newDatabaseSize);
+		//System.out.println("Number of lines of data in original database: " + lineOfDataCount);
+		//System.out.println("Number of lines of data in resized database: " + newDatabaseSize);
 		
 		
 		// Then read the file again, to write the output file

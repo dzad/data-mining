@@ -28,11 +28,14 @@ import java.util.Map;
 import java.util.Set;
 
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Item;
+import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Sequence;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.SequenceDatabase;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Sequences;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.creators.AbstractionCreator;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.patterns.Pattern;
 import ca.pfv.spmf.tools.MemoryLogger;
+import java.util.BitSet;
+import javax.sound.midi.MidiSystem;
 
 /**
  * This is an implementation of the GSP algorithm. GSP was proposed by Srikant
@@ -188,8 +191,8 @@ public class AlgoGSP {
             //We start with the k+1 level
             k++;
             if (verbose) {
-                System.out.println("k=" + k);
-                System.out.println("generating candidates...");
+                //System.out.println("k=" + k);
+                //System.out.println("generating candidates...");
             }
             //We get the candidate set
             candidateSet = candidateGenerator.generateCandidates(frequentSet, abstractionCreator, indexationMap, k, minSupAbsolute);
@@ -200,8 +203,8 @@ public class AlgoGSP {
             }
             //Otherwise we continue counting the support of each candidate of the set
             if (verbose) {
-                System.out.println(candidateSet.size() + "  Candidates have been created!");
-                System.out.println("checking frequency...");
+                //System.out.println(candidateSet.size() + "  Candidates have been created!");
+                //System.out.println("checking frequency...");
             }
             
             // check the memory usage for statistics
@@ -209,8 +212,23 @@ public class AlgoGSP {
             
             frequentSet = supportCounter.countSupport(candidateSet, k, minSupAbsolute);
             if (verbose) {
-                System.out.println(frequentSet.size() + " frequent patterns\n");
+                //System.out.println(frequentSet.size() + " frequent patterns\n");
             }
+            
+            // Calculate the moy_coh here
+            // By Zayd
+            
+            for (Pattern pattern : frequentSet) {
+                int i = 0;
+                for (Sequence seq : database.getSequences()) {
+                    if(pattern.getAppearingIn().get(i)){
+                        pattern.calculateMoyCoh(seq);
+                    }
+                    i++;
+                    }
+                
+            }
+            
             
             
             // check the memory usage for statistics

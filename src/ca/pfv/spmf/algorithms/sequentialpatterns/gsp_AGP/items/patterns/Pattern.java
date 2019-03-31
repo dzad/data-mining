@@ -4,11 +4,16 @@
  */
 package ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.patterns;
 
+import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Item;
+import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Itemset;
+import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Sequence;
 import java.util.ArrayList;
 import java.util.BitSet;
 import java.util.List;
+import java.util.Arrays;
 
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.abstractions.ItemAbstractionPair;
+import java.util.Objects;
 
 /**
  * Implementation of pattern structure. We define it as a list of pairs <abstraction, item>.
@@ -47,11 +52,17 @@ public class Pattern implements Comparable<Pattern> {
     //private Boolean frequent = null;
 
     /**
+     * 
+     */
+    private float moy_coh;
+    
+    /**
      * Standard constructor that sets all the attributes to empty values
      */
     public Pattern() {
         this.elements = new ArrayList<ItemAbstractionPair>();
         this.appearingIn = new BitSet();
+        this.moy_coh = 0;
     }
 
     /**
@@ -61,6 +72,7 @@ public class Pattern implements Comparable<Pattern> {
     public Pattern(List<ItemAbstractionPair> elements) {
         this.elements = elements;
         this.appearingIn = new BitSet();
+        this.moy_coh = 0;
     }
 
     /**
@@ -71,6 +83,7 @@ public class Pattern implements Comparable<Pattern> {
         this.elements = new ArrayList<ItemAbstractionPair>();
         this.elements.add(pair);
         this.appearingIn = new BitSet();
+        this.moy_coh = 0;
     }
 
     /**
@@ -106,9 +119,14 @@ public class Pattern implements Comparable<Pattern> {
             if(i==elements.size()-1){
                 if(i!=0)
                     result.append(elements.get(i).toStringToFile());
-                else
+                else {
+                    if(i > 1)
+                        result.append("(");
                     result.append(elements.get(i).getItem());
-                result.append(" -1");
+                    if(i > 1)
+                        result.append(")");
+                }
+                //result.append(" -1");
             }
             else if(i==0){
                 result.append(elements.get(i).getItem());
@@ -117,11 +135,13 @@ public class Pattern implements Comparable<Pattern> {
             }
             
         }
-        result.append(" #SUP: ");
+        result.append(", ");
         result.append(appearingIn.cardinality());
+        result.append(", ");
+        result.append(this.moy_coh);
         // if the user wants the sequence IDs, we will show them
         if(outputSequenceIdentifiers) {
-        	result.append(" #SID: ");
+        	result.append(", ");
         	for (int i = appearingIn.nextSetBit(0); i >= 0; i = appearingIn.nextSetBit(i+1)) {
         		result.append(i);
         		result.append(" ");
@@ -307,6 +327,7 @@ public class Pattern implements Comparable<Pattern> {
      */
     public void addAppearance(Integer sequenceId) {
         appearingIn.set(sequenceId);
+        
     }
 
     /**
@@ -316,4 +337,85 @@ public class Pattern implements Comparable<Pattern> {
     public double getSupport() {
         return appearingIn.cardinality();
     }
+    
+    /**
+     * Calculate the Moy_coh for this pattern
+     * @param Sequence the sequence where the pattern appears
+     * by Zayd
+     */
+    public void calculateMoyCoh(Sequence seq){
+        int distance = 0;
+        boolean chk = false;
+        boolean update = true;
+        int[] positions = new int[elements.size()];
+        int[] lastPositions = new int[elements.size()];
+        for(int j=0; j<elements.size(); j++){
+            positions[j] = Integer.MAX_VALUE;   
+            lastPositions[j] = -1;
+        }
+        positions[0] = -1;
+        
+        while(!chk){
+            for(int i=0; i<elements.size(); i++){
+                int[] pos = null;
+                
+                if(i==0){
+                    if(positions[i]+1<seq.size())
+                        try{
+                            pos = seq.searchForTheFirstAppearance(positions[i]+1, 
+                                    0, 
+                                    this.elements.get(i).getItem());
+                        }catch(Exception e){
+                            
+                        }               
+                    else
+                        try{
+                            pos = seq.searchForTheFirstAppearance(positions[i], 
+                                    0, 
+                                    this.elements.get(i).getItem());
+                        }catch(Exception e){
+                            
+                        }
+                }else{
+                    if(positions[i-1]+1<seq.size())
+                        try{
+                        pos = seq.searchForTheFirstAppearance(positions[i-1]+1, 
+                                0, 
+                                this.elements.get(i).getItem());
+                        }catch(Exception e){
+                            
+                        }
+                    else
+                        try{
+                            pos = seq.searchForTheFirstAppearance(positions[i-1], 
+                                    0, 
+                                    this.elements.get(i).getItem());
+                        }catch(Exception e){
+                            
+                        }
+                }
+                if(!Objects.isNull(pos)){
+                    if(i < this.elements.size() - 1){
+                        if(pos[0]<positions[i+1]){
+                            positions[i] = pos[0];
+                        }
+                    }else if(update){
+                        positions[i] = pos[0];
+                    }
+                }
+            }
+            if(!Arrays.asList(positions).contains(Integer.MAX_VALUE))
+                update = false;
+            chk = Arrays.equals(lastPositions, positions);
+            lastPositions = positions.clone();
+        }
+        
+        distance = positions[elements.size()-1]  - positions[0] - (elements.size()-1);
+        
+        float coh = (float)this.elements.size()/(distance + 1);
+        
+        this.moy_coh = (float)(this.moy_coh + coh/(this.appearingIn.cardinality()));
+        
+    }
+        
 }
