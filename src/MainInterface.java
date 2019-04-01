@@ -14,6 +14,7 @@ import java.util.Comparator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
@@ -195,7 +196,10 @@ public class MainInterface extends javax.swing.JFrame {
                     try {
                         sequenceDatabase.loadFile(java.net.URLDecoder.decode(filePath,"UTF-8"), support);
                     } catch (IOException ex) {
-                        Logger.getLogger(MainInterface.class.getName()).log(Level.SEVERE, null, ex);
+                        JOptionPane.showMessageDialog(this, 
+                                                      "Veuillez choisir un fichier valide!!",
+                                                      "fichier introuvable",
+                                                      JOptionPane.ERROR_MESSAGE);
                     }
 
                     boolean isRelative = (support<1);
@@ -227,10 +231,38 @@ public class MainInterface extends javax.swing.JFrame {
                     sorter.setComparator(0, new Comparator<String>() {
                         @Override
                         public int compare(String name1, String name2) {
-                            
+                            if(name1.length()-name2.length() == 0){
+                                return name1.compareTo(name2);
+                            }
                             return name1.length()-name2.length();
                         }
                     });
+                    
+                    class FloatComparator implements Comparator {
+                        public int compare(Object o1, Object o2) {
+                            float dif = (float)o1-(float)o2;
+                            int pow = Float.toString(dif).split("\\.")[1].length();
+                            return (int) (dif * Math.pow(10, pow));
+                        }
+
+                        public boolean equals(Object o2) {
+                            return this.equals(o2);
+                        }
+                    }
+                    sorter.setComparator(2, new FloatComparator());
+                    
+                    class IntComparator implements Comparator {
+                        public int compare(Object o1, Object o2) {
+                            Integer int1 = (Integer)o1;
+                            Integer int2 = (Integer)o2;
+                            return int1.compareTo(int2);
+                        }
+
+                        public boolean equals(Object o2) {
+                            return this.equals(o2);
+                        }
+                    }
+                    sorter.setComparator(1, new IntComparator());
                     
                     BufferedReader br = null;
                     FileReader fr = null;
@@ -243,6 +275,9 @@ public class MainInterface extends javax.swing.JFrame {
                     String sCurrentLine;
                     while ((sCurrentLine = br.readLine()) != null) {
                         String[] cols = sCurrentLine.split(",");
+                        if(Float.parseFloat(cols[2])>9.0){
+                            System.out.println(cols[0]);
+                        }
                         dm.addRow(new Object[]{cols[0],Integer.parseInt(cols[1].trim()),Float.parseFloat(cols[2])});
                     }
                     }catch(FileNotFoundException fnfe){
@@ -263,12 +298,25 @@ public class MainInterface extends javax.swing.JFrame {
                         Logger.getLogger(MainInterface.class.getName()).log(Level.SEVERE, null, ex);
                     }
                     }
+                }else{
+                    JOptionPane.showMessageDialog(this, 
+                        "Vérifier la valeur de Minimum support!!",
+                        "valeur erronée",
+                        JOptionPane.ERROR_MESSAGE);
                 }
             }catch(NumberFormatException nfe){
                 //show error
+                JOptionPane.showMessageDialog(this, 
+                        "Vérifier la valeur de Minimum support!!",
+                        "valeur erronée",
+                        JOptionPane.ERROR_MESSAGE);
             }
         }else{
             //show error
+            JOptionPane.showMessageDialog(this, 
+                        "Veuillez choisir un fichier valide!!",
+                        "fichier introuvable",
+                        JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_analyserBTNActionPerformed
 

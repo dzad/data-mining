@@ -1,0 +1,6687 @@
+a, 12, 0.0
+b, 12, 0.0
+c, 12, 0.0
+d, 10, 0.0
+e, 12, 0.0
+f, 12, 0.0
+g, 4, 0.0
+h, 6, 0.0
+a a, 6, 1.5000001
+a b, 12, 1.9999998
+b a, 2, 0.6666667
+a c, 12, 0.81666666
+c a, 2, 2.0
+a d, 10, 0.5133333
+a e, 12, 0.37619048
+a f, 12, 0.29298943
+a g, 4, 0.225
+a h, 6, 0.18787879
+b b, 6, 1.5555556
+b c, 12, 1.9999998
+c b, 2, 2.0
+b d, 10, 0.6933334
+b e, 12, 0.5555556
+b f, 12, 0.39801586
+b g, 4, 0.3611111
+b h, 6, 0.2611111
+c c, 8, 2.0
+c d, 10, 2.0000002
+c e, 12, 1.111111
+c f, 12, 0.6388889
+c g, 4, 0.4761905
+c h, 6, 0.31190476
+d d, 2, 2.0
+d e, 10, 2.0000002
+d f, 10, 0.88000005
+d g, 2, 0.33333334
+d h, 4, 0.34285715
+e e, 2, 2.0
+e f, 12, 1.9999998
+e g, 4, 1.0
+e h, 6, 0.5555556
+f f, 8, 2.0
+f g, 4, 2.0
+f h, 6, 1.2222223
+g g, 2, 2.0
+g h, 4, 2.0
+h h, 4, 2.0
+a a a, 2, 3.0
+a a b, 4, 2.0
+a a c, 6, 0.89285713
+a a d, 4, 0.67499995
+a a e, 6, 0.49166667
+a a f, 6, 0.36507937
+a a g, 4, 0.3
+a a h, 4, 0.26136363
+a b a, 2, 1.0
+a b b, 6, 2.3333335
+a b c, 12, 2.2916667
+a b d, 10, 0.71
+a b e, 12, 0.55833334
+a b f, 12, 0.43154764
+a b g, 4, 0.3809524
+a b h, 6, 0.31111112
+b a c, 2, 1.0
+b a d, 2, 0.75
+b a e, 2, 0.6
+b a f, 2, 0.5
+a c a, 2, 1.0
+a c b, 2, 1.0
+a c c, 8, 1.5
+a c d, 10, 0.71
+a c e, 12, 0.55833334
+a c f, 12, 0.43154764
+a c g, 4, 0.3809524
+a c h, 6, 0.31111112
+c a c, 2, 3.0
+c a d, 2, 1.5
+c a e, 2, 1.0
+c a f, 2, 0.75
+a d d, 2, 0.6
+a d e, 10, 0.75000006
+a d f, 10, 0.5321429
+a d g, 2, 0.33333334
+a d h, 4, 0.3
+a e e, 2, 0.6
+a e f, 12, 0.52678573
+a e g, 4, 0.3809524
+a e h, 6, 0.31111112
+a f f, 8, 0.46875
+a f g, 4, 0.3809524
+a f h, 6, 0.31111112
+a g g, 2, 0.375
+a g h, 4, 0.31666666
+a h h, 4, 0.27272728
+b b b, 4, 3.0
+b b c, 6, 1.1666667
+b b d, 4, 0.875
+b b e, 6, 0.65
+b b f, 6, 0.53333336
+b b g, 2, 0.5
+b b h, 4, 0.3541667
+b c a, 2, 1.5
+b c b, 2, 1.5
+b c c, 8, 3.0
+b c d, 10, 1.3500001
+b c e, 12, 1.1333333
+b c f, 12, 0.6964286
+b c g, 4, 0.6875
+b c h, 6, 0.45396826
+c b c, 2, 3.0
+c b d, 2, 1.5
+c b e, 2, 1.0
+c b f, 2, 0.75
+b d d, 2, 1.5
+b d e, 10, 0.94
+b d f, 10, 0.6357143
+b d g, 2, 0.375
+b d h, 4, 0.3809524
+b e e, 2, 0.75
+b e f, 12, 0.7797619
+b e g, 4, 0.6875
+b e h, 6, 0.45396826
+b f f, 8, 0.5517857
+b f g, 4, 0.6875
+b f h, 6, 0.45396826
+b g g, 2, 0.75
+b g h, 4, 0.4666667
+b h h, 4, 0.3375
+c c a, 2, 3.0
+c c b, 2, 3.0
+c c c, 6, 2.0
+c c d, 8, 1.5
+c c e, 8, 0.9375
+c c f, 8, 0.575
+c c g, 2, 0.42857143
+c c h, 2, 0.375
+c d d, 2, 3.0
+c d e, 10, 2.7
+c d f, 10, 1.22
+c d g, 2, 0.5
+c d h, 4, 0.46428573
+c e e, 2, 1.5
+c e f, 12, 1.5166668
+c e g, 4, 1.0
+c e h, 6, 0.5595238
+c f f, 8, 0.9375
+c f g, 4, 1.0
+c f h, 6, 0.5595238
+c g g, 2, 1.0
+c g h, 4, 0.58928573
+c h h, 4, 0.40178573
+d d e, 2, 3.0
+d d f, 2, 1.5
+d d h, 2, 0.6
+d e e, 2, 3.0
+d e f, 10, 2.55
+d e g, 2, 0.6
+d e h, 4, 0.625
+d f f, 8, 1.5
+d f g, 2, 0.6
+d f h, 4, 0.625
+d g h, 2, 0.5
+d h h, 4, 0.51428574
+e e e, 2, 3.0
+e e f, 2, 1.0
+e e g, 2, 0.75
+e e h, 2, 0.6
+e f f, 8, 3.0
+e f g, 4, 3.0
+e f h, 6, 1.1666666
+e g g, 2, 1.5
+e g h, 4, 1.25
+e h h, 4, 0.875
+f f f, 8, 3.0
+f f h, 2, 1.5
+f g g, 2, 3.0
+f g h, 4, 2.25
+f h h, 4, 2.25
+g g h, 2, 3.0
+g h h, 2, 3.0
+h h h, 2, 3.0
+a a a a, 2, 4.0
+a a a b, 2, 2.0
+a a a c, 2, 0.6666667
+a a a e, 2, 0.5714286
+a a a f, 2, 0.5
+a a a g, 2, 0.44444445
+a a a h, 2, 0.36363637
+a a b b, 2, 1.3333334
+a a b c, 4, 2.3333333
+a a b d, 2, 1.3333334
+a a b e, 4, 0.78571427
+a a b f, 4, 0.5
+a a b g, 4, 0.44444445
+a a b h, 4, 0.38181818
+a a c c, 2, 2.0
+a a c d, 4, 1.1666667
+a a c e, 6, 0.7904762
+a a c f, 6, 0.5555556
+a a c g, 4, 0.44444445
+a a c h, 4, 0.38181818
+a a d e, 4, 0.9
+a a d f, 4, 0.5833334
+a a d g, 2, 0.44444445
+a a d h, 2, 0.4
+a a e e, 2, 0.8
+a a e f, 6, 0.5555556
+a a e g, 4, 0.44444445
+a a e h, 4, 0.38181818
+a a f f, 2, 0.5714286
+a a f g, 4, 0.44444445
+a a f h, 4, 0.38181818
+a a g g, 2, 0.4
+a a g h, 4, 0.38181818
+a a h h, 2, 0.36363637
+a b a c, 2, 1.3333334
+a b a d, 2, 1.0
+a b a e, 2, 0.8
+a b a f, 2, 0.6666667
+a b b b, 4, 4.0
+a b b c, 6, 1.5555556
+a b b d, 4, 1.1666667
+a b b e, 6, 0.8666667
+a b b f, 6, 0.7111111
+a b b g, 2, 0.6666667
+a b b h, 4, 0.4722222
+a b c a, 2, 2.0
+a b c b, 2, 2.0
+a b c c, 8, 4.0
+a b c d, 10, 1.2666667
+a b c e, 12, 0.9222222
+a b c f, 12, 0.6730159
+a b c g, 4, 0.5833334
+a b c h, 6, 0.46296299
+a b d d, 2, 1.0
+a b d e, 10, 0.9066666
+a b d f, 10, 0.64761907
+a b d g, 2, 0.5
+a b d h, 4, 0.44444445
+a b e e, 2, 1.0
+a b e f, 12, 0.6730159
+a b e g, 4, 0.5833334
+a b e h, 6, 0.46296299
+a b f f, 8, 0.5714286
+a b f g, 4, 0.5833334
+a b f h, 6, 0.46296299
+a b g g, 2, 0.5714286
+a b g h, 4, 0.4722222
+a b h h, 4, 0.4
+b a c d, 2, 1.3333334
+b a c e, 2, 1.0
+b a c f, 2, 0.8
+b a d e, 2, 1.0
+b a d f, 2, 0.8
+b a e f, 2, 0.8
+b a f f, 2, 0.6666667
+a c a c, 2, 1.3333334
+a c a d, 2, 1.0
+a c a e, 2, 0.8
+a c a f, 2, 0.6666667
+a c b c, 2, 1.3333334
+a c b d, 2, 1.0
+a c b e, 2, 0.8
+a c b f, 2, 0.6666667
+a c c a, 2, 2.0
+a c c b, 2, 2.0
+a c c c, 6, 1.5555556
+a c c d, 8, 1.25
+a c c e, 8, 0.9333334
+a c c f, 8, 0.64285713
+a c c g, 2, 0.5
+a c c h, 2, 0.44444445
+a c d d, 2, 1.0
+a c d e, 10, 0.9066666
+a c d f, 10, 0.64761907
+a c d g, 2, 0.5
+a c d h, 4, 0.44444445
+a c e e, 2, 1.0
+a c e f, 12, 0.6730159
+a c e g, 4, 0.5833334
+a c e h, 6, 0.46296299
+a c f f, 8, 0.5714286
+a c f g, 4, 0.5833334
+a c f h, 6, 0.46296299
+a c g g, 2, 0.5714286
+a c g h, 4, 0.4722222
+a c h h, 4, 0.4
+c a c d, 2, 4.0
+c a c e, 2, 2.0
+c a c f, 2, 1.3333334
+c a d e, 2, 2.0
+c a d f, 2, 1.3333334
+c a e f, 2, 1.3333334
+c a f f, 2, 1.0
+a d d e, 2, 0.8
+a d d f, 2, 0.6666667
+a d d h, 2, 0.44444445
+a d e e, 2, 1.0
+a d e f, 10, 0.9142857
+a d e g, 2, 0.5
+a d e h, 4, 0.44444445
+a d f f, 8, 0.76190484
+a d f g, 2, 0.5
+a d f h, 4, 0.44444445
+a d g h, 2, 0.44444445
+a d h h, 4, 0.4
+a e e e, 2, 0.8
+a e e f, 2, 0.5714286
+a e e g, 2, 0.5
+a e e h, 2, 0.44444445
+a e f f, 8, 0.76190484
+a e f g, 4, 0.5833334
+a e f h, 6, 0.46296299
+a e g g, 2, 0.5714286
+a e g h, 4, 0.4722222
+a e h h, 4, 0.4
+a f f f, 8, 0.625
+a f f h, 2, 0.44444445
+a f g g, 2, 0.5714286
+a f g h, 4, 0.4722222
+a f h h, 4, 0.4
+a g g h, 2, 0.5
+a g h h, 2, 0.4
+a h h h, 2, 0.36363637
+b b b b, 2, 4.0
+b b b c, 4, 3.0
+b b b d, 2, 2.0
+b b b e, 4, 1.1666667
+b b b f, 4, 0.9
+b b b g, 2, 0.8
+b b b h, 4, 0.53571427
+b b c d, 4, 1.6666667
+b b c e, 6, 1.1111112
+b b c f, 6, 0.8666667
+b b c g, 2, 0.8
+b b c h, 4, 0.53571427
+b b d d, 2, 1.3333334
+b b d e, 4, 1.0
+b b d f, 4, 0.8
+b b d h, 2, 0.5
+b b e f, 6, 0.8666667
+b b e g, 2, 0.8
+b b e h, 4, 0.53571427
+b b f f, 4, 0.6666667
+b b f g, 2, 0.8
+b b f h, 4, 0.53571427
+b b g g, 2, 0.6666667
+b b g h, 2, 0.5714286
+b b h h, 2, 0.44444445
+b c a c, 2, 2.0
+b c a d, 2, 1.3333334
+b c a e, 2, 1.0
+b c a f, 2, 0.8
+b c b c, 2, 2.0
+b c b d, 2, 1.3333334
+b c b e, 2, 1.0
+b c b f, 2, 0.8
+b c c a, 2, 4.0
+b c c b, 2, 4.0
+b c c c, 6, 2.6666665
+b c c d, 8, 1.9999999
+b c c e, 8, 1.25
+b c c f, 8, 0.7666667
+b c c g, 2, 0.5714286
+b c c h, 2, 0.5
+b c d d, 2, 4.0
+b c d e, 10, 1.4000001
+b c d f, 10, 0.87999994
+b c d g, 2, 0.5714286
+b c d h, 4, 0.5833334
+b c e e, 2, 1.3333334
+b c e f, 12, 1.4000001
+b c e g, 4, 1.2857143
+b c e h, 6, 0.7222222
+b c f f, 8, 0.75
+b c f g, 4, 1.2857143
+b c f h, 6, 0.7222222
+b c g g, 2, 1.3333334
+b c g h, 4, 0.75
+b c h h, 4, 0.50793654
+c b c d, 2, 4.0
+c b c e, 2, 2.0
+c b c f, 2, 1.3333334
+c b d e, 2, 2.0
+c b d f, 2, 1.3333334
+c b e f, 2, 1.3333334
+c b f f, 2, 1.0
+b d d e, 2, 2.0
+b d d f, 2, 1.3333334
+b d d h, 2, 0.6666667
+b d e e, 2, 1.3333334
+b d e f, 10, 1.12
+b d e g, 2, 0.5714286
+b d e h, 4, 0.5833334
+b d f f, 8, 0.9166667
+b d f g, 2, 0.5714286
+b d f h, 4, 0.5833334
+b d g h, 2, 0.5
+b d h h, 4, 0.50793654
+b e e e, 2, 1.0
+b e e f, 2, 0.6666667
+b e e g, 2, 0.5714286
+b e e h, 2, 0.5
+b e f f, 8, 0.9166667
+b e f g, 4, 1.2857143
+b e f h, 6, 0.7222222
+b e g g, 2, 1.3333334
+b e g h, 4, 0.75
+b e h h, 4, 0.50793654
+b f f f, 8, 0.7357143
+b f f h, 2, 0.6666667
+b f g g, 2, 1.3333334
+b f g h, 4, 0.75
+b f h h, 4, 0.50793654
+b g g h, 2, 1.0
+b g h h, 2, 0.44444445
+b h h h, 2, 0.5
+c c a c, 2, 4.0
+c c a d, 2, 2.0
+c c a e, 2, 1.3333334
+c c a f, 2, 1.0
+c c b c, 2, 4.0
+c c b d, 2, 2.0
+c c b e, 2, 1.3333334
+c c b f, 2, 1.0
+c c c c, 2, 4.0
+c c c d, 6, 2.0
+c c c e, 6, 1.3333334
+c c c f, 6, 1.0
+c c d e, 8, 1.9999999
+c c d f, 8, 0.95
+c c d g, 2, 0.6666667
+c c d h, 2, 0.5714286
+c c e e, 2, 2.0
+c c e f, 8, 0.95
+c c e g, 2, 0.6666667
+c c e h, 2, 0.5714286
+c c f f, 6, 0.8
+c c f g, 2, 0.6666667
+c c f h, 2, 0.5714286
+c c g h, 2, 0.5714286
+c c h h, 2, 0.5
+c d d e, 2, 4.0
+c d d f, 2, 2.0
+c d d h, 2, 0.8
+c d e e, 2, 4.0
+c d e f, 10, 3.0000002
+c d e g, 2, 0.8
+c d e h, 4, 0.73333335
+c d f f, 8, 1.8333334
+c d f g, 2, 0.8
+c d f h, 4, 0.73333335
+c d g h, 2, 0.6666667
+c d h h, 4, 0.61904764
+c e e e, 2, 2.0
+c e e f, 2, 1.0
+c e e g, 2, 0.8
+c e e h, 2, 0.6666667
+c e f f, 8, 1.8333334
+c e f g, 4, 2.4
+c e f h, 6, 0.93333334
+c e g g, 2, 2.0
+c e g h, 4, 1.0
+c e h h, 4, 0.61904764
+c f f f, 8, 1.25
+c f f h, 2, 0.8
+c f g g, 2, 2.0
+c f g h, 4, 1.0
+c f h h, 4, 0.61904764
+c g g h, 2, 1.3333334
+c g h h, 2, 0.5714286
+c h h h, 2, 0.5714286
+d d e f, 2, 4.0
+d d e h, 2, 1.0
+d d f f, 2, 2.0
+d d f h, 2, 1.0
+d d h h, 2, 0.8
+d e e e, 2, 4.0
+d e e f, 2, 1.3333334
+d e e g, 2, 1.0
+d e e h, 2, 0.8
+d e f f, 8, 4.0
+d e f g, 2, 1.0
+d e f h, 4, 1.0666667
+d e g h, 2, 0.8
+d e h h, 4, 0.8333334
+d f f f, 8, 2.0
+d f f h, 2, 1.3333334
+d f g h, 2, 0.8
+d f h h, 4, 0.8333334
+d g h h, 2, 0.6666667
+d h h h, 2, 0.8
+e e e e, 2, 4.0
+e e e f, 2, 2.0
+e e e g, 2, 1.3333334
+e e e h, 2, 1.0
+e e f g, 2, 1.3333334
+e e f h, 2, 1.0
+e e g h, 2, 1.0
+e e h h, 2, 0.8
+e f f f, 8, 4.0
+e f f h, 2, 2.0
+e f g g, 2, 4.0
+e f g h, 4, 3.0
+e f h h, 4, 1.6666667
+e g g h, 2, 2.0
+e g h h, 2, 2.0
+e h h h, 2, 1.0
+f f f f, 6, 4.0
+f f f h, 2, 4.0
+f f h h, 2, 2.0
+f g g h, 2, 4.0
+f g h h, 2, 4.0
+f h h h, 2, 4.0
+a a a a b, 2, 5.0
+a a a a c, 2, 1.0
+a a a a e, 2, 0.8333333
+a a a a f, 2, 0.71428573
+a a a a g, 2, 0.625
+a a a a h, 2, 0.5
+a a a b b, 2, 2.5
+a a a b c, 2, 1.0
+a a a b e, 2, 0.8333333
+a a a b f, 2, 0.71428573
+a a a b g, 2, 0.625
+a a a b h, 2, 0.5
+a a a c e, 2, 0.8333333
+a a a c f, 2, 0.71428573
+a a a c g, 2, 0.625
+a a a c h, 2, 0.5
+a a a e f, 2, 0.71428573
+a a a e g, 2, 0.625
+a a a e h, 2, 0.5
+a a a f g, 2, 0.625
+a a a f h, 2, 0.5
+a a a g g, 2, 0.5555556
+a a a g h, 2, 0.5
+a a b b b, 2, 1.6666666
+a a b b c, 2, 1.0
+a a b b e, 2, 0.8333333
+a a b b f, 2, 0.71428573
+a a b b g, 2, 0.625
+a a b b h, 2, 0.5
+a a b c c, 2, 5.0
+a a b c d, 2, 2.5
+a a b c e, 4, 1.25
+a a b c f, 4, 0.71428573
+a a b c g, 4, 0.625
+a a b c h, 4, 0.5277778
+a a b d e, 2, 1.6666666
+a a b d f, 2, 0.71428573
+a a b d g, 2, 0.625
+a a b d h, 2, 0.5555556
+a a b e e, 2, 1.25
+a a b e f, 4, 0.71428573
+a a b e g, 4, 0.625
+a a b e h, 4, 0.5277778
+a a b f g, 4, 0.625
+a a b f h, 4, 0.5277778
+a a b g g, 2, 0.5555556
+a a b g h, 4, 0.5277778
+a a b h h, 2, 0.5
+a a c c d, 2, 2.5
+a a c c e, 2, 1.6666666
+a a c c f, 2, 0.71428573
+a a c c g, 2, 0.625
+a a c c h, 2, 0.5555556
+a a c d e, 4, 1.4583333
+a a c d f, 4, 0.85714287
+a a c d g, 2, 0.625
+a a c d h, 2, 0.5555556
+a a c e e, 2, 1.25
+a a c e f, 6, 0.8095239
+a a c e g, 4, 0.625
+a a c e h, 4, 0.5277778
+a a c f f, 2, 0.8333333
+a a c f g, 4, 0.625
+a a c f h, 4, 0.5277778
+a a c g g, 2, 0.5555556
+a a c g h, 4, 0.5277778
+a a c h h, 2, 0.5
+a a d e e, 2, 1.25
+a a d e f, 4, 0.85714287
+a a d e g, 2, 0.625
+a a d e h, 2, 0.5555556
+a a d f f, 2, 0.8333333
+a a d f g, 2, 0.625
+a a d f h, 2, 0.5555556
+a a d g h, 2, 0.5555556
+a a d h h, 2, 0.5
+a a e e e, 2, 1.0
+a a e e f, 2, 0.71428573
+a a e e g, 2, 0.625
+a a e e h, 2, 0.5555556
+a a e f f, 2, 0.8333333
+a a e f g, 4, 0.625
+a a e f h, 4, 0.5277778
+a a e g g, 2, 0.5555556
+a a e g h, 4, 0.5277778
+a a e h h, 2, 0.5
+a a f f f, 2, 0.71428573
+a a f g g, 2, 0.5555556
+a a f g h, 4, 0.5277778
+a a f h h, 2, 0.5
+a a g g h, 2, 0.5
+a a g h h, 2, 0.5
+a b a c d, 2, 1.6666666
+a b a c e, 2, 1.25
+a b a c f, 2, 1.0
+a b a d e, 2, 1.25
+a b a d f, 2, 1.0
+a b a e f, 2, 1.0
+a b a f f, 2, 0.8333333
+a b b b b, 2, 5.0
+a b b b c, 4, 3.75
+a b b b d, 2, 2.5
+a b b b e, 4, 1.4583333
+a b b b f, 4, 1.125
+a b b b g, 2, 1.0
+a b b b h, 4, 0.66964287
+a b b c d, 4, 2.0833333
+a b b c e, 6, 1.3888888
+a b b c f, 6, 1.0833334
+a b b c g, 2, 1.0
+a b b c h, 4, 0.66964287
+a b b d d, 2, 1.6666666
+a b b d e, 4, 1.25
+a b b d f, 4, 1.0
+a b b d h, 2, 0.625
+a b b e f, 6, 1.0833334
+a b b e g, 2, 1.0
+a b b e h, 4, 0.66964287
+a b b f f, 4, 0.8333333
+a b b f g, 2, 1.0
+a b b f h, 4, 0.66964287
+a b b g g, 2, 0.8333333
+a b b g h, 2, 0.71428573
+a b b h h, 2, 0.5555556
+a b c a c, 2, 2.5
+a b c a d, 2, 1.6666666
+a b c a e, 2, 1.25
+a b c a f, 2, 1.0
+a b c b c, 2, 2.5
+a b c b d, 2, 1.6666666
+a b c b e, 2, 1.25
+a b c b f, 2, 1.0
+a b c c a, 2, 5.0
+a b c c b, 2, 5.0
+a b c c c, 6, 3.3333335
+a b c c d, 8, 2.4999998
+a b c c e, 8, 1.5625
+a b c c f, 8, 0.9583333
+a b c c g, 2, 0.71428573
+a b c c h, 2, 0.625
+a b c d d, 2, 1.6666666
+a b c d e, 10, 1.5
+a b c d f, 10, 0.96666676
+a b c d g, 2, 0.71428573
+a b c d h, 4, 0.625
+a b c e e, 2, 1.6666666
+a b c e f, 12, 1.0138888
+a b c e g, 4, 0.85714287
+a b c e h, 6, 0.6547619
+a b c f f, 8, 0.8333334
+a b c f g, 4, 0.85714287
+a b c f h, 6, 0.6547619
+a b c g g, 2, 0.8333333
+a b c g h, 4, 0.66964287
+a b c h h, 4, 0.5555556
+a b d d e, 2, 1.25
+a b d d f, 2, 1.0
+a b d d h, 2, 0.625
+a b d e e, 2, 1.6666666
+a b d e f, 10, 0.96666676
+a b d e g, 2, 0.71428573
+a b d e h, 4, 0.625
+a b d f f, 8, 0.8333334
+a b d f g, 2, 0.71428573
+a b d f h, 4, 0.625
+a b d g h, 2, 0.625
+a b d h h, 4, 0.5555556
+a b e e e, 2, 1.25
+a b e e f, 2, 0.8333333
+a b e e g, 2, 0.71428573
+a b e e h, 2, 0.625
+a b e f f, 8, 0.8333334
+a b e f g, 4, 0.85714287
+a b e f h, 6, 0.6547619
+a b e g g, 2, 0.8333333
+a b e g h, 4, 0.66964287
+a b e h h, 4, 0.5555556
+a b f f f, 8, 0.7142858
+a b f f h, 2, 0.625
+a b f g g, 2, 0.8333333
+a b f g h, 4, 0.66964287
+a b f h h, 4, 0.5555556
+a b g g h, 2, 0.71428573
+a b g h h, 2, 0.5555556
+a b h h h, 2, 0.5
+b a c d e, 2, 1.6666666
+b a c d f, 2, 1.25
+b a c e f, 2, 1.25
+b a c f f, 2, 1.0
+b a d e f, 2, 1.25
+b a d f f, 2, 1.0
+b a e f f, 2, 1.0
+b a f f f, 2, 0.8333333
+a c a c d, 2, 1.6666666
+a c a c e, 2, 1.25
+a c a c f, 2, 1.0
+a c a d e, 2, 1.25
+a c a d f, 2, 1.0
+a c a e f, 2, 1.0
+a c a f f, 2, 0.8333333
+a c b c d, 2, 1.6666666
+a c b c e, 2, 1.25
+a c b c f, 2, 1.0
+a c b d e, 2, 1.25
+a c b d f, 2, 1.0
+a c b e f, 2, 1.0
+a c b f f, 2, 0.8333333
+a c c a c, 2, 2.5
+a c c a d, 2, 1.6666666
+a c c a e, 2, 1.25
+a c c a f, 2, 1.0
+a c c b c, 2, 2.5
+a c c b d, 2, 1.6666666
+a c c b e, 2, 1.25
+a c c b f, 2, 1.0
+a c c c c, 2, 2.5
+a c c c d, 6, 1.6666666
+a c c c e, 6, 1.25
+a c c c f, 6, 1.0
+a c c d e, 8, 1.5625
+a c c d f, 8, 0.9583333
+a c c d g, 2, 0.71428573
+a c c d h, 2, 0.625
+a c c e e, 2, 1.6666666
+a c c e f, 8, 0.9583333
+a c c e g, 2, 0.71428573
+a c c e h, 2, 0.625
+a c c f f, 6, 0.8333333
+a c c f g, 2, 0.71428573
+a c c f h, 2, 0.625
+a c c g h, 2, 0.625
+a c c h h, 2, 0.5555556
+a c d d e, 2, 1.25
+a c d d f, 2, 1.0
+a c d d h, 2, 0.625
+a c d e e, 2, 1.6666666
+a c d e f, 10, 0.96666676
+a c d e g, 2, 0.71428573
+a c d e h, 4, 0.625
+a c d f f, 8, 0.8333334
+a c d f g, 2, 0.71428573
+a c d f h, 4, 0.625
+a c d g h, 2, 0.625
+a c d h h, 4, 0.5555556
+a c e e e, 2, 1.25
+a c e e f, 2, 0.8333333
+a c e e g, 2, 0.71428573
+a c e e h, 2, 0.625
+a c e f f, 8, 0.8333334
+a c e f g, 4, 0.85714287
+a c e f h, 6, 0.6547619
+a c e g g, 2, 0.8333333
+a c e g h, 4, 0.66964287
+a c e h h, 4, 0.5555556
+a c f f f, 8, 0.7142858
+a c f f h, 2, 0.625
+a c f g g, 2, 0.8333333
+a c f g h, 4, 0.66964287
+a c f h h, 4, 0.5555556
+a c g g h, 2, 0.71428573
+a c g h h, 2, 0.5555556
+a c h h h, 2, 0.5
+c a c d e, 2, 5.0
+c a c d f, 2, 2.5
+c a c e f, 2, 2.5
+c a c f f, 2, 1.6666666
+c a d e f, 2, 2.5
+c a d f f, 2, 1.6666666
+c a e f f, 2, 1.6666666
+c a f f f, 2, 1.25
+a d d e f, 2, 1.0
+a d d e h, 2, 0.625
+a d d f f, 2, 0.8333333
+a d d f h, 2, 0.625
+a d d h h, 2, 0.5555556
+a d e e e, 2, 1.25
+a d e e f, 2, 0.8333333
+a d e e g, 2, 0.71428573
+a d e e h, 2, 0.625
+a d e f f, 8, 1.25
+a d e f g, 2, 0.71428573
+a d e f h, 4, 0.625
+a d e g h, 2, 0.625
+a d e h h, 4, 0.5555556
+a d f f f, 8, 0.952381
+a d f f h, 2, 0.625
+a d f g h, 2, 0.625
+a d f h h, 4, 0.5555556
+a d g h h, 2, 0.5555556
+a d h h h, 2, 0.5
+a e e e e, 2, 1.0
+a e e e f, 2, 0.8333333
+a e e e g, 2, 0.71428573
+a e e e h, 2, 0.625
+a e e f g, 2, 0.71428573
+a e e f h, 2, 0.625
+a e e g h, 2, 0.625
+a e e h h, 2, 0.5555556
+a e f f f, 8, 0.952381
+a e f f h, 2, 0.625
+a e f g g, 2, 0.8333333
+a e f g h, 4, 0.66964287
+a e f h h, 4, 0.5555556
+a e g g h, 2, 0.71428573
+a e g h h, 2, 0.5555556
+a e h h h, 2, 0.5
+a f f f f, 6, 0.8333333
+a f f f h, 2, 0.625
+a f f h h, 2, 0.5555556
+a f g g h, 2, 0.71428573
+a f g h h, 2, 0.5555556
+a f h h h, 2, 0.5
+b b b b c, 2, 5.0
+b b b b e, 2, 2.5
+b b b b f, 2, 1.6666666
+b b b b g, 2, 1.25
+b b b b h, 2, 0.8333333
+b b b c d, 2, 5.0
+b b b c e, 4, 2.0833333
+b b b c f, 4, 1.4583333
+b b b c g, 2, 1.25
+b b b c h, 4, 0.77380955
+b b b d d, 2, 2.5
+b b b d e, 2, 1.6666666
+b b b d f, 2, 1.25
+b b b d h, 2, 0.71428573
+b b b e f, 4, 1.4583333
+b b b e g, 2, 1.25
+b b b e h, 4, 0.77380955
+b b b f f, 2, 1.0
+b b b f g, 2, 1.25
+b b b f h, 4, 0.77380955
+b b b g g, 2, 1.0
+b b b g h, 2, 0.8333333
+b b b h h, 2, 0.625
+b b c d d, 2, 2.5
+b b c d e, 4, 1.6666666
+b b c d f, 4, 1.25
+b b c d h, 2, 0.71428573
+b b c e f, 6, 1.3888888
+b b c e g, 2, 1.25
+b b c e h, 4, 0.77380955
+b b c f f, 4, 1.0
+b b c f g, 2, 1.25
+b b c f h, 4, 0.77380955
+b b c g g, 2, 1.0
+b b c g h, 2, 0.8333333
+b b c h h, 2, 0.625
+b b d d e, 2, 1.6666666
+b b d d f, 2, 1.25
+b b d d h, 2, 0.71428573
+b b d e f, 4, 1.25
+b b d e h, 2, 0.71428573
+b b d f f, 4, 1.0
+b b d f h, 2, 0.71428573
+b b d h h, 2, 0.625
+b b e f f, 4, 1.0
+b b e f g, 2, 1.25
+b b e f h, 4, 0.77380955
+b b e g g, 2, 1.0
+b b e g h, 2, 0.8333333
+b b e h h, 2, 0.625
+b b f f f, 4, 0.8333333
+b b f f h, 2, 0.71428573
+b b f g g, 2, 1.0
+b b f g h, 2, 0.8333333
+b b f h h, 2, 0.625
+b b g g h, 2, 0.8333333
+b b h h h, 2, 0.5555556
+b c a c d, 2, 2.5
+b c a c e, 2, 1.6666666
+b c a c f, 2, 1.25
+b c a d e, 2, 1.6666666
+b c a d f, 2, 1.25
+b c a e f, 2, 1.25
+b c a f f, 2, 1.0
+b c b c d, 2, 2.5
+b c b c e, 2, 1.6666666
+b c b c f, 2, 1.25
+b c b d e, 2, 1.6666666
+b c b d f, 2, 1.25
+b c b e f, 2, 1.25
+b c b f f, 2, 1.0
+b c c a c, 2, 5.0
+b c c a d, 2, 2.5
+b c c a e, 2, 1.6666666
+b c c a f, 2, 1.25
+b c c b c, 2, 5.0
+b c c b d, 2, 2.5
+b c c b e, 2, 1.6666666
+b c c b f, 2, 1.25
+b c c c c, 2, 5.0
+b c c c d, 6, 2.5
+b c c c e, 6, 1.6666666
+b c c c f, 6, 1.25
+b c c d e, 8, 2.4999998
+b c c d f, 8, 1.1875
+b c c d g, 2, 0.8333333
+b c c d h, 2, 0.71428573
+b c c e e, 2, 2.5
+b c c e f, 8, 1.1875
+b c c e g, 2, 0.8333333
+b c c e h, 2, 0.71428573
+b c c f f, 6, 1.0
+b c c f g, 2, 0.8333333
+b c c f h, 2, 0.71428573
+b c c g h, 2, 0.71428573
+b c c h h, 2, 0.625
+b c d d e, 2, 5.0
+b c d d f, 2, 2.5
+b c d d h, 2, 1.0
+b c d e e, 2, 2.5
+b c d e f, 10, 1.45
+b c d e g, 2, 0.8333333
+b c d e h, 4, 0.85714287
+b c d f f, 8, 1.1666666
+b c d f g, 2, 0.8333333
+b c d f h, 4, 0.85714287
+b c d g h, 2, 0.71428573
+b c d h h, 4, 0.7291666
+b c e e e, 2, 1.6666666
+b c e e f, 2, 1.0
+b c e e g, 2, 0.8333333
+b c e e h, 2, 0.71428573
+b c e f f, 8, 1.1666666
+b c e f g, 4, 2.9166667
+b c e f h, 6, 1.1269841
+b c e g g, 2, 2.5
+b c e g h, 4, 1.1904762
+b c e h h, 4, 0.7291666
+b c f f f, 8, 0.93750006
+b c f f h, 2, 1.0
+b c f g g, 2, 2.5
+b c f g h, 4, 1.1904762
+b c f h h, 4, 0.7291666
+b c g g h, 2, 1.6666666
+b c g h h, 2, 0.625
+b c h h h, 2, 0.71428573
+c b c d e, 2, 5.0
+c b c d f, 2, 2.5
+c b c e f, 2, 2.5
+c b c f f, 2, 1.6666666
+c b d e f, 2, 2.5
+c b d f f, 2, 1.6666666
+c b e f f, 2, 1.6666666
+c b f f f, 2, 1.25
+b d d e f, 2, 2.5
+b d d e h, 2, 1.0
+b d d f f, 2, 1.6666666
+b d d f h, 2, 1.0
+b d d h h, 2, 0.8333333
+b d e e e, 2, 1.6666666
+b d e e f, 2, 1.0
+b d e e g, 2, 0.8333333
+b d e e h, 2, 0.71428573
+b d e f f, 8, 1.5416666
+b d e f g, 2, 0.8333333
+b d e f h, 4, 0.85714287
+b d e g h, 2, 0.71428573
+b d e h h, 4, 0.7291666
+b d f f f, 8, 1.1458333
+b d f f h, 2, 1.0
+b d f g h, 2, 0.71428573
+b d f h h, 4, 0.7291666
+b d g h h, 2, 0.625
+b d h h h, 2, 0.71428573
+b e e e e, 2, 1.25
+b e e e f, 2, 1.0
+b e e e g, 2, 0.8333333
+b e e e h, 2, 0.71428573
+b e e f g, 2, 0.8333333
+b e e f h, 2, 0.71428573
+b e e g h, 2, 0.71428573
+b e e h h, 2, 0.625
+b e f f f, 8, 1.1458333
+b e f f h, 2, 1.0
+b e f g g, 2, 2.5
+b e f g h, 4, 1.1904762
+b e f h h, 4, 0.7291666
+b e g g h, 2, 1.6666666
+b e g h h, 2, 0.625
+b e h h h, 2, 0.71428573
+b f f f f, 6, 0.89285713
+b f f f h, 2, 1.0
+b f f h h, 2, 0.8333333
+b f g g h, 2, 1.6666666
+b f g h h, 2, 0.625
+b f h h h, 2, 0.71428573
+c c a c d, 2, 5.0
+c c a c e, 2, 2.5
+c c a c f, 2, 1.6666666
+c c a d e, 2, 2.5
+c c a d f, 2, 1.6666666
+c c a e f, 2, 1.6666666
+c c a f f, 2, 1.25
+c c b c d, 2, 5.0
+c c b c e, 2, 2.5
+c c b c f, 2, 1.6666666
+c c b d e, 2, 2.5
+c c b d f, 2, 1.6666666
+c c b e f, 2, 1.6666666
+c c b f f, 2, 1.25
+c c c c d, 2, 5.0
+c c c c e, 2, 2.5
+c c c c f, 2, 1.6666666
+c c c d e, 6, 2.5
+c c c d f, 6, 1.6666666
+c c c e f, 6, 1.6666666
+c c c f f, 6, 1.25
+c c d e e, 2, 5.0
+c c d e f, 8, 1.5625
+c c d e g, 2, 1.0
+c c d e h, 2, 0.8333333
+c c d f f, 6, 1.25
+c c d f g, 2, 1.0
+c c d f h, 2, 0.8333333
+c c d g h, 2, 0.8333333
+c c d h h, 2, 0.71428573
+c c e e e, 2, 2.5
+c c e e f, 2, 1.25
+c c e e g, 2, 1.0
+c c e e h, 2, 0.8333333
+c c e f f, 6, 1.25
+c c e f g, 2, 1.0
+c c e f h, 2, 0.8333333
+c c e g h, 2, 0.8333333
+c c e h h, 2, 0.71428573
+c c f f f, 6, 1.0
+c c f g h, 2, 0.8333333
+c c f h h, 2, 0.71428573
+c c g h h, 2, 0.71428573
+c d d e f, 2, 5.0
+c d d e h, 2, 1.25
+c d d f f, 2, 2.5
+c d d f h, 2, 1.25
+c d d h h, 2, 1.0
+c d e e e, 2, 5.0
+c d e e f, 2, 1.6666666
+c d e e g, 2, 1.25
+c d e e h, 2, 1.0
+c d e f f, 8, 4.375
+c d e f g, 2, 1.25
+c d e f h, 4, 1.125
+c d e g h, 2, 1.0
+c d e h h, 4, 0.9166666
+c d f f f, 8, 2.2916667
+c d f f h, 2, 1.25
+c d f g h, 2, 1.0
+c d f h h, 4, 0.9166666
+c d g h h, 2, 0.8333333
+c d h h h, 2, 0.8333333
+c e e e e, 2, 2.5
+c e e e f, 2, 1.6666666
+c e e e g, 2, 1.25
+c e e e h, 2, 1.0
+c e e f g, 2, 1.25
+c e e f h, 2, 1.0
+c e e g h, 2, 1.0
+c e e h h, 2, 0.8333333
+c e f f f, 8, 2.2916667
+c e f f h, 2, 1.25
+c e f g g, 2, 5.0
+c e f g h, 4, 1.75
+c e f h h, 4, 0.9166666
+c e g g h, 2, 2.5
+c e g h h, 2, 0.8333333
+c e h h h, 2, 0.8333333
+c f f f f, 6, 1.6666666
+c f f f h, 2, 1.25
+c f f h h, 2, 1.0
+c f g g h, 2, 2.5
+c f g h h, 2, 0.8333333
+c f h h h, 2, 0.8333333
+d d e f f, 2, 5.0
+d d e f h, 2, 1.6666666
+d d e h h, 2, 1.25
+d d f f f, 2, 2.5
+d d f f h, 2, 1.6666666
+d d f h h, 2, 1.25
+d d h h h, 2, 1.0
+d e e e e, 2, 5.0
+d e e e f, 2, 2.5
+d e e e g, 2, 1.6666666
+d e e e h, 2, 1.25
+d e e f g, 2, 1.6666666
+d e e f h, 2, 1.25
+d e e g h, 2, 1.25
+d e e h h, 2, 1.0
+d e f f f, 8, 5.0
+d e f f h, 2, 2.5
+d e f g h, 2, 1.25
+d e f h h, 4, 1.3333333
+d e g h h, 2, 1.0
+d e h h h, 2, 1.25
+d f f f f, 6, 2.5
+d f f f h, 2, 2.5
+d f f h h, 2, 1.6666666
+d f g h h, 2, 1.0
+d f h h h, 2, 1.25
+e e e e f, 2, 5.0
+e e e e g, 2, 2.5
+e e e e h, 2, 1.6666666
+e e e f g, 2, 2.5
+e e e f h, 2, 1.6666666
+e e e g h, 2, 1.6666666
+e e e h h, 2, 1.25
+e e f g h, 2, 1.6666666
+e e f h h, 2, 1.25
+e e g h h, 2, 1.25
+e f f f f, 6, 5.0
+e f f f h, 2, 5.0
+e f f h h, 2, 2.5
+e f g g h, 2, 5.0
+e f g h h, 2, 5.0
+e f h h h, 2, 1.6666666
+f f f f f, 6, 5.0
+f f f h h, 2, 5.0
+f f h h h, 2, 2.5
+a a a a b b, 2, 6.0
+a a a a b c, 2, 1.5
+a a a a b e, 2, 1.2
+a a a a b f, 2, 1.0
+a a a a b g, 2, 0.85714287
+a a a a b h, 2, 0.6666667
+a a a a c e, 2, 1.2
+a a a a c f, 2, 1.0
+a a a a c g, 2, 0.85714287
+a a a a c h, 2, 0.6666667
+a a a a e f, 2, 1.0
+a a a a e g, 2, 0.85714287
+a a a a e h, 2, 0.6666667
+a a a a f g, 2, 0.85714287
+a a a a f h, 2, 0.6666667
+a a a a g g, 2, 0.75
+a a a a g h, 2, 0.6666667
+a a a b b b, 2, 3.0
+a a a b b c, 2, 1.5
+a a a b b e, 2, 1.2
+a a a b b f, 2, 1.0
+a a a b b g, 2, 0.85714287
+a a a b b h, 2, 0.6666667
+a a a b c e, 2, 1.2
+a a a b c f, 2, 1.0
+a a a b c g, 2, 0.85714287
+a a a b c h, 2, 0.6666667
+a a a b e f, 2, 1.0
+a a a b e g, 2, 0.85714287
+a a a b e h, 2, 0.6666667
+a a a b f g, 2, 0.85714287
+a a a b f h, 2, 0.6666667
+a a a b g g, 2, 0.75
+a a a b g h, 2, 0.6666667
+a a a c e f, 2, 1.0
+a a a c e g, 2, 0.85714287
+a a a c e h, 2, 0.6666667
+a a a c f g, 2, 0.85714287
+a a a c f h, 2, 0.6666667
+a a a c g g, 2, 0.75
+a a a c g h, 2, 0.6666667
+a a a e f g, 2, 0.85714287
+a a a e f h, 2, 0.6666667
+a a a e g g, 2, 0.75
+a a a e g h, 2, 0.6666667
+a a a f g g, 2, 0.75
+a a a f g h, 2, 0.6666667
+a a a g g h, 2, 0.6666667
+a a b b b b, 2, 2.0
+a a b b b c, 2, 1.5
+a a b b b e, 2, 1.2
+a a b b b f, 2, 1.0
+a a b b b g, 2, 0.85714287
+a a b b b h, 2, 0.6666667
+a a b b c e, 2, 1.2
+a a b b c f, 2, 1.0
+a a b b c g, 2, 0.85714287
+a a b b c h, 2, 0.6666667
+a a b b e f, 2, 1.0
+a a b b e g, 2, 0.85714287
+a a b b e h, 2, 0.6666667
+a a b b f g, 2, 0.85714287
+a a b b f h, 2, 0.6666667
+a a b b g g, 2, 0.75
+a a b b g h, 2, 0.6666667
+a a b c c d, 2, 6.0
+a a b c c e, 2, 3.0
+a a b c c f, 2, 1.0
+a a b c c g, 2, 0.85714287
+a a b c c h, 2, 0.75
+a a b c d e, 2, 3.0
+a a b c d f, 2, 1.0
+a a b c d g, 2, 0.85714287
+a a b c d h, 2, 0.75
+a a b c e e, 2, 2.0
+a a b c e f, 4, 1.0
+a a b c e g, 4, 0.85714287
+a a b c e h, 4, 0.7083334
+a a b c f g, 4, 0.85714287
+a a b c f h, 4, 0.7083334
+a a b c g g, 2, 0.75
+a a b c g h, 4, 0.7083334
+a a b c h h, 2, 0.6666667
+a a b d e e, 2, 2.0
+a a b d e f, 2, 1.0
+a a b d e g, 2, 0.85714287
+a a b d e h, 2, 0.75
+a a b d f g, 2, 0.85714287
+a a b d f h, 2, 0.75
+a a b d g h, 2, 0.75
+a a b d h h, 2, 0.6666667
+a a b e e e, 2, 1.5
+a a b e e f, 2, 1.0
+a a b e e g, 2, 0.85714287
+a a b e e h, 2, 0.75
+a a b e f g, 4, 0.85714287
+a a b e f h, 4, 0.7083334
+a a b e g g, 2, 0.75
+a a b e g h, 4, 0.7083334
+a a b e h h, 2, 0.6666667
+a a b f g g, 2, 0.75
+a a b f g h, 4, 0.7083334
+a a b f h h, 2, 0.6666667
+a a b g g h, 2, 0.6666667
+a a b g h h, 2, 0.6666667
+a a c c d e, 2, 3.0
+a a c c d f, 2, 1.0
+a a c c d g, 2, 0.85714287
+a a c c d h, 2, 0.75
+a a c c e e, 2, 2.0
+a a c c e f, 2, 1.0
+a a c c e g, 2, 0.85714287
+a a c c e h, 2, 0.75
+a a c c f g, 2, 0.85714287
+a a c c f h, 2, 0.75
+a a c c g h, 2, 0.75
+a a c c h h, 2, 0.6666667
+a a c d e e, 2, 2.0
+a a c d e f, 4, 1.25
+a a c d e g, 2, 0.85714287
+a a c d e h, 2, 0.75
+a a c d f f, 2, 1.2
+a a c d f g, 2, 0.85714287
+a a c d f h, 2, 0.75
+a a c d g h, 2, 0.75
+a a c d h h, 2, 0.6666667
+a a c e e e, 2, 1.5
+a a c e e f, 2, 1.0
+a a c e e g, 2, 0.85714287
+a a c e e h, 2, 0.75
+a a c e f f, 2, 1.2
+a a c e f g, 4, 0.85714287
+a a c e f h, 4, 0.7083334
+a a c e g g, 2, 0.75
+a a c e g h, 4, 0.7083334
+a a c e h h, 2, 0.6666667
+a a c f f f, 2, 1.0
+a a c f g g, 2, 0.75
+a a c f g h, 4, 0.7083334
+a a c f h h, 2, 0.6666667
+a a c g g h, 2, 0.6666667
+a a c g h h, 2, 0.6666667
+a a d e e e, 2, 1.5
+a a d e e f, 2, 1.0
+a a d e e g, 2, 0.85714287
+a a d e e h, 2, 0.75
+a a d e f f, 2, 1.2
+a a d e f g, 2, 0.85714287
+a a d e f h, 2, 0.75
+a a d e g h, 2, 0.75
+a a d e h h, 2, 0.6666667
+a a d f f f, 2, 1.0
+a a d f g h, 2, 0.75
+a a d f h h, 2, 0.6666667
+a a d g h h, 2, 0.6666667
+a a e e e e, 2, 1.2
+a a e e e f, 2, 1.0
+a a e e e g, 2, 0.85714287
+a a e e e h, 2, 0.75
+a a e e f g, 2, 0.85714287
+a a e e f h, 2, 0.75
+a a e e g h, 2, 0.75
+a a e e h h, 2, 0.6666667
+a a e f f f, 2, 1.0
+a a e f g g, 2, 0.75
+a a e f g h, 4, 0.7083334
+a a e f h h, 2, 0.6666667
+a a e g g h, 2, 0.6666667
+a a e g h h, 2, 0.6666667
+a a f f f f, 2, 0.85714287
+a a f g g h, 2, 0.6666667
+a a f g h h, 2, 0.6666667
+a b a c d e, 2, 2.0
+a b a c d f, 2, 1.5
+a b a c e f, 2, 1.5
+a b a c f f, 2, 1.2
+a b a d e f, 2, 1.5
+a b a d f f, 2, 1.2
+a b a e f f, 2, 1.2
+a b a f f f, 2, 1.0
+a b b b b c, 2, 6.0
+a b b b b e, 2, 3.0
+a b b b b f, 2, 2.0
+a b b b b g, 2, 1.5
+a b b b b h, 2, 1.0
+a b b b c d, 2, 6.0
+a b b b c e, 4, 2.5
+a b b b c f, 4, 1.75
+a b b b c g, 2, 1.5
+a b b b c h, 4, 0.92857146
+a b b b d d, 2, 3.0
+a b b b d e, 2, 2.0
+a b b b d f, 2, 1.5
+a b b b d h, 2, 0.85714287
+a b b b e f, 4, 1.75
+a b b b e g, 2, 1.5
+a b b b e h, 4, 0.92857146
+a b b b f f, 2, 1.2
+a b b b f g, 2, 1.5
+a b b b f h, 4, 0.92857146
+a b b b g g, 2, 1.2
+a b b b g h, 2, 1.0
+a b b b h h, 2, 0.75
+a b b c d d, 2, 3.0
+a b b c d e, 4, 2.0
+a b b c d f, 4, 1.5
+a b b c d h, 2, 0.85714287
+a b b c e f, 6, 1.6666667
+a b b c e g, 2, 1.5
+a b b c e h, 4, 0.92857146
+a b b c f f, 4, 1.2
+a b b c f g, 2, 1.5
+a b b c f h, 4, 0.92857146
+a b b c g g, 2, 1.2
+a b b c g h, 2, 1.0
+a b b c h h, 2, 0.75
+a b b d d e, 2, 2.0
+a b b d d f, 2, 1.5
+a b b d d h, 2, 0.85714287
+a b b d e f, 4, 1.5
+a b b d e h, 2, 0.85714287
+a b b d f f, 4, 1.2
+a b b d f h, 2, 0.85714287
+a b b d h h, 2, 0.75
+a b b e f f, 4, 1.2
+a b b e f g, 2, 1.5
+a b b e f h, 4, 0.92857146
+a b b e g g, 2, 1.2
+a b b e g h, 2, 1.0
+a b b e h h, 2, 0.75
+a b b f f f, 4, 1.0
+a b b f f h, 2, 0.85714287
+a b b f g g, 2, 1.2
+a b b f g h, 2, 1.0
+a b b f h h, 2, 0.75
+a b b g g h, 2, 1.0
+a b b h h h, 2, 0.6666667
+a b c a c d, 2, 3.0
+a b c a c e, 2, 2.0
+a b c a c f, 2, 1.5
+a b c a d e, 2, 2.0
+a b c a d f, 2, 1.5
+a b c a e f, 2, 1.5
+a b c a f f, 2, 1.2
+a b c b c d, 2, 3.0
+a b c b c e, 2, 2.0
+a b c b c f, 2, 1.5
+a b c b d e, 2, 2.0
+a b c b d f, 2, 1.5
+a b c b e f, 2, 1.5
+a b c b f f, 2, 1.2
+a b c c a c, 2, 6.0
+a b c c a d, 2, 3.0
+a b c c a e, 2, 2.0
+a b c c a f, 2, 1.5
+a b c c b c, 2, 6.0
+a b c c b d, 2, 3.0
+a b c c b e, 2, 2.0
+a b c c b f, 2, 1.5
+a b c c c c, 2, 6.0
+a b c c c d, 6, 3.0
+a b c c c e, 6, 2.0
+a b c c c f, 6, 1.5
+a b c c d e, 8, 3.0
+a b c c d f, 8, 1.425
+a b c c d g, 2, 1.0
+a b c c d h, 2, 0.85714287
+a b c c e e, 2, 3.0
+a b c c e f, 8, 1.425
+a b c c e g, 2, 1.0
+a b c c e h, 2, 0.85714287
+a b c c f f, 6, 1.2
+a b c c f g, 2, 1.0
+a b c c f h, 2, 0.85714287
+a b c c g h, 2, 0.85714287
+a b c c h h, 2, 0.75
+a b c d d e, 2, 2.0
+a b c d d f, 2, 1.5
+a b c d d h, 2, 0.85714287
+a b c d e e, 2, 3.0
+a b c d e f, 10, 1.4399999
+a b c d e g, 2, 1.0
+a b c d e h, 4, 0.85714287
+a b c d f f, 8, 1.1999999
+a b c d f g, 2, 1.0
+a b c d f h, 4, 0.85714287
+a b c d g h, 2, 0.85714287
+a b c d h h, 4, 0.75
+a b c e e e, 2, 2.0
+a b c e e f, 2, 1.2
+a b c e e g, 2, 1.0
+a b c e e h, 2, 0.85714287
+a b c e f f, 8, 1.1999999
+a b c e f g, 4, 1.25
+a b c e f h, 6, 0.9047619
+a b c e g g, 2, 1.2
+a b c e g h, 4, 0.92857146
+a b c e h h, 4, 0.75
+a b c f f f, 8, 1.0
+a b c f f h, 2, 0.85714287
+a b c f g g, 2, 1.2
+a b c f g h, 4, 0.92857146
+a b c f h h, 4, 0.75
+a b c g g h, 2, 1.0
+a b c g h h, 2, 0.75
+a b c h h h, 2, 0.6666667
+a b d d e f, 2, 1.5
+a b d d e h, 2, 0.85714287
+a b d d f f, 2, 1.2
+a b d d f h, 2, 0.85714287
+a b d d h h, 2, 0.75
+a b d e e e, 2, 2.0
+a b d e e f, 2, 1.2
+a b d e e g, 2, 1.0
+a b d e e h, 2, 0.85714287
+a b d e f f, 8, 1.1999999
+a b d e f g, 2, 1.0
+a b d e f h, 4, 0.85714287
+a b d e g h, 2, 0.85714287
+a b d e h h, 4, 0.75
+a b d f f f, 8, 1.0
+a b d f f h, 2, 0.85714287
+a b d f g h, 2, 0.85714287
+a b d f h h, 4, 0.75
+a b d g h h, 2, 0.75
+a b d h h h, 2, 0.6666667
+a b e e e e, 2, 1.5
+a b e e e f, 2, 1.2
+a b e e e g, 2, 1.0
+a b e e e h, 2, 0.85714287
+a b e e f g, 2, 1.0
+a b e e f h, 2, 0.85714287
+a b e e g h, 2, 0.85714287
+a b e e h h, 2, 0.75
+a b e f f f, 8, 1.0
+a b e f f h, 2, 0.85714287
+a b e f g g, 2, 1.2
+a b e f g h, 4, 0.92857146
+a b e f h h, 4, 0.75
+a b e g g h, 2, 1.0
+a b e g h h, 2, 0.75
+a b e h h h, 2, 0.6666667
+a b f f f f, 6, 0.85714287
+a b f f f h, 2, 0.85714287
+a b f f h h, 2, 0.75
+a b f g g h, 2, 1.0
+a b f g h h, 2, 0.75
+a b f h h h, 2, 0.6666667
+b a c d e f, 2, 2.0
+b a c d f f, 2, 1.5
+b a c e f f, 2, 1.5
+b a c f f f, 2, 1.2
+b a d e f f, 2, 1.5
+b a d f f f, 2, 1.2
+b a e f f f, 2, 1.2
+b a f f f f, 2, 1.0
+a c a c d e, 2, 2.0
+a c a c d f, 2, 1.5
+a c a c e f, 2, 1.5
+a c a c f f, 2, 1.2
+a c a d e f, 2, 1.5
+a c a d f f, 2, 1.2
+a c a e f f, 2, 1.2
+a c a f f f, 2, 1.0
+a c b c d e, 2, 2.0
+a c b c d f, 2, 1.5
+a c b c e f, 2, 1.5
+a c b c f f, 2, 1.2
+a c b d e f, 2, 1.5
+a c b d f f, 2, 1.2
+a c b e f f, 2, 1.2
+a c b f f f, 2, 1.0
+a c c a c d, 2, 3.0
+a c c a c e, 2, 2.0
+a c c a c f, 2, 1.5
+a c c a d e, 2, 2.0
+a c c a d f, 2, 1.5
+a c c a e f, 2, 1.5
+a c c a f f, 2, 1.2
+a c c b c d, 2, 3.0
+a c c b c e, 2, 2.0
+a c c b c f, 2, 1.5
+a c c b d e, 2, 2.0
+a c c b d f, 2, 1.5
+a c c b e f, 2, 1.5
+a c c b f f, 2, 1.2
+a c c c c d, 2, 3.0
+a c c c c e, 2, 2.0
+a c c c c f, 2, 1.5
+a c c c d e, 6, 2.0
+a c c c d f, 6, 1.5
+a c c c e f, 6, 1.5
+a c c c f f, 6, 1.2
+a c c d e e, 2, 3.0
+a c c d e f, 8, 1.425
+a c c d e g, 2, 1.0
+a c c d e h, 2, 0.85714287
+a c c d f f, 6, 1.2
+a c c d f g, 2, 1.0
+a c c d f h, 2, 0.85714287
+a c c d g h, 2, 0.85714287
+a c c d h h, 2, 0.75
+a c c e e e, 2, 2.0
+a c c e e f, 2, 1.2
+a c c e e g, 2, 1.0
+a c c e e h, 2, 0.85714287
+a c c e f f, 6, 1.2
+a c c e f g, 2, 1.0
+a c c e f h, 2, 0.85714287
+a c c e g h, 2, 0.85714287
+a c c e h h, 2, 0.75
+a c c f f f, 6, 1.0
+a c c f g h, 2, 0.85714287
+a c c f h h, 2, 0.75
+a c c g h h, 2, 0.75
+a c d d e f, 2, 1.5
+a c d d e h, 2, 0.85714287
+a c d d f f, 2, 1.2
+a c d d f h, 2, 0.85714287
+a c d d h h, 2, 0.75
+a c d e e e, 2, 2.0
+a c d e e f, 2, 1.2
+a c d e e g, 2, 1.0
+a c d e e h, 2, 0.85714287
+a c d e f f, 8, 1.1999999
+a c d e f g, 2, 1.0
+a c d e f h, 4, 0.85714287
+a c d e g h, 2, 0.85714287
+a c d e h h, 4, 0.75
+a c d f f f, 8, 1.0
+a c d f f h, 2, 0.85714287
+a c d f g h, 2, 0.85714287
+a c d f h h, 4, 0.75
+a c d g h h, 2, 0.75
+a c d h h h, 2, 0.6666667
+a c e e e e, 2, 1.5
+a c e e e f, 2, 1.2
+a c e e e g, 2, 1.0
+a c e e e h, 2, 0.85714287
+a c e e f g, 2, 1.0
+a c e e f h, 2, 0.85714287
+a c e e g h, 2, 0.85714287
+a c e e h h, 2, 0.75
+a c e f f f, 8, 1.0
+a c e f f h, 2, 0.85714287
+a c e f g g, 2, 1.2
+a c e f g h, 4, 0.92857146
+a c e f h h, 4, 0.75
+a c e g g h, 2, 1.0
+a c e g h h, 2, 0.75
+a c e h h h, 2, 0.6666667
+a c f f f f, 6, 0.85714287
+a c f f f h, 2, 0.85714287
+a c f f h h, 2, 0.75
+a c f g g h, 2, 1.0
+a c f g h h, 2, 0.75
+a c f h h h, 2, 0.6666667
+c a c d e f, 2, 6.0
+c a c d f f, 2, 3.0
+c a c e f f, 2, 3.0
+c a c f f f, 2, 2.0
+c a d e f f, 2, 3.0
+c a d f f f, 2, 2.0
+c a e f f f, 2, 2.0
+c a f f f f, 2, 1.5
+a d d e f f, 2, 1.2
+a d d e f h, 2, 0.85714287
+a d d e h h, 2, 0.75
+a d d f f f, 2, 1.0
+a d d f f h, 2, 0.85714287
+a d d f h h, 2, 0.75
+a d d h h h, 2, 0.6666667
+a d e e e e, 2, 1.5
+a d e e e f, 2, 1.2
+a d e e e g, 2, 1.0
+a d e e e h, 2, 0.85714287
+a d e e f g, 2, 1.0
+a d e e f h, 2, 0.85714287
+a d e e g h, 2, 0.85714287
+a d e e h h, 2, 0.75
+a d e f f f, 8, 1.5
+a d e f f h, 2, 0.85714287
+a d e f g h, 2, 0.85714287
+a d e f h h, 4, 0.75
+a d e g h h, 2, 0.75
+a d e h h h, 2, 0.6666667
+a d f f f f, 6, 1.2380953
+a d f f f h, 2, 0.85714287
+a d f f h h, 2, 0.75
+a d f g h h, 2, 0.75
+a d f h h h, 2, 0.6666667
+a e e e e f, 2, 1.2
+a e e e e g, 2, 1.0
+a e e e e h, 2, 0.85714287
+a e e e f g, 2, 1.0
+a e e e f h, 2, 0.85714287
+a e e e g h, 2, 0.85714287
+a e e e h h, 2, 0.75
+a e e f g h, 2, 0.85714287
+a e e f h h, 2, 0.75
+a e e g h h, 2, 0.75
+a e f f f f, 6, 1.2380953
+a e f f f h, 2, 0.85714287
+a e f f h h, 2, 0.75
+a e f g g h, 2, 1.0
+a e f g h h, 2, 0.75
+a e f h h h, 2, 0.6666667
+a f f f f f, 6, 1.0
+a f f f h h, 2, 0.75
+a f f h h h, 2, 0.6666667
+b b b b c e, 2, 6.0
+b b b b c f, 2, 3.0
+b b b b c g, 2, 2.0
+b b b b c h, 2, 1.2
+b b b b e f, 2, 3.0
+b b b b e g, 2, 2.0
+b b b b e h, 2, 1.2
+b b b b f g, 2, 2.0
+b b b b f h, 2, 1.2
+b b b b g g, 2, 1.5
+b b b b g h, 2, 1.2
+b b b c d d, 2, 6.0
+b b b c d e, 2, 3.0
+b b b c d f, 2, 2.0
+b b b c d h, 2, 1.0
+b b b c e f, 4, 2.5
+b b b c e g, 2, 2.0
+b b b c e h, 4, 1.1
+b b b c f f, 2, 1.5
+b b b c f g, 2, 2.0
+b b b c f h, 4, 1.1
+b b b c g g, 2, 1.5
+b b b c g h, 2, 1.2
+b b b c h h, 2, 0.85714287
+b b b d d e, 2, 3.0
+b b b d d f, 2, 2.0
+b b b d d h, 2, 1.0
+b b b d e f, 2, 2.0
+b b b d e h, 2, 1.0
+b b b d f f, 2, 1.5
+b b b d f h, 2, 1.0
+b b b d h h, 2, 0.85714287
+b b b e f f, 2, 1.5
+b b b e f g, 2, 2.0
+b b b e f h, 4, 1.1
+b b b e g g, 2, 1.5
+b b b e g h, 2, 1.2
+b b b e h h, 2, 0.85714287
+b b b f f f, 2, 1.2
+b b b f f h, 2, 1.0
+b b b f g g, 2, 1.5
+b b b f g h, 2, 1.2
+b b b f h h, 2, 0.85714287
+b b b g g h, 2, 1.2
+b b b h h h, 2, 0.75
+b b c d d e, 2, 3.0
+b b c d d f, 2, 2.0
+b b c d d h, 2, 1.0
+b b c d e f, 4, 2.0
+b b c d e h, 2, 1.0
+b b c d f f, 4, 1.5
+b b c d f h, 2, 1.0
+b b c d h h, 2, 0.85714287
+b b c e f f, 4, 1.5
+b b c e f g, 2, 2.0
+b b c e f h, 4, 1.1
+b b c e g g, 2, 1.5
+b b c e g h, 2, 1.2
+b b c e h h, 2, 0.85714287
+b b c f f f, 4, 1.2
+b b c f f h, 2, 1.0
+b b c f g g, 2, 1.5
+b b c f g h, 2, 1.2
+b b c f h h, 2, 0.85714287
+b b c g g h, 2, 1.2
+b b c h h h, 2, 0.75
+b b d d e f, 2, 2.0
+b b d d e h, 2, 1.0
+b b d d f f, 2, 1.5
+b b d d f h, 2, 1.0
+b b d d h h, 2, 0.85714287
+b b d e f f, 4, 1.5
+b b d e f h, 2, 1.0
+b b d e h h, 2, 0.85714287
+b b d f f f, 4, 1.2
+b b d f f h, 2, 1.0
+b b d f h h, 2, 0.85714287
+b b d h h h, 2, 0.75
+b b e f f f, 4, 1.2
+b b e f f h, 2, 1.0
+b b e f g g, 2, 1.5
+b b e f g h, 2, 1.2
+b b e f h h, 2, 0.85714287
+b b e g g h, 2, 1.2
+b b e h h h, 2, 0.75
+b b f f f f, 2, 1.0
+b b f f f h, 2, 1.0
+b b f f h h, 2, 0.85714287
+b b f g g h, 2, 1.2
+b b f h h h, 2, 0.75
+b c a c d e, 2, 3.0
+b c a c d f, 2, 2.0
+b c a c e f, 2, 2.0
+b c a c f f, 2, 1.5
+b c a d e f, 2, 2.0
+b c a d f f, 2, 1.5
+b c a e f f, 2, 1.5
+b c a f f f, 2, 1.2
+b c b c d e, 2, 3.0
+b c b c d f, 2, 2.0
+b c b c e f, 2, 2.0
+b c b c f f, 2, 1.5
+b c b d e f, 2, 2.0
+b c b d f f, 2, 1.5
+b c b e f f, 2, 1.5
+b c b f f f, 2, 1.2
+b c c a c d, 2, 6.0
+b c c a c e, 2, 3.0
+b c c a c f, 2, 2.0
+b c c a d e, 2, 3.0
+b c c a d f, 2, 2.0
+b c c a e f, 2, 2.0
+b c c a f f, 2, 1.5
+b c c b c d, 2, 6.0
+b c c b c e, 2, 3.0
+b c c b c f, 2, 2.0
+b c c b d e, 2, 3.0
+b c c b d f, 2, 2.0
+b c c b e f, 2, 2.0
+b c c b f f, 2, 1.5
+b c c c c d, 2, 6.0
+b c c c c e, 2, 3.0
+b c c c c f, 2, 2.0
+b c c c d e, 6, 3.0
+b c c c d f, 6, 2.0
+b c c c e f, 6, 2.0
+b c c c f f, 6, 1.5
+b c c d e e, 2, 6.0
+b c c d e f, 8, 1.875
+b c c d e g, 2, 1.2
+b c c d e h, 2, 1.0
+b c c d f f, 6, 1.5
+b c c d f g, 2, 1.2
+b c c d f h, 2, 1.0
+b c c d g h, 2, 1.0
+b c c d h h, 2, 0.85714287
+b c c e e e, 2, 3.0
+b c c e e f, 2, 1.5
+b c c e e g, 2, 1.2
+b c c e e h, 2, 1.0
+b c c e f f, 6, 1.5
+b c c e f g, 2, 1.2
+b c c e f h, 2, 1.0
+b c c e g h, 2, 1.0
+b c c e h h, 2, 0.85714287
+b c c f f f, 6, 1.2
+b c c f g h, 2, 1.0
+b c c f h h, 2, 0.85714287
+b c c g h h, 2, 0.85714287
+b c d d e f, 2, 6.0
+b c d d e h, 2, 1.5
+b c d d f f, 2, 3.0
+b c d d f h, 2, 1.5
+b c d d h h, 2, 1.2
+b c d e e e, 2, 3.0
+b c d e e f, 2, 1.5
+b c d e e g, 2, 1.2
+b c d e e h, 2, 1.0
+b c d e f f, 8, 1.875
+b c d e f g, 2, 1.2
+b c d e f h, 4, 1.25
+b c d e g h, 2, 1.0
+b c d e h h, 4, 1.0285715
+b c d f f f, 8, 1.4
+b c d f f h, 2, 1.5
+b c d f g h, 2, 1.0
+b c d f h h, 4, 1.0285715
+b c d g h h, 2, 0.85714287
+b c d h h h, 2, 1.0
+b c e e e e, 2, 2.0
+b c e e e f, 2, 1.5
+b c e e e g, 2, 1.2
+b c e e e h, 2, 1.0
+b c e e f g, 2, 1.2
+b c e e f h, 2, 1.0
+b c e e g h, 2, 1.0
+b c e e h h, 2, 0.85714287
+b c e f f f, 8, 1.4
+b c e f f h, 2, 1.5
+b c e f g g, 2, 6.0
+b c e f g h, 4, 2.0
+b c e f h h, 4, 1.0285715
+b c e g g h, 2, 3.0
+b c e g h h, 2, 0.85714287
+b c e h h h, 2, 1.0
+b c f f f f, 6, 1.0
+b c f f f h, 2, 1.5
+b c f f h h, 2, 1.2
+b c f g g h, 2, 3.0
+b c f g h h, 2, 0.85714287
+b c f h h h, 2, 1.0
+c b c d e f, 2, 6.0
+c b c d f f, 2, 3.0
+c b c e f f, 2, 3.0
+c b c f f f, 2, 2.0
+c b d e f f, 2, 3.0
+c b d f f f, 2, 2.0
+c b e f f f, 2, 2.0
+c b f f f f, 2, 1.5
+b d d e f f, 2, 3.0
+b d d e f h, 2, 1.5
+b d d e h h, 2, 1.2
+b d d f f f, 2, 2.0
+b d d f f h, 2, 1.5
+b d d f h h, 2, 1.2
+b d d h h h, 2, 1.0
+b d e e e e, 2, 2.0
+b d e e e f, 2, 1.5
+b d e e e g, 2, 1.2
+b d e e e h, 2, 1.0
+b d e e f g, 2, 1.2
+b d e e f h, 2, 1.0
+b d e e g h, 2, 1.0
+b d e e h h, 2, 0.85714287
+b d e f f f, 8, 1.8499999
+b d e f f h, 2, 1.5
+b d e f g h, 2, 1.0
+b d e f h h, 4, 1.0285715
+b d e g h h, 2, 0.85714287
+b d e h h h, 2, 1.0
+b d f f f f, 6, 1.3333334
+b d f f f h, 2, 1.5
+b d f f h h, 2, 1.2
+b d f g h h, 2, 0.85714287
+b d f h h h, 2, 1.0
+b e e e e f, 2, 1.5
+b e e e e g, 2, 1.2
+b e e e e h, 2, 1.0
+b e e e f g, 2, 1.2
+b e e e f h, 2, 1.0
+b e e e g h, 2, 1.0
+b e e e h h, 2, 0.85714287
+b e e f g h, 2, 1.0
+b e e f h h, 2, 0.85714287
+b e e g h h, 2, 0.85714287
+b e f f f f, 6, 1.3333334
+b e f f f h, 2, 1.5
+b e f f h h, 2, 1.2
+b e f g g h, 2, 3.0
+b e f g h h, 2, 0.85714287
+b e f h h h, 2, 1.0
+b f f f f f, 6, 1.0714285
+b f f f h h, 2, 1.2
+b f f h h h, 2, 1.0
+c c a c d e, 2, 6.0
+c c a c d f, 2, 3.0
+c c a c e f, 2, 3.0
+c c a c f f, 2, 2.0
+c c a d e f, 2, 3.0
+c c a d f f, 2, 2.0
+c c a e f f, 2, 2.0
+c c a f f f, 2, 1.5
+c c b c d e, 2, 6.0
+c c b c d f, 2, 3.0
+c c b c e f, 2, 3.0
+c c b c f f, 2, 2.0
+c c b d e f, 2, 3.0
+c c b d f f, 2, 2.0
+c c b e f f, 2, 2.0
+c c b f f f, 2, 1.5
+c c c c d e, 2, 6.0
+c c c c d f, 2, 3.0
+c c c c e f, 2, 3.0
+c c c c f f, 2, 2.0
+c c c d e f, 6, 3.0
+c c c d f f, 6, 2.0
+c c c e f f, 6, 2.0
+c c c f f f, 6, 1.5
+c c d e e e, 2, 6.0
+c c d e e f, 2, 2.0
+c c d e e g, 2, 1.5
+c c d e e h, 2, 1.2
+c c d e f f, 6, 2.0
+c c d e f g, 2, 1.5
+c c d e f h, 2, 1.2
+c c d e g h, 2, 1.2
+c c d e h h, 2, 1.0
+c c d f f f, 6, 1.5
+c c d f g h, 2, 1.2
+c c d f h h, 2, 1.0
+c c d g h h, 2, 1.0
+c c e e e e, 2, 3.0
+c c e e e f, 2, 2.0
+c c e e e g, 2, 1.5
+c c e e e h, 2, 1.2
+c c e e f g, 2, 1.5
+c c e e f h, 2, 1.2
+c c e e g h, 2, 1.2
+c c e e h h, 2, 1.0
+c c e f f f, 6, 1.5
+c c e f g h, 2, 1.2
+c c e f h h, 2, 1.0
+c c e g h h, 2, 1.0
+c c f f f f, 6, 1.2
+c c f g h h, 2, 1.0
+c d d e f f, 2, 6.0
+c d d e f h, 2, 2.0
+c d d e h h, 2, 1.5
+c d d f f f, 2, 3.0
+c d d f f h, 2, 2.0
+c d d f h h, 2, 1.5
+c d d h h h, 2, 1.2
+c d e e e e, 2, 6.0
+c d e e e f, 2, 3.0
+c d e e e g, 2, 2.0
+c d e e e h, 2, 1.5
+c d e e f g, 2, 2.0
+c d e e f h, 2, 1.5
+c d e e g h, 2, 1.5
+c d e e h h, 2, 1.2
+c d e f f f, 8, 5.25
+c d e f f h, 2, 2.0
+c d e f g h, 2, 1.5
+c d e f h h, 4, 1.35
+c d e g h h, 2, 1.2
+c d e h h h, 2, 1.2
+c d f f f f, 6, 3.0
+c d f f f h, 2, 2.0
+c d f f h h, 2, 1.5
+c d f g h h, 2, 1.2
+c d f h h h, 2, 1.2
+c e e e e f, 2, 3.0
+c e e e e g, 2, 2.0
+c e e e e h, 2, 1.5
+c e e e f g, 2, 2.0
+c e e e f h, 2, 1.5
+c e e e g h, 2, 1.5
+c e e e h h, 2, 1.2
+c e e f g h, 2, 1.5
+c e e f h h, 2, 1.2
+c e e g h h, 2, 1.2
+c e f f f f, 6, 3.0
+c e f f f h, 2, 2.0
+c e f f h h, 2, 1.5
+c e f g g h, 2, 6.0
+c e f g h h, 2, 1.2
+c e f h h h, 2, 1.2
+c f f f f f, 6, 2.0
+c f f f h h, 2, 1.5
+c f f h h h, 2, 1.2
+d d e f f f, 2, 6.0
+d d e f f h, 2, 3.0
+d d e f h h, 2, 2.0
+d d e h h h, 2, 1.5
+d d f f f h, 2, 3.0
+d d f f h h, 2, 2.0
+d d f h h h, 2, 1.5
+d e e e e f, 2, 6.0
+d e e e e g, 2, 3.0
+d e e e e h, 2, 2.0
+d e e e f g, 2, 3.0
+d e e e f h, 2, 2.0
+d e e e g h, 2, 2.0
+d e e e h h, 2, 1.5
+d e e f g h, 2, 2.0
+d e e f h h, 2, 1.5
+d e e g h h, 2, 1.5
+d e f f f f, 6, 6.0
+d e f f f h, 2, 6.0
+d e f f h h, 2, 3.0
+d e f g h h, 2, 1.5
+d e f h h h, 2, 2.0
+d f f f f f, 6, 3.0
+d f f f h h, 2, 3.0
+d f f h h h, 2, 2.0
+e e e e f g, 2, 6.0
+e e e e f h, 2, 3.0
+e e e e g h, 2, 3.0
+e e e e h h, 2, 2.0
+e e e f g h, 2, 3.0
+e e e f h h, 2, 2.0
+e e e g h h, 2, 2.0
+e e f g h h, 2, 2.0
+e f f f f f, 6, 6.0
+e f f f h h, 2, 6.0
+e f f h h h, 2, 3.0
+f f f f f f, 6, 6.0
+f f f h h h, 2, 6.0
+a a a a b b b, 2, 7.0
+a a a a b b c, 2, 2.3333333
+a a a a b b e, 2, 1.75
+a a a a b b f, 2, 1.4
+a a a a b b g, 2, 1.1666666
+a a a a b b h, 2, 0.875
+a a a a b c e, 2, 1.75
+a a a a b c f, 2, 1.4
+a a a a b c g, 2, 1.1666666
+a a a a b c h, 2, 0.875
+a a a a b e f, 2, 1.4
+a a a a b e g, 2, 1.1666666
+a a a a b e h, 2, 0.875
+a a a a b f g, 2, 1.1666666
+a a a a b f h, 2, 0.875
+a a a a b g g, 2, 1.0
+a a a a b g h, 2, 0.875
+a a a a c e f, 2, 1.4
+a a a a c e g, 2, 1.1666666
+a a a a c e h, 2, 0.875
+a a a a c f g, 2, 1.1666666
+a a a a c f h, 2, 0.875
+a a a a c g g, 2, 1.0
+a a a a c g h, 2, 0.875
+a a a a e f g, 2, 1.1666666
+a a a a e f h, 2, 0.875
+a a a a e g g, 2, 1.0
+a a a a e g h, 2, 0.875
+a a a a f g g, 2, 1.0
+a a a a f g h, 2, 0.875
+a a a a g g h, 2, 0.875
+a a a b b b b, 2, 3.5
+a a a b b b c, 2, 2.3333333
+a a a b b b e, 2, 1.75
+a a a b b b f, 2, 1.4
+a a a b b b g, 2, 1.1666666
+a a a b b b h, 2, 0.875
+a a a b b c e, 2, 1.75
+a a a b b c f, 2, 1.4
+a a a b b c g, 2, 1.1666666
+a a a b b c h, 2, 0.875
+a a a b b e f, 2, 1.4
+a a a b b e g, 2, 1.1666666
+a a a b b e h, 2, 0.875
+a a a b b f g, 2, 1.1666666
+a a a b b f h, 2, 0.875
+a a a b b g g, 2, 1.0
+a a a b b g h, 2, 0.875
+a a a b c e f, 2, 1.4
+a a a b c e g, 2, 1.1666666
+a a a b c e h, 2, 0.875
+a a a b c f g, 2, 1.1666666
+a a a b c f h, 2, 0.875
+a a a b c g g, 2, 1.0
+a a a b c g h, 2, 0.875
+a a a b e f g, 2, 1.1666666
+a a a b e f h, 2, 0.875
+a a a b e g g, 2, 1.0
+a a a b e g h, 2, 0.875
+a a a b f g g, 2, 1.0
+a a a b f g h, 2, 0.875
+a a a b g g h, 2, 0.875
+a a a c e f g, 2, 1.1666666
+a a a c e f h, 2, 0.875
+a a a c e g g, 2, 1.0
+a a a c e g h, 2, 0.875
+a a a c f g g, 2, 1.0
+a a a c f g h, 2, 0.875
+a a a c g g h, 2, 0.875
+a a a e f g g, 2, 1.0
+a a a e f g h, 2, 0.875
+a a a e g g h, 2, 0.875
+a a a f g g h, 2, 0.875
+a a b b b b c, 2, 2.3333333
+a a b b b b e, 2, 1.75
+a a b b b b f, 2, 1.4
+a a b b b b g, 2, 1.1666666
+a a b b b b h, 2, 0.875
+a a b b b c e, 2, 1.75
+a a b b b c f, 2, 1.4
+a a b b b c g, 2, 1.1666666
+a a b b b c h, 2, 0.875
+a a b b b e f, 2, 1.4
+a a b b b e g, 2, 1.1666666
+a a b b b e h, 2, 0.875
+a a b b b f g, 2, 1.1666666
+a a b b b f h, 2, 0.875
+a a b b b g g, 2, 1.0
+a a b b b g h, 2, 0.875
+a a b b c e f, 2, 1.4
+a a b b c e g, 2, 1.1666666
+a a b b c e h, 2, 0.875
+a a b b c f g, 2, 1.1666666
+a a b b c f h, 2, 0.875
+a a b b c g g, 2, 1.0
+a a b b c g h, 2, 0.875
+a a b b e f g, 2, 1.1666666
+a a b b e f h, 2, 0.875
+a a b b e g g, 2, 1.0
+a a b b e g h, 2, 0.875
+a a b b f g g, 2, 1.0
+a a b b f g h, 2, 0.875
+a a b b g g h, 2, 0.875
+a a b c c d e, 2, 7.0
+a a b c c d f, 2, 1.4
+a a b c c d g, 2, 1.1666666
+a a b c c d h, 2, 1.0
+a a b c c e e, 2, 3.5
+a a b c c e f, 2, 1.4
+a a b c c e g, 2, 1.1666666
+a a b c c e h, 2, 1.0
+a a b c c f g, 2, 1.1666666
+a a b c c f h, 2, 1.0
+a a b c c g h, 2, 1.0
+a a b c c h h, 2, 0.875
+a a b c d e e, 2, 3.5
+a a b c d e f, 2, 1.4
+a a b c d e g, 2, 1.1666666
+a a b c d e h, 2, 1.0
+a a b c d f g, 2, 1.1666666
+a a b c d f h, 2, 1.0
+a a b c d g h, 2, 1.0
+a a b c d h h, 2, 0.875
+a a b c e e e, 2, 2.3333333
+a a b c e e f, 2, 1.4
+a a b c e e g, 2, 1.1666666
+a a b c e e h, 2, 1.0
+a a b c e f g, 4, 1.1666666
+a a b c e f h, 4, 0.9375
+a a b c e g g, 2, 1.0
+a a b c e g h, 4, 0.9375
+a a b c e h h, 2, 0.875
+a a b c f g g, 2, 1.0
+a a b c f g h, 4, 0.9375
+a a b c f h h, 2, 0.875
+a a b c g g h, 2, 0.875
+a a b c g h h, 2, 0.875
+a a b d e e e, 2, 2.3333333
+a a b d e e f, 2, 1.4
+a a b d e e g, 2, 1.1666666
+a a b d e e h, 2, 1.0
+a a b d e f g, 2, 1.1666666
+a a b d e f h, 2, 1.0
+a a b d e g h, 2, 1.0
+a a b d e h h, 2, 0.875
+a a b d f g h, 2, 1.0
+a a b d f h h, 2, 0.875
+a a b d g h h, 2, 0.875
+a a b e e e e, 2, 1.75
+a a b e e e f, 2, 1.4
+a a b e e e g, 2, 1.1666666
+a a b e e e h, 2, 1.0
+a a b e e f g, 2, 1.1666666
+a a b e e f h, 2, 1.0
+a a b e e g h, 2, 1.0
+a a b e e h h, 2, 0.875
+a a b e f g g, 2, 1.0
+a a b e f g h, 4, 0.9375
+a a b e f h h, 2, 0.875
+a a b e g g h, 2, 0.875
+a a b e g h h, 2, 0.875
+a a b f g g h, 2, 0.875
+a a b f g h h, 2, 0.875
+a a c c d e e, 2, 3.5
+a a c c d e f, 2, 1.4
+a a c c d e g, 2, 1.1666666
+a a c c d e h, 2, 1.0
+a a c c d f g, 2, 1.1666666
+a a c c d f h, 2, 1.0
+a a c c d g h, 2, 1.0
+a a c c d h h, 2, 0.875
+a a c c e e e, 2, 2.3333333
+a a c c e e f, 2, 1.4
+a a c c e e g, 2, 1.1666666
+a a c c e e h, 2, 1.0
+a a c c e f g, 2, 1.1666666
+a a c c e f h, 2, 1.0
+a a c c e g h, 2, 1.0
+a a c c e h h, 2, 0.875
+a a c c f g h, 2, 1.0
+a a c c f h h, 2, 0.875
+a a c c g h h, 2, 0.875
+a a c d e e e, 2, 2.3333333
+a a c d e e f, 2, 1.4
+a a c d e e g, 2, 1.1666666
+a a c d e e h, 2, 1.0
+a a c d e f f, 2, 1.75
+a a c d e f g, 2, 1.1666666
+a a c d e f h, 2, 1.0
+a a c d e g h, 2, 1.0
+a a c d e h h, 2, 0.875
+a a c d f f f, 2, 1.4
+a a c d f g h, 2, 1.0
+a a c d f h h, 2, 0.875
+a a c d g h h, 2, 0.875
+a a c e e e e, 2, 1.75
+a a c e e e f, 2, 1.4
+a a c e e e g, 2, 1.1666666
+a a c e e e h, 2, 1.0
+a a c e e f g, 2, 1.1666666
+a a c e e f h, 2, 1.0
+a a c e e g h, 2, 1.0
+a a c e e h h, 2, 0.875
+a a c e f f f, 2, 1.4
+a a c e f g g, 2, 1.0
+a a c e f g h, 4, 0.9375
+a a c e f h h, 2, 0.875
+a a c e g g h, 2, 0.875
+a a c e g h h, 2, 0.875
+a a c f f f f, 2, 1.1666666
+a a c f g g h, 2, 0.875
+a a c f g h h, 2, 0.875
+a a d e e e e, 2, 1.75
+a a d e e e f, 2, 1.4
+a a d e e e g, 2, 1.1666666
+a a d e e e h, 2, 1.0
+a a d e e f g, 2, 1.1666666
+a a d e e f h, 2, 1.0
+a a d e e g h, 2, 1.0
+a a d e e h h, 2, 0.875
+a a d e f f f, 2, 1.4
+a a d e f g h, 2, 1.0
+a a d e f h h, 2, 0.875
+a a d e g h h, 2, 0.875
+a a d f f f f, 2, 1.1666666
+a a d f g h h, 2, 0.875
+a a e e e e f, 2, 1.4
+a a e e e e g, 2, 1.1666666
+a a e e e e h, 2, 1.0
+a a e e e f g, 2, 1.1666666
+a a e e e f h, 2, 1.0
+a a e e e g h, 2, 1.0
+a a e e e h h, 2, 0.875
+a a e e f g h, 2, 1.0
+a a e e f h h, 2, 0.875
+a a e e g h h, 2, 0.875
+a a e f f f f, 2, 1.1666666
+a a e f g g h, 2, 0.875
+a a e f g h h, 2, 0.875
+a a f f f f f, 2, 1.0
+a b a c d e f, 2, 2.3333333
+a b a c d f f, 2, 1.75
+a b a c e f f, 2, 1.75
+a b a c f f f, 2, 1.4
+a b a d e f f, 2, 1.75
+a b a d f f f, 2, 1.4
+a b a e f f f, 2, 1.4
+a b a f f f f, 2, 1.1666666
+a b b b b c e, 2, 7.0
+a b b b b c f, 2, 3.5
+a b b b b c g, 2, 2.3333333
+a b b b b c h, 2, 1.4
+a b b b b e f, 2, 3.5
+a b b b b e g, 2, 2.3333333
+a b b b b e h, 2, 1.4
+a b b b b f g, 2, 2.3333333
+a b b b b f h, 2, 1.4
+a b b b b g g, 2, 1.75
+a b b b b g h, 2, 1.4
+a b b b c d d, 2, 7.0
+a b b b c d e, 2, 3.5
+a b b b c d f, 2, 2.3333333
+a b b b c d h, 2, 1.1666666
+a b b b c e f, 4, 2.9166665
+a b b b c e g, 2, 2.3333333
+a b b b c e h, 4, 1.2833333
+a b b b c f f, 2, 1.75
+a b b b c f g, 2, 2.3333333
+a b b b c f h, 4, 1.2833333
+a b b b c g g, 2, 1.75
+a b b b c g h, 2, 1.4
+a b b b c h h, 2, 1.0
+a b b b d d e, 2, 3.5
+a b b b d d f, 2, 2.3333333
+a b b b d d h, 2, 1.1666666
+a b b b d e f, 2, 2.3333333
+a b b b d e h, 2, 1.1666666
+a b b b d f f, 2, 1.75
+a b b b d f h, 2, 1.1666666
+a b b b d h h, 2, 1.0
+a b b b e f f, 2, 1.75
+a b b b e f g, 2, 2.3333333
+a b b b e f h, 4, 1.2833333
+a b b b e g g, 2, 1.75
+a b b b e g h, 2, 1.4
+a b b b e h h, 2, 1.0
+a b b b f f f, 2, 1.4
+a b b b f f h, 2, 1.1666666
+a b b b f g g, 2, 1.75
+a b b b f g h, 2, 1.4
+a b b b f h h, 2, 1.0
+a b b b g g h, 2, 1.4
+a b b b h h h, 2, 0.875
+a b b c d d e, 2, 3.5
+a b b c d d f, 2, 2.3333333
+a b b c d d h, 2, 1.1666666
+a b b c d e f, 4, 2.3333333
+a b b c d e h, 2, 1.1666666
+a b b c d f f, 4, 1.75
+a b b c d f h, 2, 1.1666666
+a b b c d h h, 2, 1.0
+a b b c e f f, 4, 1.75
+a b b c e f g, 2, 2.3333333
+a b b c e f h, 4, 1.2833333
+a b b c e g g, 2, 1.75
+a b b c e g h, 2, 1.4
+a b b c e h h, 2, 1.0
+a b b c f f f, 4, 1.4
+a b b c f f h, 2, 1.1666666
+a b b c f g g, 2, 1.75
+a b b c f g h, 2, 1.4
+a b b c f h h, 2, 1.0
+a b b c g g h, 2, 1.4
+a b b c h h h, 2, 0.875
+a b b d d e f, 2, 2.3333333
+a b b d d e h, 2, 1.1666666
+a b b d d f f, 2, 1.75
+a b b d d f h, 2, 1.1666666
+a b b d d h h, 2, 1.0
+a b b d e f f, 4, 1.75
+a b b d e f h, 2, 1.1666666
+a b b d e h h, 2, 1.0
+a b b d f f f, 4, 1.4
+a b b d f f h, 2, 1.1666666
+a b b d f h h, 2, 1.0
+a b b d h h h, 2, 0.875
+a b b e f f f, 4, 1.4
+a b b e f f h, 2, 1.1666666
+a b b e f g g, 2, 1.75
+a b b e f g h, 2, 1.4
+a b b e f h h, 2, 1.0
+a b b e g g h, 2, 1.4
+a b b e h h h, 2, 0.875
+a b b f f f f, 2, 1.1666666
+a b b f f f h, 2, 1.1666666
+a b b f f h h, 2, 1.0
+a b b f g g h, 2, 1.4
+a b b f h h h, 2, 0.875
+a b c a c d e, 2, 3.5
+a b c a c d f, 2, 2.3333333
+a b c a c e f, 2, 2.3333333
+a b c a c f f, 2, 1.75
+a b c a d e f, 2, 2.3333333
+a b c a d f f, 2, 1.75
+a b c a e f f, 2, 1.75
+a b c a f f f, 2, 1.4
+a b c b c d e, 2, 3.5
+a b c b c d f, 2, 2.3333333
+a b c b c e f, 2, 2.3333333
+a b c b c f f, 2, 1.75
+a b c b d e f, 2, 2.3333333
+a b c b d f f, 2, 1.75
+a b c b e f f, 2, 1.75
+a b c b f f f, 2, 1.4
+a b c c a c d, 2, 7.0
+a b c c a c e, 2, 3.5
+a b c c a c f, 2, 2.3333333
+a b c c a d e, 2, 3.5
+a b c c a d f, 2, 2.3333333
+a b c c a e f, 2, 2.3333333
+a b c c a f f, 2, 1.75
+a b c c b c d, 2, 7.0
+a b c c b c e, 2, 3.5
+a b c c b c f, 2, 2.3333333
+a b c c b d e, 2, 3.5
+a b c c b d f, 2, 2.3333333
+a b c c b e f, 2, 2.3333333
+a b c c b f f, 2, 1.75
+a b c c c c d, 2, 7.0
+a b c c c c e, 2, 3.5
+a b c c c c f, 2, 2.3333333
+a b c c c d e, 6, 3.4999998
+a b c c c d f, 6, 2.3333333
+a b c c c e f, 6, 2.3333333
+a b c c c f f, 6, 1.7499999
+a b c c d e e, 2, 7.0
+a b c c d e f, 8, 2.1874998
+a b c c d e g, 2, 1.4
+a b c c d e h, 2, 1.1666666
+a b c c d f f, 6, 1.7499999
+a b c c d f g, 2, 1.4
+a b c c d f h, 2, 1.1666666
+a b c c d g h, 2, 1.1666666
+a b c c d h h, 2, 1.0
+a b c c e e e, 2, 3.5
+a b c c e e f, 2, 1.75
+a b c c e e g, 2, 1.4
+a b c c e e h, 2, 1.1666666
+a b c c e f f, 6, 1.7499999
+a b c c e f g, 2, 1.4
+a b c c e f h, 2, 1.1666666
+a b c c e g h, 2, 1.1666666
+a b c c e h h, 2, 1.0
+a b c c f f f, 6, 1.4
+a b c c f g h, 2, 1.1666666
+a b c c f h h, 2, 1.0
+a b c c g h h, 2, 1.0
+a b c d d e f, 2, 2.3333333
+a b c d d e h, 2, 1.1666666
+a b c d d f f, 2, 1.75
+a b c d d f h, 2, 1.1666666
+a b c d d h h, 2, 1.0
+a b c d e e e, 2, 3.5
+a b c d e e f, 2, 1.75
+a b c d e e g, 2, 1.4
+a b c d e e h, 2, 1.1666666
+a b c d e f f, 8, 1.75
+a b c d e f g, 2, 1.4
+a b c d e f h, 4, 1.1666666
+a b c d e g h, 2, 1.1666666
+a b c d e h h, 4, 1.0
+a b c d f f f, 8, 1.3999999
+a b c d f f h, 2, 1.1666666
+a b c d f g h, 2, 1.1666666
+a b c d f h h, 4, 1.0
+a b c d g h h, 2, 1.0
+a b c d h h h, 2, 0.875
+a b c e e e e, 2, 2.3333333
+a b c e e e f, 2, 1.75
+a b c e e e g, 2, 1.4
+a b c e e e h, 2, 1.1666666
+a b c e e f g, 2, 1.4
+a b c e e f h, 2, 1.1666666
+a b c e e g h, 2, 1.1666666
+a b c e e h h, 2, 1.0
+a b c e f f f, 8, 1.3999999
+a b c e f f h, 2, 1.1666666
+a b c e f g g, 2, 1.75
+a b c e f g h, 4, 1.2833333
+a b c e f h h, 4, 1.0
+a b c e g g h, 2, 1.4
+a b c e g h h, 2, 1.0
+a b c e h h h, 2, 0.875
+a b c f f f f, 6, 1.1666666
+a b c f f f h, 2, 1.1666666
+a b c f f h h, 2, 1.0
+a b c f g g h, 2, 1.4
+a b c f g h h, 2, 1.0
+a b c f h h h, 2, 0.875
+a b d d e f f, 2, 1.75
+a b d d e f h, 2, 1.1666666
+a b d d e h h, 2, 1.0
+a b d d f f f, 2, 1.4
+a b d d f f h, 2, 1.1666666
+a b d d f h h, 2, 1.0
+a b d d h h h, 2, 0.875
+a b d e e e e, 2, 2.3333333
+a b d e e e f, 2, 1.75
+a b d e e e g, 2, 1.4
+a b d e e e h, 2, 1.1666666
+a b d e e f g, 2, 1.4
+a b d e e f h, 2, 1.1666666
+a b d e e g h, 2, 1.1666666
+a b d e e h h, 2, 1.0
+a b d e f f f, 8, 1.3999999
+a b d e f f h, 2, 1.1666666
+a b d e f g h, 2, 1.1666666
+a b d e f h h, 4, 1.0
+a b d e g h h, 2, 1.0
+a b d e h h h, 2, 0.875
+a b d f f f f, 6, 1.1666666
+a b d f f f h, 2, 1.1666666
+a b d f f h h, 2, 1.0
+a b d f g h h, 2, 1.0
+a b d f h h h, 2, 0.875
+a b e e e e f, 2, 1.75
+a b e e e e g, 2, 1.4
+a b e e e e h, 2, 1.1666666
+a b e e e f g, 2, 1.4
+a b e e e f h, 2, 1.1666666
+a b e e e g h, 2, 1.1666666
+a b e e e h h, 2, 1.0
+a b e e f g h, 2, 1.1666666
+a b e e f h h, 2, 1.0
+a b e e g h h, 2, 1.0
+a b e f f f f, 6, 1.1666666
+a b e f f f h, 2, 1.1666666
+a b e f f h h, 2, 1.0
+a b e f g g h, 2, 1.4
+a b e f g h h, 2, 1.0
+a b e f h h h, 2, 0.875
+a b f f f f f, 6, 1.0
+a b f f f h h, 2, 1.0
+a b f f h h h, 2, 0.875
+b a c d e f f, 2, 2.3333333
+b a c d f f f, 2, 1.75
+b a c e f f f, 2, 1.75
+b a c f f f f, 2, 1.4
+b a d e f f f, 2, 1.75
+b a d f f f f, 2, 1.4
+b a e f f f f, 2, 1.4
+b a f f f f f, 2, 1.1666666
+a c a c d e f, 2, 2.3333333
+a c a c d f f, 2, 1.75
+a c a c e f f, 2, 1.75
+a c a c f f f, 2, 1.4
+a c a d e f f, 2, 1.75
+a c a d f f f, 2, 1.4
+a c a e f f f, 2, 1.4
+a c a f f f f, 2, 1.1666666
+a c b c d e f, 2, 2.3333333
+a c b c d f f, 2, 1.75
+a c b c e f f, 2, 1.75
+a c b c f f f, 2, 1.4
+a c b d e f f, 2, 1.75
+a c b d f f f, 2, 1.4
+a c b e f f f, 2, 1.4
+a c b f f f f, 2, 1.1666666
+a c c a c d e, 2, 3.5
+a c c a c d f, 2, 2.3333333
+a c c a c e f, 2, 2.3333333
+a c c a c f f, 2, 1.75
+a c c a d e f, 2, 2.3333333
+a c c a d f f, 2, 1.75
+a c c a e f f, 2, 1.75
+a c c a f f f, 2, 1.4
+a c c b c d e, 2, 3.5
+a c c b c d f, 2, 2.3333333
+a c c b c e f, 2, 2.3333333
+a c c b c f f, 2, 1.75
+a c c b d e f, 2, 2.3333333
+a c c b d f f, 2, 1.75
+a c c b e f f, 2, 1.75
+a c c b f f f, 2, 1.4
+a c c c c d e, 2, 3.5
+a c c c c d f, 2, 2.3333333
+a c c c c e f, 2, 2.3333333
+a c c c c f f, 2, 1.75
+a c c c d e f, 6, 2.3333333
+a c c c d f f, 6, 1.7499999
+a c c c e f f, 6, 1.7499999
+a c c c f f f, 6, 1.4
+a c c d e e e, 2, 3.5
+a c c d e e f, 2, 1.75
+a c c d e e g, 2, 1.4
+a c c d e e h, 2, 1.1666666
+a c c d e f f, 6, 1.7499999
+a c c d e f g, 2, 1.4
+a c c d e f h, 2, 1.1666666
+a c c d e g h, 2, 1.1666666
+a c c d e h h, 2, 1.0
+a c c d f f f, 6, 1.4
+a c c d f g h, 2, 1.1666666
+a c c d f h h, 2, 1.0
+a c c d g h h, 2, 1.0
+a c c e e e e, 2, 2.3333333
+a c c e e e f, 2, 1.75
+a c c e e e g, 2, 1.4
+a c c e e e h, 2, 1.1666666
+a c c e e f g, 2, 1.4
+a c c e e f h, 2, 1.1666666
+a c c e e g h, 2, 1.1666666
+a c c e e h h, 2, 1.0
+a c c e f f f, 6, 1.4
+a c c e f g h, 2, 1.1666666
+a c c e f h h, 2, 1.0
+a c c e g h h, 2, 1.0
+a c c f f f f, 6, 1.1666666
+a c c f g h h, 2, 1.0
+a c d d e f f, 2, 1.75
+a c d d e f h, 2, 1.1666666
+a c d d e h h, 2, 1.0
+a c d d f f f, 2, 1.4
+a c d d f f h, 2, 1.1666666
+a c d d f h h, 2, 1.0
+a c d d h h h, 2, 0.875
+a c d e e e e, 2, 2.3333333
+a c d e e e f, 2, 1.75
+a c d e e e g, 2, 1.4
+a c d e e e h, 2, 1.1666666
+a c d e e f g, 2, 1.4
+a c d e e f h, 2, 1.1666666
+a c d e e g h, 2, 1.1666666
+a c d e e h h, 2, 1.0
+a c d e f f f, 8, 1.3999999
+a c d e f f h, 2, 1.1666666
+a c d e f g h, 2, 1.1666666
+a c d e f h h, 4, 1.0
+a c d e g h h, 2, 1.0
+a c d e h h h, 2, 0.875
+a c d f f f f, 6, 1.1666666
+a c d f f f h, 2, 1.1666666
+a c d f f h h, 2, 1.0
+a c d f g h h, 2, 1.0
+a c d f h h h, 2, 0.875
+a c e e e e f, 2, 1.75
+a c e e e e g, 2, 1.4
+a c e e e e h, 2, 1.1666666
+a c e e e f g, 2, 1.4
+a c e e e f h, 2, 1.1666666
+a c e e e g h, 2, 1.1666666
+a c e e e h h, 2, 1.0
+a c e e f g h, 2, 1.1666666
+a c e e f h h, 2, 1.0
+a c e e g h h, 2, 1.0
+a c e f f f f, 6, 1.1666666
+a c e f f f h, 2, 1.1666666
+a c e f f h h, 2, 1.0
+a c e f g g h, 2, 1.4
+a c e f g h h, 2, 1.0
+a c e f h h h, 2, 0.875
+a c f f f f f, 6, 1.0
+a c f f f h h, 2, 1.0
+a c f f h h h, 2, 0.875
+c a c d e f f, 2, 7.0
+c a c d f f f, 2, 3.5
+c a c e f f f, 2, 3.5
+c a c f f f f, 2, 2.3333333
+c a d e f f f, 2, 3.5
+c a d f f f f, 2, 2.3333333
+c a e f f f f, 2, 2.3333333
+c a f f f f f, 2, 1.75
+a d d e f f f, 2, 1.4
+a d d e f f h, 2, 1.1666666
+a d d e f h h, 2, 1.0
+a d d e h h h, 2, 0.875
+a d d f f f h, 2, 1.1666666
+a d d f f h h, 2, 1.0
+a d d f h h h, 2, 0.875
+a d e e e e f, 2, 1.75
+a d e e e e g, 2, 1.4
+a d e e e e h, 2, 1.1666666
+a d e e e f g, 2, 1.4
+a d e e e f h, 2, 1.1666666
+a d e e e g h, 2, 1.1666666
+a d e e e h h, 2, 1.0
+a d e e f g h, 2, 1.1666666
+a d e e f h h, 2, 1.0
+a d e e g h h, 2, 1.0
+a d e f f f f, 6, 1.9444444
+a d e f f f h, 2, 1.1666666
+a d e f f h h, 2, 1.0
+a d e f g h h, 2, 1.0
+a d e f h h h, 2, 0.875
+a d f f f f f, 6, 1.4444444
+a d f f f h h, 2, 1.0
+a d f f h h h, 2, 0.875
+a e e e e f g, 2, 1.4
+a e e e e f h, 2, 1.1666666
+a e e e e g h, 2, 1.1666666
+a e e e e h h, 2, 1.0
+a e e e f g h, 2, 1.1666666
+a e e e f h h, 2, 1.0
+a e e e g h h, 2, 1.0
+a e e f g h h, 2, 1.0
+a e f f f f f, 6, 1.4444444
+a e f f f h h, 2, 1.0
+a e f f h h h, 2, 0.875
+a f f f f f f, 6, 1.1666666
+a f f f h h h, 2, 0.875
+b b b b c e f, 2, 7.0
+b b b b c e g, 2, 3.5
+b b b b c e h, 2, 1.75
+b b b b c f g, 2, 3.5
+b b b b c f h, 2, 1.75
+b b b b c g g, 2, 2.3333333
+b b b b c g h, 2, 1.75
+b b b b e f g, 2, 3.5
+b b b b e f h, 2, 1.75
+b b b b e g g, 2, 2.3333333
+b b b b e g h, 2, 1.75
+b b b b f g g, 2, 2.3333333
+b b b b f g h, 2, 1.75
+b b b b g g h, 2, 1.75
+b b b c d d e, 2, 7.0
+b b b c d d f, 2, 3.5
+b b b c d d h, 2, 1.4
+b b b c d e f, 2, 3.5
+b b b c d e h, 2, 1.4
+b b b c d f f, 2, 2.3333333
+b b b c d f h, 2, 1.4
+b b b c d h h, 2, 1.1666666
+b b b c e f f, 2, 2.3333333
+b b b c e f g, 2, 3.5
+b b b c e f h, 4, 1.575
+b b b c e g g, 2, 2.3333333
+b b b c e g h, 2, 1.75
+b b b c e h h, 2, 1.1666666
+b b b c f f f, 2, 1.75
+b b b c f f h, 2, 1.4
+b b b c f g g, 2, 2.3333333
+b b b c f g h, 2, 1.75
+b b b c f h h, 2, 1.1666666
+b b b c g g h, 2, 1.75
+b b b c h h h, 2, 1.0
+b b b d d e f, 2, 3.5
+b b b d d e h, 2, 1.4
+b b b d d f f, 2, 2.3333333
+b b b d d f h, 2, 1.4
+b b b d d h h, 2, 1.1666666
+b b b d e f f, 2, 2.3333333
+b b b d e f h, 2, 1.4
+b b b d e h h, 2, 1.1666666
+b b b d f f f, 2, 1.75
+b b b d f f h, 2, 1.4
+b b b d f h h, 2, 1.1666666
+b b b d h h h, 2, 1.0
+b b b e f f f, 2, 1.75
+b b b e f f h, 2, 1.4
+b b b e f g g, 2, 2.3333333
+b b b e f g h, 2, 1.75
+b b b e f h h, 2, 1.1666666
+b b b e g g h, 2, 1.75
+b b b e h h h, 2, 1.0
+b b b f f f h, 2, 1.4
+b b b f f h h, 2, 1.1666666
+b b b f g g h, 2, 1.75
+b b b f h h h, 2, 1.0
+b b c d d e f, 2, 3.5
+b b c d d e h, 2, 1.4
+b b c d d f f, 2, 2.3333333
+b b c d d f h, 2, 1.4
+b b c d d h h, 2, 1.1666666
+b b c d e f f, 4, 2.3333333
+b b c d e f h, 2, 1.4
+b b c d e h h, 2, 1.1666666
+b b c d f f f, 4, 1.75
+b b c d f f h, 2, 1.4
+b b c d f h h, 2, 1.1666666
+b b c d h h h, 2, 1.0
+b b c e f f f, 4, 1.75
+b b c e f f h, 2, 1.4
+b b c e f g g, 2, 2.3333333
+b b c e f g h, 2, 1.75
+b b c e f h h, 2, 1.1666666
+b b c e g g h, 2, 1.75
+b b c e h h h, 2, 1.0
+b b c f f f f, 2, 1.4
+b b c f f f h, 2, 1.4
+b b c f f h h, 2, 1.1666666
+b b c f g g h, 2, 1.75
+b b c f h h h, 2, 1.0
+b b d d e f f, 2, 2.3333333
+b b d d e f h, 2, 1.4
+b b d d e h h, 2, 1.1666666
+b b d d f f f, 2, 1.75
+b b d d f f h, 2, 1.4
+b b d d f h h, 2, 1.1666666
+b b d d h h h, 2, 1.0
+b b d e f f f, 4, 1.75
+b b d e f f h, 2, 1.4
+b b d e f h h, 2, 1.1666666
+b b d e h h h, 2, 1.0
+b b d f f f f, 2, 1.4
+b b d f f f h, 2, 1.4
+b b d f f h h, 2, 1.1666666
+b b d f h h h, 2, 1.0
+b b e f f f f, 2, 1.4
+b b e f f f h, 2, 1.4
+b b e f f h h, 2, 1.1666666
+b b e f g g h, 2, 1.75
+b b e f h h h, 2, 1.0
+b b f f f f f, 2, 1.1666666
+b b f f f h h, 2, 1.1666666
+b b f f h h h, 2, 1.0
+b c a c d e f, 2, 3.5
+b c a c d f f, 2, 2.3333333
+b c a c e f f, 2, 2.3333333
+b c a c f f f, 2, 1.75
+b c a d e f f, 2, 2.3333333
+b c a d f f f, 2, 1.75
+b c a e f f f, 2, 1.75
+b c a f f f f, 2, 1.4
+b c b c d e f, 2, 3.5
+b c b c d f f, 2, 2.3333333
+b c b c e f f, 2, 2.3333333
+b c b c f f f, 2, 1.75
+b c b d e f f, 2, 2.3333333
+b c b d f f f, 2, 1.75
+b c b e f f f, 2, 1.75
+b c b f f f f, 2, 1.4
+b c c a c d e, 2, 7.0
+b c c a c d f, 2, 3.5
+b c c a c e f, 2, 3.5
+b c c a c f f, 2, 2.3333333
+b c c a d e f, 2, 3.5
+b c c a d f f, 2, 2.3333333
+b c c a e f f, 2, 2.3333333
+b c c a f f f, 2, 1.75
+b c c b c d e, 2, 7.0
+b c c b c d f, 2, 3.5
+b c c b c e f, 2, 3.5
+b c c b c f f, 2, 2.3333333
+b c c b d e f, 2, 3.5
+b c c b d f f, 2, 2.3333333
+b c c b e f f, 2, 2.3333333
+b c c b f f f, 2, 1.75
+b c c c c d e, 2, 7.0
+b c c c c d f, 2, 3.5
+b c c c c e f, 2, 3.5
+b c c c c f f, 2, 2.3333333
+b c c c d e f, 6, 3.4999998
+b c c c d f f, 6, 2.3333333
+b c c c e f f, 6, 2.3333333
+b c c c f f f, 6, 1.7499999
+b c c d e e e, 2, 7.0
+b c c d e e f, 2, 2.3333333
+b c c d e e g, 2, 1.75
+b c c d e e h, 2, 1.4
+b c c d e f f, 6, 2.3333333
+b c c d e f g, 2, 1.75
+b c c d e f h, 2, 1.4
+b c c d e g h, 2, 1.4
+b c c d e h h, 2, 1.1666666
+b c c d f f f, 6, 1.7499999
+b c c d f g h, 2, 1.4
+b c c d f h h, 2, 1.1666666
+b c c d g h h, 2, 1.1666666
+b c c e e e e, 2, 3.5
+b c c e e e f, 2, 2.3333333
+b c c e e e g, 2, 1.75
+b c c e e e h, 2, 1.4
+b c c e e f g, 2, 1.75
+b c c e e f h, 2, 1.4
+b c c e e g h, 2, 1.4
+b c c e e h h, 2, 1.1666666
+b c c e f f f, 6, 1.7499999
+b c c e f g h, 2, 1.4
+b c c e f h h, 2, 1.1666666
+b c c e g h h, 2, 1.1666666
+b c c f f f f, 6, 1.4
+b c c f g h h, 2, 1.1666666
+b c d d e f f, 2, 7.0
+b c d d e f h, 2, 2.3333333
+b c d d e h h, 2, 1.75
+b c d d f f f, 2, 3.5
+b c d d f f h, 2, 2.3333333
+b c d d f h h, 2, 1.75
+b c d d h h h, 2, 1.4
+b c d e e e e, 2, 3.5
+b c d e e e f, 2, 2.3333333
+b c d e e e g, 2, 1.75
+b c d e e e h, 2, 1.4
+b c d e e f g, 2, 1.75
+b c d e e f h, 2, 1.4
+b c d e e g h, 2, 1.4
+b c d e e h h, 2, 1.1666666
+b c d e f f f, 8, 2.1875
+b c d e f f h, 2, 2.3333333
+b c d e f g h, 2, 1.4
+b c d e f h h, 4, 1.4583333
+b c d e g h h, 2, 1.1666666
+b c d e h h h, 2, 1.4
+b c d f f f f, 6, 1.4
+b c d f f f h, 2, 2.3333333
+b c d f f h h, 2, 1.75
+b c d f g h h, 2, 1.1666666
+b c d f h h h, 2, 1.4
+b c e e e e f, 2, 2.3333333
+b c e e e e g, 2, 1.75
+b c e e e e h, 2, 1.4
+b c e e e f g, 2, 1.75
+b c e e e f h, 2, 1.4
+b c e e e g h, 2, 1.4
+b c e e e h h, 2, 1.1666666
+b c e e f g h, 2, 1.4
+b c e e f h h, 2, 1.1666666
+b c e e g h h, 2, 1.1666666
+b c e f f f f, 6, 1.4
+b c e f f f h, 2, 2.3333333
+b c e f f h h, 2, 1.75
+b c e f g g h, 2, 7.0
+b c e f g h h, 2, 1.1666666
+b c e f h h h, 2, 1.4
+b c f f f f f, 6, 1.1666666
+b c f f f h h, 2, 1.75
+b c f f h h h, 2, 1.4
+c b c d e f f, 2, 7.0
+c b c d f f f, 2, 3.5
+c b c e f f f, 2, 3.5
+c b c f f f f, 2, 2.3333333
+c b d e f f f, 2, 3.5
+c b d f f f f, 2, 2.3333333
+c b e f f f f, 2, 2.3333333
+c b f f f f f, 2, 1.75
+b d d e f f f, 2, 3.5
+b d d e f f h, 2, 2.3333333
+b d d e f h h, 2, 1.75
+b d d e h h h, 2, 1.4
+b d d f f f h, 2, 2.3333333
+b d d f f h h, 2, 1.75
+b d d f h h h, 2, 1.4
+b d e e e e f, 2, 2.3333333
+b d e e e e g, 2, 1.75
+b d e e e e h, 2, 1.4
+b d e e e f g, 2, 1.75
+b d e e e f h, 2, 1.4
+b d e e e g h, 2, 1.4
+b d e e e h h, 2, 1.1666666
+b d e e f g h, 2, 1.4
+b d e e f h h, 2, 1.1666666
+b d e e g h h, 2, 1.1666666
+b d e f f f f, 6, 2.1
+b d e f f f h, 2, 2.3333333
+b d e f f h h, 2, 1.75
+b d e f g h h, 2, 1.1666666
+b d e f h h h, 2, 1.4
+b d f f f f f, 6, 1.5555555
+b d f f f h h, 2, 1.75
+b d f f h h h, 2, 1.4
+b e e e e f g, 2, 1.75
+b e e e e f h, 2, 1.4
+b e e e e g h, 2, 1.4
+b e e e e h h, 2, 1.1666666
+b e e e f g h, 2, 1.4
+b e e e f h h, 2, 1.1666666
+b e e e g h h, 2, 1.1666666
+b e e f g h h, 2, 1.1666666
+b e f f f f f, 6, 1.5555555
+b e f f f h h, 2, 1.75
+b e f f h h h, 2, 1.4
+b f f f f f f, 6, 1.25
+b f f f h h h, 2, 1.4
+c c a c d e f, 2, 7.0
+c c a c d f f, 2, 3.5
+c c a c e f f, 2, 3.5
+c c a c f f f, 2, 2.3333333
+c c a d e f f, 2, 3.5
+c c a d f f f, 2, 2.3333333
+c c a e f f f, 2, 2.3333333
+c c a f f f f, 2, 1.75
+c c b c d e f, 2, 7.0
+c c b c d f f, 2, 3.5
+c c b c e f f, 2, 3.5
+c c b c f f f, 2, 2.3333333
+c c b d e f f, 2, 3.5
+c c b d f f f, 2, 2.3333333
+c c b e f f f, 2, 2.3333333
+c c b f f f f, 2, 1.75
+c c c c d e f, 2, 7.0
+c c c c d f f, 2, 3.5
+c c c c e f f, 2, 3.5
+c c c c f f f, 2, 2.3333333
+c c c d e f f, 6, 3.4999998
+c c c d f f f, 6, 2.3333333
+c c c e f f f, 6, 2.3333333
+c c c f f f f, 6, 1.7499999
+c c d e e e e, 2, 7.0
+c c d e e e f, 2, 3.5
+c c d e e e g, 2, 2.3333333
+c c d e e e h, 2, 1.75
+c c d e e f g, 2, 2.3333333
+c c d e e f h, 2, 1.75
+c c d e e g h, 2, 1.75
+c c d e e h h, 2, 1.4
+c c d e f f f, 6, 2.3333333
+c c d e f g h, 2, 1.75
+c c d e f h h, 2, 1.4
+c c d e g h h, 2, 1.4
+c c d f f f f, 6, 1.7499999
+c c d f g h h, 2, 1.4
+c c e e e e f, 2, 3.5
+c c e e e e g, 2, 2.3333333
+c c e e e e h, 2, 1.75
+c c e e e f g, 2, 2.3333333
+c c e e e f h, 2, 1.75
+c c e e e g h, 2, 1.75
+c c e e e h h, 2, 1.4
+c c e e f g h, 2, 1.75
+c c e e f h h, 2, 1.4
+c c e e g h h, 2, 1.4
+c c e f f f f, 6, 1.7499999
+c c e f g h h, 2, 1.4
+c c f f f f f, 6, 1.4
+c d d e f f f, 2, 7.0
+c d d e f f h, 2, 3.5
+c d d e f h h, 2, 2.3333333
+c d d e h h h, 2, 1.75
+c d d f f f h, 2, 3.5
+c d d f f h h, 2, 2.3333333
+c d d f h h h, 2, 1.75
+c d e e e e f, 2, 7.0
+c d e e e e g, 2, 3.5
+c d e e e e h, 2, 2.3333333
+c d e e e f g, 2, 3.5
+c d e e e f h, 2, 2.3333333
+c d e e e g h, 2, 2.3333333
+c d e e e h h, 2, 1.75
+c d e e f g h, 2, 2.3333333
+c d e e f h h, 2, 1.75
+c d e e g h h, 2, 1.75
+c d e f f f f, 6, 6.9999995
+c d e f f f h, 2, 3.5
+c d e f f h h, 2, 2.3333333
+c d e f g h h, 2, 1.75
+c d e f h h h, 2, 1.75
+c d f f f f f, 6, 3.4999998
+c d f f f h h, 2, 2.3333333
+c d f f h h h, 2, 1.75
+c e e e e f g, 2, 3.5
+c e e e e f h, 2, 2.3333333
+c e e e e g h, 2, 2.3333333
+c e e e e h h, 2, 1.75
+c e e e f g h, 2, 2.3333333
+c e e e f h h, 2, 1.75
+c e e e g h h, 2, 1.75
+c e e f g h h, 2, 1.75
+c e f f f f f, 6, 3.4999998
+c e f f f h h, 2, 2.3333333
+c e f f h h h, 2, 1.75
+c f f f f f f, 6, 2.3333333
+c f f f h h h, 2, 1.75
+d d e f f f h, 2, 7.0
+d d e f f h h, 2, 3.5
+d d e f h h h, 2, 2.3333333
+d d f f f h h, 2, 3.5
+d d f f h h h, 2, 2.3333333
+d e e e e f g, 2, 7.0
+d e e e e f h, 2, 3.5
+d e e e e g h, 2, 3.5
+d e e e e h h, 2, 2.3333333
+d e e e f g h, 2, 3.5
+d e e e f h h, 2, 2.3333333
+d e e e g h h, 2, 2.3333333
+d e e f g h h, 2, 2.3333333
+d e f f f f f, 6, 6.9999995
+d e f f f h h, 2, 7.0
+d e f f h h h, 2, 3.5
+d f f f f f f, 6, 3.4999998
+d f f f h h h, 2, 3.5
+e e e e f g h, 2, 7.0
+e e e e f h h, 2, 3.5
+e e e e g h h, 2, 3.5
+e e e f g h h, 2, 3.5
+e f f f f f f, 6, 6.9999995
+e f f f h h h, 2, 7.0
+f f f f f f f, 6, 6.9999995
+a a a a b b b b, 2, 8.0
+a a a a b b b c, 2, 4.0
+a a a a b b b e, 2, 2.6666667
+a a a a b b b f, 2, 2.0
+a a a a b b b g, 2, 1.6
+a a a a b b b h, 2, 1.1428572
+a a a a b b c e, 2, 2.6666667
+a a a a b b c f, 2, 2.0
+a a a a b b c g, 2, 1.6
+a a a a b b c h, 2, 1.1428572
+a a a a b b e f, 2, 2.0
+a a a a b b e g, 2, 1.6
+a a a a b b e h, 2, 1.1428572
+a a a a b b f g, 2, 1.6
+a a a a b b f h, 2, 1.1428572
+a a a a b b g g, 2, 1.3333334
+a a a a b b g h, 2, 1.1428572
+a a a a b c e f, 2, 2.0
+a a a a b c e g, 2, 1.6
+a a a a b c e h, 2, 1.1428572
+a a a a b c f g, 2, 1.6
+a a a a b c f h, 2, 1.1428572
+a a a a b c g g, 2, 1.3333334
+a a a a b c g h, 2, 1.1428572
+a a a a b e f g, 2, 1.6
+a a a a b e f h, 2, 1.1428572
+a a a a b e g g, 2, 1.3333334
+a a a a b e g h, 2, 1.1428572
+a a a a b f g g, 2, 1.3333334
+a a a a b f g h, 2, 1.1428572
+a a a a b g g h, 2, 1.1428572
+a a a a c e f g, 2, 1.6
+a a a a c e f h, 2, 1.1428572
+a a a a c e g g, 2, 1.3333334
+a a a a c e g h, 2, 1.1428572
+a a a a c f g g, 2, 1.3333334
+a a a a c f g h, 2, 1.1428572
+a a a a c g g h, 2, 1.1428572
+a a a a e f g g, 2, 1.3333334
+a a a a e f g h, 2, 1.1428572
+a a a a e g g h, 2, 1.1428572
+a a a a f g g h, 2, 1.1428572
+a a a b b b b c, 2, 4.0
+a a a b b b b e, 2, 2.6666667
+a a a b b b b f, 2, 2.0
+a a a b b b b g, 2, 1.6
+a a a b b b b h, 2, 1.1428572
+a a a b b b c e, 2, 2.6666667
+a a a b b b c f, 2, 2.0
+a a a b b b c g, 2, 1.6
+a a a b b b c h, 2, 1.1428572
+a a a b b b e f, 2, 2.0
+a a a b b b e g, 2, 1.6
+a a a b b b e h, 2, 1.1428572
+a a a b b b f g, 2, 1.6
+a a a b b b f h, 2, 1.1428572
+a a a b b b g g, 2, 1.3333334
+a a a b b b g h, 2, 1.1428572
+a a a b b c e f, 2, 2.0
+a a a b b c e g, 2, 1.6
+a a a b b c e h, 2, 1.1428572
+a a a b b c f g, 2, 1.6
+a a a b b c f h, 2, 1.1428572
+a a a b b c g g, 2, 1.3333334
+a a a b b c g h, 2, 1.1428572
+a a a b b e f g, 2, 1.6
+a a a b b e f h, 2, 1.1428572
+a a a b b e g g, 2, 1.3333334
+a a a b b e g h, 2, 1.1428572
+a a a b b f g g, 2, 1.3333334
+a a a b b f g h, 2, 1.1428572
+a a a b b g g h, 2, 1.1428572
+a a a b c e f g, 2, 1.6
+a a a b c e f h, 2, 1.1428572
+a a a b c e g g, 2, 1.3333334
+a a a b c e g h, 2, 1.1428572
+a a a b c f g g, 2, 1.3333334
+a a a b c f g h, 2, 1.1428572
+a a a b c g g h, 2, 1.1428572
+a a a b e f g g, 2, 1.3333334
+a a a b e f g h, 2, 1.1428572
+a a a b e g g h, 2, 1.1428572
+a a a b f g g h, 2, 1.1428572
+a a a c e f g g, 2, 1.3333334
+a a a c e f g h, 2, 1.1428572
+a a a c e g g h, 2, 1.1428572
+a a a c f g g h, 2, 1.1428572
+a a a e f g g h, 2, 1.1428572
+a a b b b b c e, 2, 2.6666667
+a a b b b b c f, 2, 2.0
+a a b b b b c g, 2, 1.6
+a a b b b b c h, 2, 1.1428572
+a a b b b b e f, 2, 2.0
+a a b b b b e g, 2, 1.6
+a a b b b b e h, 2, 1.1428572
+a a b b b b f g, 2, 1.6
+a a b b b b f h, 2, 1.1428572
+a a b b b b g g, 2, 1.3333334
+a a b b b b g h, 2, 1.1428572
+a a b b b c e f, 2, 2.0
+a a b b b c e g, 2, 1.6
+a a b b b c e h, 2, 1.1428572
+a a b b b c f g, 2, 1.6
+a a b b b c f h, 2, 1.1428572
+a a b b b c g g, 2, 1.3333334
+a a b b b c g h, 2, 1.1428572
+a a b b b e f g, 2, 1.6
+a a b b b e f h, 2, 1.1428572
+a a b b b e g g, 2, 1.3333334
+a a b b b e g h, 2, 1.1428572
+a a b b b f g g, 2, 1.3333334
+a a b b b f g h, 2, 1.1428572
+a a b b b g g h, 2, 1.1428572
+a a b b c e f g, 2, 1.6
+a a b b c e f h, 2, 1.1428572
+a a b b c e g g, 2, 1.3333334
+a a b b c e g h, 2, 1.1428572
+a a b b c f g g, 2, 1.3333334
+a a b b c f g h, 2, 1.1428572
+a a b b c g g h, 2, 1.1428572
+a a b b e f g g, 2, 1.3333334
+a a b b e f g h, 2, 1.1428572
+a a b b e g g h, 2, 1.1428572
+a a b b f g g h, 2, 1.1428572
+a a b c c d e e, 2, 8.0
+a a b c c d e f, 2, 2.0
+a a b c c d e g, 2, 1.6
+a a b c c d e h, 2, 1.3333334
+a a b c c d f g, 2, 1.6
+a a b c c d f h, 2, 1.3333334
+a a b c c d g h, 2, 1.3333334
+a a b c c d h h, 2, 1.1428572
+a a b c c e e e, 2, 4.0
+a a b c c e e f, 2, 2.0
+a a b c c e e g, 2, 1.6
+a a b c c e e h, 2, 1.3333334
+a a b c c e f g, 2, 1.6
+a a b c c e f h, 2, 1.3333334
+a a b c c e g h, 2, 1.3333334
+a a b c c e h h, 2, 1.1428572
+a a b c c f g h, 2, 1.3333334
+a a b c c f h h, 2, 1.1428572
+a a b c c g h h, 2, 1.1428572
+a a b c d e e e, 2, 4.0
+a a b c d e e f, 2, 2.0
+a a b c d e e g, 2, 1.6
+a a b c d e e h, 2, 1.3333334
+a a b c d e f g, 2, 1.6
+a a b c d e f h, 2, 1.3333334
+a a b c d e g h, 2, 1.3333334
+a a b c d e h h, 2, 1.1428572
+a a b c d f g h, 2, 1.3333334
+a a b c d f h h, 2, 1.1428572
+a a b c d g h h, 2, 1.1428572
+a a b c e e e e, 2, 2.6666667
+a a b c e e e f, 2, 2.0
+a a b c e e e g, 2, 1.6
+a a b c e e e h, 2, 1.3333334
+a a b c e e f g, 2, 1.6
+a a b c e e f h, 2, 1.3333334
+a a b c e e g h, 2, 1.3333334
+a a b c e e h h, 2, 1.1428572
+a a b c e f g g, 2, 1.3333334
+a a b c e f g h, 4, 1.2380953
+a a b c e f h h, 2, 1.1428572
+a a b c e g g h, 2, 1.1428572
+a a b c e g h h, 2, 1.1428572
+a a b c f g g h, 2, 1.1428572
+a a b c f g h h, 2, 1.1428572
+a a b d e e e e, 2, 2.6666667
+a a b d e e e f, 2, 2.0
+a a b d e e e g, 2, 1.6
+a a b d e e e h, 2, 1.3333334
+a a b d e e f g, 2, 1.6
+a a b d e e f h, 2, 1.3333334
+a a b d e e g h, 2, 1.3333334
+a a b d e e h h, 2, 1.1428572
+a a b d e f g h, 2, 1.3333334
+a a b d e f h h, 2, 1.1428572
+a a b d e g h h, 2, 1.1428572
+a a b d f g h h, 2, 1.1428572
+a a b e e e e f, 2, 2.0
+a a b e e e e g, 2, 1.6
+a a b e e e e h, 2, 1.3333334
+a a b e e e f g, 2, 1.6
+a a b e e e f h, 2, 1.3333334
+a a b e e e g h, 2, 1.3333334
+a a b e e e h h, 2, 1.1428572
+a a b e e f g h, 2, 1.3333334
+a a b e e f h h, 2, 1.1428572
+a a b e e g h h, 2, 1.1428572
+a a b e f g g h, 2, 1.1428572
+a a b e f g h h, 2, 1.1428572
+a a c c d e e e, 2, 4.0
+a a c c d e e f, 2, 2.0
+a a c c d e e g, 2, 1.6
+a a c c d e e h, 2, 1.3333334
+a a c c d e f g, 2, 1.6
+a a c c d e f h, 2, 1.3333334
+a a c c d e g h, 2, 1.3333334
+a a c c d e h h, 2, 1.1428572
+a a c c d f g h, 2, 1.3333334
+a a c c d f h h, 2, 1.1428572
+a a c c d g h h, 2, 1.1428572
+a a c c e e e e, 2, 2.6666667
+a a c c e e e f, 2, 2.0
+a a c c e e e g, 2, 1.6
+a a c c e e e h, 2, 1.3333334
+a a c c e e f g, 2, 1.6
+a a c c e e f h, 2, 1.3333334
+a a c c e e g h, 2, 1.3333334
+a a c c e e h h, 2, 1.1428572
+a a c c e f g h, 2, 1.3333334
+a a c c e f h h, 2, 1.1428572
+a a c c e g h h, 2, 1.1428572
+a a c c f g h h, 2, 1.1428572
+a a c d e e e e, 2, 2.6666667
+a a c d e e e f, 2, 2.0
+a a c d e e e g, 2, 1.6
+a a c d e e e h, 2, 1.3333334
+a a c d e e f g, 2, 1.6
+a a c d e e f h, 2, 1.3333334
+a a c d e e g h, 2, 1.3333334
+a a c d e e h h, 2, 1.1428572
+a a c d e f f f, 2, 2.0
+a a c d e f g h, 2, 1.3333334
+a a c d e f h h, 2, 1.1428572
+a a c d e g h h, 2, 1.1428572
+a a c d f f f f, 2, 1.6
+a a c d f g h h, 2, 1.1428572
+a a c e e e e f, 2, 2.0
+a a c e e e e g, 2, 1.6
+a a c e e e e h, 2, 1.3333334
+a a c e e e f g, 2, 1.6
+a a c e e e f h, 2, 1.3333334
+a a c e e e g h, 2, 1.3333334
+a a c e e e h h, 2, 1.1428572
+a a c e e f g h, 2, 1.3333334
+a a c e e f h h, 2, 1.1428572
+a a c e e g h h, 2, 1.1428572
+a a c e f f f f, 2, 1.6
+a a c e f g g h, 2, 1.1428572
+a a c e f g h h, 2, 1.1428572
+a a c f f f f f, 2, 1.3333334
+a a d e e e e f, 2, 2.0
+a a d e e e e g, 2, 1.6
+a a d e e e e h, 2, 1.3333334
+a a d e e e f g, 2, 1.6
+a a d e e e f h, 2, 1.3333334
+a a d e e e g h, 2, 1.3333334
+a a d e e e h h, 2, 1.1428572
+a a d e e f g h, 2, 1.3333334
+a a d e e f h h, 2, 1.1428572
+a a d e e g h h, 2, 1.1428572
+a a d e f f f f, 2, 1.6
+a a d e f g h h, 2, 1.1428572
+a a d f f f f f, 2, 1.3333334
+a a e e e e f g, 2, 1.6
+a a e e e e f h, 2, 1.3333334
+a a e e e e g h, 2, 1.3333334
+a a e e e e h h, 2, 1.1428572
+a a e e e f g h, 2, 1.3333334
+a a e e e f h h, 2, 1.1428572
+a a e e e g h h, 2, 1.1428572
+a a e e f g h h, 2, 1.1428572
+a a e f f f f f, 2, 1.3333334
+a a f f f f f f, 2, 1.1428572
+a b a c d e f f, 2, 2.6666667
+a b a c d f f f, 2, 2.0
+a b a c e f f f, 2, 2.0
+a b a c f f f f, 2, 1.6
+a b a d e f f f, 2, 2.0
+a b a d f f f f, 2, 1.6
+a b a e f f f f, 2, 1.6
+a b a f f f f f, 2, 1.3333334
+a b b b b c e f, 2, 8.0
+a b b b b c e g, 2, 4.0
+a b b b b c e h, 2, 2.0
+a b b b b c f g, 2, 4.0
+a b b b b c f h, 2, 2.0
+a b b b b c g g, 2, 2.6666667
+a b b b b c g h, 2, 2.0
+a b b b b e f g, 2, 4.0
+a b b b b e f h, 2, 2.0
+a b b b b e g g, 2, 2.6666667
+a b b b b e g h, 2, 2.0
+a b b b b f g g, 2, 2.6666667
+a b b b b f g h, 2, 2.0
+a b b b b g g h, 2, 2.0
+a b b b c d d e, 2, 8.0
+a b b b c d d f, 2, 4.0
+a b b b c d d h, 2, 1.6
+a b b b c d e f, 2, 4.0
+a b b b c d e h, 2, 1.6
+a b b b c d f f, 2, 2.6666667
+a b b b c d f h, 2, 1.6
+a b b b c d h h, 2, 1.3333334
+a b b b c e f f, 2, 2.6666667
+a b b b c e f g, 2, 4.0
+a b b b c e f h, 4, 1.8
+a b b b c e g g, 2, 2.6666667
+a b b b c e g h, 2, 2.0
+a b b b c e h h, 2, 1.3333334
+a b b b c f f f, 2, 2.0
+a b b b c f f h, 2, 1.6
+a b b b c f g g, 2, 2.6666667
+a b b b c f g h, 2, 2.0
+a b b b c f h h, 2, 1.3333334
+a b b b c g g h, 2, 2.0
+a b b b c h h h, 2, 1.1428572
+a b b b d d e f, 2, 4.0
+a b b b d d e h, 2, 1.6
+a b b b d d f f, 2, 2.6666667
+a b b b d d f h, 2, 1.6
+a b b b d d h h, 2, 1.3333334
+a b b b d e f f, 2, 2.6666667
+a b b b d e f h, 2, 1.6
+a b b b d e h h, 2, 1.3333334
+a b b b d f f f, 2, 2.0
+a b b b d f f h, 2, 1.6
+a b b b d f h h, 2, 1.3333334
+a b b b d h h h, 2, 1.1428572
+a b b b e f f f, 2, 2.0
+a b b b e f f h, 2, 1.6
+a b b b e f g g, 2, 2.6666667
+a b b b e f g h, 2, 2.0
+a b b b e f h h, 2, 1.3333334
+a b b b e g g h, 2, 2.0
+a b b b e h h h, 2, 1.1428572
+a b b b f f f h, 2, 1.6
+a b b b f f h h, 2, 1.3333334
+a b b b f g g h, 2, 2.0
+a b b b f h h h, 2, 1.1428572
+a b b c d d e f, 2, 4.0
+a b b c d d e h, 2, 1.6
+a b b c d d f f, 2, 2.6666667
+a b b c d d f h, 2, 1.6
+a b b c d d h h, 2, 1.3333334
+a b b c d e f f, 4, 2.6666667
+a b b c d e f h, 2, 1.6
+a b b c d e h h, 2, 1.3333334
+a b b c d f f f, 4, 2.0
+a b b c d f f h, 2, 1.6
+a b b c d f h h, 2, 1.3333334
+a b b c d h h h, 2, 1.1428572
+a b b c e f f f, 4, 2.0
+a b b c e f f h, 2, 1.6
+a b b c e f g g, 2, 2.6666667
+a b b c e f g h, 2, 2.0
+a b b c e f h h, 2, 1.3333334
+a b b c e g g h, 2, 2.0
+a b b c e h h h, 2, 1.1428572
+a b b c f f f f, 2, 1.6
+a b b c f f f h, 2, 1.6
+a b b c f f h h, 2, 1.3333334
+a b b c f g g h, 2, 2.0
+a b b c f h h h, 2, 1.1428572
+a b b d d e f f, 2, 2.6666667
+a b b d d e f h, 2, 1.6
+a b b d d e h h, 2, 1.3333334
+a b b d d f f f, 2, 2.0
+a b b d d f f h, 2, 1.6
+a b b d d f h h, 2, 1.3333334
+a b b d d h h h, 2, 1.1428572
+a b b d e f f f, 4, 2.0
+a b b d e f f h, 2, 1.6
+a b b d e f h h, 2, 1.3333334
+a b b d e h h h, 2, 1.1428572
+a b b d f f f f, 2, 1.6
+a b b d f f f h, 2, 1.6
+a b b d f f h h, 2, 1.3333334
+a b b d f h h h, 2, 1.1428572
+a b b e f f f f, 2, 1.6
+a b b e f f f h, 2, 1.6
+a b b e f f h h, 2, 1.3333334
+a b b e f g g h, 2, 2.0
+a b b e f h h h, 2, 1.1428572
+a b b f f f f f, 2, 1.3333334
+a b b f f f h h, 2, 1.3333334
+a b b f f h h h, 2, 1.1428572
+a b c a c d e f, 2, 4.0
+a b c a c d f f, 2, 2.6666667
+a b c a c e f f, 2, 2.6666667
+a b c a c f f f, 2, 2.0
+a b c a d e f f, 2, 2.6666667
+a b c a d f f f, 2, 2.0
+a b c a e f f f, 2, 2.0
+a b c a f f f f, 2, 1.6
+a b c b c d e f, 2, 4.0
+a b c b c d f f, 2, 2.6666667
+a b c b c e f f, 2, 2.6666667
+a b c b c f f f, 2, 2.0
+a b c b d e f f, 2, 2.6666667
+a b c b d f f f, 2, 2.0
+a b c b e f f f, 2, 2.0
+a b c b f f f f, 2, 1.6
+a b c c a c d e, 2, 8.0
+a b c c a c d f, 2, 4.0
+a b c c a c e f, 2, 4.0
+a b c c a c f f, 2, 2.6666667
+a b c c a d e f, 2, 4.0
+a b c c a d f f, 2, 2.6666667
+a b c c a e f f, 2, 2.6666667
+a b c c a f f f, 2, 2.0
+a b c c b c d e, 2, 8.0
+a b c c b c d f, 2, 4.0
+a b c c b c e f, 2, 4.0
+a b c c b c f f, 2, 2.6666667
+a b c c b d e f, 2, 4.0
+a b c c b d f f, 2, 2.6666667
+a b c c b e f f, 2, 2.6666667
+a b c c b f f f, 2, 2.0
+a b c c c c d e, 2, 8.0
+a b c c c c d f, 2, 4.0
+a b c c c c e f, 2, 4.0
+a b c c c c f f, 2, 2.6666667
+a b c c c d e f, 6, 4.0
+a b c c c d f f, 6, 2.6666667
+a b c c c e f f, 6, 2.6666667
+a b c c c f f f, 6, 2.0
+a b c c d e e e, 2, 8.0
+a b c c d e e f, 2, 2.6666667
+a b c c d e e g, 2, 2.0
+a b c c d e e h, 2, 1.6
+a b c c d e f f, 6, 2.6666667
+a b c c d e f g, 2, 2.0
+a b c c d e f h, 2, 1.6
+a b c c d e g h, 2, 1.6
+a b c c d e h h, 2, 1.3333334
+a b c c d f f f, 6, 2.0
+a b c c d f g h, 2, 1.6
+a b c c d f h h, 2, 1.3333334
+a b c c d g h h, 2, 1.3333334
+a b c c e e e e, 2, 4.0
+a b c c e e e f, 2, 2.6666667
+a b c c e e e g, 2, 2.0
+a b c c e e e h, 2, 1.6
+a b c c e e f g, 2, 2.0
+a b c c e e f h, 2, 1.6
+a b c c e e g h, 2, 1.6
+a b c c e e h h, 2, 1.3333334
+a b c c e f f f, 6, 2.0
+a b c c e f g h, 2, 1.6
+a b c c e f h h, 2, 1.3333334
+a b c c e g h h, 2, 1.3333334
+a b c c f f f f, 6, 1.6
+a b c c f g h h, 2, 1.3333334
+a b c d d e f f, 2, 2.6666667
+a b c d d e f h, 2, 1.6
+a b c d d e h h, 2, 1.3333334
+a b c d d f f f, 2, 2.0
+a b c d d f f h, 2, 1.6
+a b c d d f h h, 2, 1.3333334
+a b c d d h h h, 2, 1.1428572
+a b c d e e e e, 2, 4.0
+a b c d e e e f, 2, 2.6666667
+a b c d e e e g, 2, 2.0
+a b c d e e e h, 2, 1.6
+a b c d e e f g, 2, 2.0
+a b c d e e f h, 2, 1.6
+a b c d e e g h, 2, 1.6
+a b c d e e h h, 2, 1.3333334
+a b c d e f f f, 8, 2.0
+a b c d e f f h, 2, 1.6
+a b c d e f g h, 2, 1.6
+a b c d e f h h, 4, 1.3333334
+a b c d e g h h, 2, 1.3333334
+a b c d e h h h, 2, 1.1428572
+a b c d f f f f, 6, 1.6
+a b c d f f f h, 2, 1.6
+a b c d f f h h, 2, 1.3333334
+a b c d f g h h, 2, 1.3333334
+a b c d f h h h, 2, 1.1428572
+a b c e e e e f, 2, 2.6666667
+a b c e e e e g, 2, 2.0
+a b c e e e e h, 2, 1.6
+a b c e e e f g, 2, 2.0
+a b c e e e f h, 2, 1.6
+a b c e e e g h, 2, 1.6
+a b c e e e h h, 2, 1.3333334
+a b c e e f g h, 2, 1.6
+a b c e e f h h, 2, 1.3333334
+a b c e e g h h, 2, 1.3333334
+a b c e f f f f, 6, 1.6
+a b c e f f f h, 2, 1.6
+a b c e f f h h, 2, 1.3333334
+a b c e f g g h, 2, 2.0
+a b c e f g h h, 2, 1.3333334
+a b c e f h h h, 2, 1.1428572
+a b c f f f f f, 6, 1.3333334
+a b c f f f h h, 2, 1.3333334
+a b c f f h h h, 2, 1.1428572
+a b d d e f f f, 2, 2.0
+a b d d e f f h, 2, 1.6
+a b d d e f h h, 2, 1.3333334
+a b d d e h h h, 2, 1.1428572
+a b d d f f f h, 2, 1.6
+a b d d f f h h, 2, 1.3333334
+a b d d f h h h, 2, 1.1428572
+a b d e e e e f, 2, 2.6666667
+a b d e e e e g, 2, 2.0
+a b d e e e e h, 2, 1.6
+a b d e e e f g, 2, 2.0
+a b d e e e f h, 2, 1.6
+a b d e e e g h, 2, 1.6
+a b d e e e h h, 2, 1.3333334
+a b d e e f g h, 2, 1.6
+a b d e e f h h, 2, 1.3333334
+a b d e e g h h, 2, 1.3333334
+a b d e f f f f, 6, 1.6
+a b d e f f f h, 2, 1.6
+a b d e f f h h, 2, 1.3333334
+a b d e f g h h, 2, 1.3333334
+a b d e f h h h, 2, 1.1428572
+a b d f f f f f, 6, 1.3333334
+a b d f f f h h, 2, 1.3333334
+a b d f f h h h, 2, 1.1428572
+a b e e e e f g, 2, 2.0
+a b e e e e f h, 2, 1.6
+a b e e e e g h, 2, 1.6
+a b e e e e h h, 2, 1.3333334
+a b e e e f g h, 2, 1.6
+a b e e e f h h, 2, 1.3333334
+a b e e e g h h, 2, 1.3333334
+a b e e f g h h, 2, 1.3333334
+a b e f f f f f, 6, 1.3333334
+a b e f f f h h, 2, 1.3333334
+a b e f f h h h, 2, 1.1428572
+a b f f f f f f, 6, 1.1428572
+a b f f f h h h, 2, 1.1428572
+b a c d e f f f, 2, 2.6666667
+b a c d f f f f, 2, 2.0
+b a c e f f f f, 2, 2.0
+b a c f f f f f, 2, 1.6
+b a d e f f f f, 2, 2.0
+b a d f f f f f, 2, 1.6
+b a e f f f f f, 2, 1.6
+b a f f f f f f, 2, 1.3333334
+a c a c d e f f, 2, 2.6666667
+a c a c d f f f, 2, 2.0
+a c a c e f f f, 2, 2.0
+a c a c f f f f, 2, 1.6
+a c a d e f f f, 2, 2.0
+a c a d f f f f, 2, 1.6
+a c a e f f f f, 2, 1.6
+a c a f f f f f, 2, 1.3333334
+a c b c d e f f, 2, 2.6666667
+a c b c d f f f, 2, 2.0
+a c b c e f f f, 2, 2.0
+a c b c f f f f, 2, 1.6
+a c b d e f f f, 2, 2.0
+a c b d f f f f, 2, 1.6
+a c b e f f f f, 2, 1.6
+a c b f f f f f, 2, 1.3333334
+a c c a c d e f, 2, 4.0
+a c c a c d f f, 2, 2.6666667
+a c c a c e f f, 2, 2.6666667
+a c c a c f f f, 2, 2.0
+a c c a d e f f, 2, 2.6666667
+a c c a d f f f, 2, 2.0
+a c c a e f f f, 2, 2.0
+a c c a f f f f, 2, 1.6
+a c c b c d e f, 2, 4.0
+a c c b c d f f, 2, 2.6666667
+a c c b c e f f, 2, 2.6666667
+a c c b c f f f, 2, 2.0
+a c c b d e f f, 2, 2.6666667
+a c c b d f f f, 2, 2.0
+a c c b e f f f, 2, 2.0
+a c c b f f f f, 2, 1.6
+a c c c c d e f, 2, 4.0
+a c c c c d f f, 2, 2.6666667
+a c c c c e f f, 2, 2.6666667
+a c c c c f f f, 2, 2.0
+a c c c d e f f, 6, 2.6666667
+a c c c d f f f, 6, 2.0
+a c c c e f f f, 6, 2.0
+a c c c f f f f, 6, 1.6
+a c c d e e e e, 2, 4.0
+a c c d e e e f, 2, 2.6666667
+a c c d e e e g, 2, 2.0
+a c c d e e e h, 2, 1.6
+a c c d e e f g, 2, 2.0
+a c c d e e f h, 2, 1.6
+a c c d e e g h, 2, 1.6
+a c c d e e h h, 2, 1.3333334
+a c c d e f f f, 6, 2.0
+a c c d e f g h, 2, 1.6
+a c c d e f h h, 2, 1.3333334
+a c c d e g h h, 2, 1.3333334
+a c c d f f f f, 6, 1.6
+a c c d f g h h, 2, 1.3333334
+a c c e e e e f, 2, 2.6666667
+a c c e e e e g, 2, 2.0
+a c c e e e e h, 2, 1.6
+a c c e e e f g, 2, 2.0
+a c c e e e f h, 2, 1.6
+a c c e e e g h, 2, 1.6
+a c c e e e h h, 2, 1.3333334
+a c c e e f g h, 2, 1.6
+a c c e e f h h, 2, 1.3333334
+a c c e e g h h, 2, 1.3333334
+a c c e f f f f, 6, 1.6
+a c c e f g h h, 2, 1.3333334
+a c c f f f f f, 6, 1.3333334
+a c d d e f f f, 2, 2.0
+a c d d e f f h, 2, 1.6
+a c d d e f h h, 2, 1.3333334
+a c d d e h h h, 2, 1.1428572
+a c d d f f f h, 2, 1.6
+a c d d f f h h, 2, 1.3333334
+a c d d f h h h, 2, 1.1428572
+a c d e e e e f, 2, 2.6666667
+a c d e e e e g, 2, 2.0
+a c d e e e e h, 2, 1.6
+a c d e e e f g, 2, 2.0
+a c d e e e f h, 2, 1.6
+a c d e e e g h, 2, 1.6
+a c d e e e h h, 2, 1.3333334
+a c d e e f g h, 2, 1.6
+a c d e e f h h, 2, 1.3333334
+a c d e e g h h, 2, 1.3333334
+a c d e f f f f, 6, 1.6
+a c d e f f f h, 2, 1.6
+a c d e f f h h, 2, 1.3333334
+a c d e f g h h, 2, 1.3333334
+a c d e f h h h, 2, 1.1428572
+a c d f f f f f, 6, 1.3333334
+a c d f f f h h, 2, 1.3333334
+a c d f f h h h, 2, 1.1428572
+a c e e e e f g, 2, 2.0
+a c e e e e f h, 2, 1.6
+a c e e e e g h, 2, 1.6
+a c e e e e h h, 2, 1.3333334
+a c e e e f g h, 2, 1.6
+a c e e e f h h, 2, 1.3333334
+a c e e e g h h, 2, 1.3333334
+a c e e f g h h, 2, 1.3333334
+a c e f f f f f, 6, 1.3333334
+a c e f f f h h, 2, 1.3333334
+a c e f f h h h, 2, 1.1428572
+a c f f f f f f, 6, 1.1428572
+a c f f f h h h, 2, 1.1428572
+c a c d e f f f, 2, 8.0
+c a c d f f f f, 2, 4.0
+c a c e f f f f, 2, 4.0
+c a c f f f f f, 2, 2.6666667
+c a d e f f f f, 2, 4.0
+c a d f f f f f, 2, 2.6666667
+c a e f f f f f, 2, 2.6666667
+c a f f f f f f, 2, 2.0
+a d d e f f f h, 2, 1.6
+a d d e f f h h, 2, 1.3333334
+a d d e f h h h, 2, 1.1428572
+a d d f f f h h, 2, 1.3333334
+a d d f f h h h, 2, 1.1428572
+a d e e e e f g, 2, 2.0
+a d e e e e f h, 2, 1.6
+a d e e e e g h, 2, 1.6
+a d e e e e h h, 2, 1.3333334
+a d e e e f g h, 2, 1.6
+a d e e e f h h, 2, 1.3333334
+a d e e e g h h, 2, 1.3333334
+a d e e f g h h, 2, 1.3333334
+a d e f f f f f, 6, 2.2222223
+a d e f f f h h, 2, 1.3333334
+a d e f f h h h, 2, 1.1428572
+a d f f f f f f, 6, 1.6507937
+a d f f f h h h, 2, 1.1428572
+a e e e e f g h, 2, 1.6
+a e e e e f h h, 2, 1.3333334
+a e e e e g h h, 2, 1.3333334
+a e e e f g h h, 2, 1.3333334
+a e f f f f f f, 6, 1.6507937
+a e f f f h h h, 2, 1.1428572
+a f f f f f f f, 6, 1.3333334
+b b b b c e f g, 2, 8.0
+b b b b c e f h, 2, 2.6666667
+b b b b c e g g, 2, 4.0
+b b b b c e g h, 2, 2.6666667
+b b b b c f g g, 2, 4.0
+b b b b c f g h, 2, 2.6666667
+b b b b c g g h, 2, 2.6666667
+b b b b e f g g, 2, 4.0
+b b b b e f g h, 2, 2.6666667
+b b b b e g g h, 2, 2.6666667
+b b b b f g g h, 2, 2.6666667
+b b b c d d e f, 2, 8.0
+b b b c d d e h, 2, 2.0
+b b b c d d f f, 2, 4.0
+b b b c d d f h, 2, 2.0
+b b b c d d h h, 2, 1.6
+b b b c d e f f, 2, 4.0
+b b b c d e f h, 2, 2.0
+b b b c d e h h, 2, 1.6
+b b b c d f f f, 2, 2.6666667
+b b b c d f f h, 2, 2.0
+b b b c d f h h, 2, 1.6
+b b b c d h h h, 2, 1.3333334
+b b b c e f f f, 2, 2.6666667
+b b b c e f f h, 2, 2.0
+b b b c e f g g, 2, 4.0
+b b b c e f g h, 2, 2.6666667
+b b b c e f h h, 2, 1.6
+b b b c e g g h, 2, 2.6666667
+b b b c e h h h, 2, 1.3333334
+b b b c f f f h, 2, 2.0
+b b b c f f h h, 2, 1.6
+b b b c f g g h, 2, 2.6666667
+b b b c f h h h, 2, 1.3333334
+b b b d d e f f, 2, 4.0
+b b b d d e f h, 2, 2.0
+b b b d d e h h, 2, 1.6
+b b b d d f f f, 2, 2.6666667
+b b b d d f f h, 2, 2.0
+b b b d d f h h, 2, 1.6
+b b b d d h h h, 2, 1.3333334
+b b b d e f f f, 2, 2.6666667
+b b b d e f f h, 2, 2.0
+b b b d e f h h, 2, 1.6
+b b b d e h h h, 2, 1.3333334
+b b b d f f f h, 2, 2.0
+b b b d f f h h, 2, 1.6
+b b b d f h h h, 2, 1.3333334
+b b b e f f f h, 2, 2.0
+b b b e f f h h, 2, 1.6
+b b b e f g g h, 2, 2.6666667
+b b b e f h h h, 2, 1.3333334
+b b b f f f h h, 2, 1.6
+b b b f f h h h, 2, 1.3333334
+b b c d d e f f, 2, 4.0
+b b c d d e f h, 2, 2.0
+b b c d d e h h, 2, 1.6
+b b c d d f f f, 2, 2.6666667
+b b c d d f f h, 2, 2.0
+b b c d d f h h, 2, 1.6
+b b c d d h h h, 2, 1.3333334
+b b c d e f f f, 4, 2.6666667
+b b c d e f f h, 2, 2.0
+b b c d e f h h, 2, 1.6
+b b c d e h h h, 2, 1.3333334
+b b c d f f f f, 2, 2.0
+b b c d f f f h, 2, 2.0
+b b c d f f h h, 2, 1.6
+b b c d f h h h, 2, 1.3333334
+b b c e f f f f, 2, 2.0
+b b c e f f f h, 2, 2.0
+b b c e f f h h, 2, 1.6
+b b c e f g g h, 2, 2.6666667
+b b c e f h h h, 2, 1.3333334
+b b c f f f f f, 2, 1.6
+b b c f f f h h, 2, 1.6
+b b c f f h h h, 2, 1.3333334
+b b d d e f f f, 2, 2.6666667
+b b d d e f f h, 2, 2.0
+b b d d e f h h, 2, 1.6
+b b d d e h h h, 2, 1.3333334
+b b d d f f f h, 2, 2.0
+b b d d f f h h, 2, 1.6
+b b d d f h h h, 2, 1.3333334
+b b d e f f f f, 2, 2.0
+b b d e f f f h, 2, 2.0
+b b d e f f h h, 2, 1.6
+b b d e f h h h, 2, 1.3333334
+b b d f f f f f, 2, 1.6
+b b d f f f h h, 2, 1.6
+b b d f f h h h, 2, 1.3333334
+b b e f f f f f, 2, 1.6
+b b e f f f h h, 2, 1.6
+b b e f f h h h, 2, 1.3333334
+b b f f f f f f, 2, 1.3333334
+b b f f f h h h, 2, 1.3333334
+b c a c d e f f, 2, 4.0
+b c a c d f f f, 2, 2.6666667
+b c a c e f f f, 2, 2.6666667
+b c a c f f f f, 2, 2.0
+b c a d e f f f, 2, 2.6666667
+b c a d f f f f, 2, 2.0
+b c a e f f f f, 2, 2.0
+b c a f f f f f, 2, 1.6
+b c b c d e f f, 2, 4.0
+b c b c d f f f, 2, 2.6666667
+b c b c e f f f, 2, 2.6666667
+b c b c f f f f, 2, 2.0
+b c b d e f f f, 2, 2.6666667
+b c b d f f f f, 2, 2.0
+b c b e f f f f, 2, 2.0
+b c b f f f f f, 2, 1.6
+b c c a c d e f, 2, 8.0
+b c c a c d f f, 2, 4.0
+b c c a c e f f, 2, 4.0
+b c c a c f f f, 2, 2.6666667
+b c c a d e f f, 2, 4.0
+b c c a d f f f, 2, 2.6666667
+b c c a e f f f, 2, 2.6666667
+b c c a f f f f, 2, 2.0
+b c c b c d e f, 2, 8.0
+b c c b c d f f, 2, 4.0
+b c c b c e f f, 2, 4.0
+b c c b c f f f, 2, 2.6666667
+b c c b d e f f, 2, 4.0
+b c c b d f f f, 2, 2.6666667
+b c c b e f f f, 2, 2.6666667
+b c c b f f f f, 2, 2.0
+b c c c c d e f, 2, 8.0
+b c c c c d f f, 2, 4.0
+b c c c c e f f, 2, 4.0
+b c c c c f f f, 2, 2.6666667
+b c c c d e f f, 6, 4.0
+b c c c d f f f, 6, 2.6666667
+b c c c e f f f, 6, 2.6666667
+b c c c f f f f, 6, 2.0
+b c c d e e e e, 2, 8.0
+b c c d e e e f, 2, 4.0
+b c c d e e e g, 2, 2.6666667
+b c c d e e e h, 2, 2.0
+b c c d e e f g, 2, 2.6666667
+b c c d e e f h, 2, 2.0
+b c c d e e g h, 2, 2.0
+b c c d e e h h, 2, 1.6
+b c c d e f f f, 6, 2.6666667
+b c c d e f g h, 2, 2.0
+b c c d e f h h, 2, 1.6
+b c c d e g h h, 2, 1.6
+b c c d f f f f, 6, 2.0
+b c c d f g h h, 2, 1.6
+b c c e e e e f, 2, 4.0
+b c c e e e e g, 2, 2.6666667
+b c c e e e e h, 2, 2.0
+b c c e e e f g, 2, 2.6666667
+b c c e e e f h, 2, 2.0
+b c c e e e g h, 2, 2.0
+b c c e e e h h, 2, 1.6
+b c c e e f g h, 2, 2.0
+b c c e e f h h, 2, 1.6
+b c c e e g h h, 2, 1.6
+b c c e f f f f, 6, 2.0
+b c c e f g h h, 2, 1.6
+b c c f f f f f, 6, 1.6
+b c d d e f f f, 2, 8.0
+b c d d e f f h, 2, 4.0
+b c d d e f h h, 2, 2.6666667
+b c d d e h h h, 2, 2.0
+b c d d f f f h, 2, 4.0
+b c d d f f h h, 2, 2.6666667
+b c d d f h h h, 2, 2.0
+b c d e e e e f, 2, 4.0
+b c d e e e e g, 2, 2.6666667
+b c d e e e e h, 2, 2.0
+b c d e e e f g, 2, 2.6666667
+b c d e e e f h, 2, 2.0
+b c d e e e g h, 2, 2.0
+b c d e e e h h, 2, 1.6
+b c d e e f g h, 2, 2.0
+b c d e e f h h, 2, 1.6
+b c d e e g h h, 2, 1.6
+b c d e f f f f, 6, 2.0
+b c d e f f f h, 2, 4.0
+b c d e f f h h, 2, 2.6666667
+b c d e f g h h, 2, 1.6
+b c d e f h h h, 2, 2.0
+b c d f f f f f, 6, 1.6
+b c d f f f h h, 2, 2.6666667
+b c d f f h h h, 2, 2.0
+b c e e e e f g, 2, 2.6666667
+b c e e e e f h, 2, 2.0
+b c e e e e g h, 2, 2.0
+b c e e e e h h, 2, 1.6
+b c e e e f g h, 2, 2.0
+b c e e e f h h, 2, 1.6
+b c e e e g h h, 2, 1.6
+b c e e f g h h, 2, 1.6
+b c e f f f f f, 6, 1.6
+b c e f f f h h, 2, 2.6666667
+b c e f f h h h, 2, 2.0
+b c f f f f f f, 6, 1.3333334
+b c f f f h h h, 2, 2.0
+c b c d e f f f, 2, 8.0
+c b c d f f f f, 2, 4.0
+c b c e f f f f, 2, 4.0
+c b c f f f f f, 2, 2.6666667
+c b d e f f f f, 2, 4.0
+c b d f f f f f, 2, 2.6666667
+c b e f f f f f, 2, 2.6666667
+c b f f f f f f, 2, 2.0
+b d d e f f f h, 2, 4.0
+b d d e f f h h, 2, 2.6666667
+b d d e f h h h, 2, 2.0
+b d d f f f h h, 2, 2.6666667
+b d d f f h h h, 2, 2.0
+b d e e e e f g, 2, 2.6666667
+b d e e e e f h, 2, 2.0
+b d e e e e g h, 2, 2.0
+b d e e e e h h, 2, 1.6
+b d e e e f g h, 2, 2.0
+b d e e e f h h, 2, 1.6
+b d e e e g h h, 2, 1.6
+b d e e f g h h, 2, 1.6
+b d e f f f f f, 6, 2.4
+b d e f f f h h, 2, 2.6666667
+b d e f f h h h, 2, 2.0
+b d f f f f f f, 6, 1.7777778
+b d f f f h h h, 2, 2.0
+b e e e e f g h, 2, 2.0
+b e e e e f h h, 2, 1.6
+b e e e e g h h, 2, 1.6
+b e e e f g h h, 2, 1.6
+b e f f f f f f, 6, 1.7777778
+b e f f f h h h, 2, 2.0
+b f f f f f f f, 6, 1.4285715
+c c a c d e f f, 2, 8.0
+c c a c d f f f, 2, 4.0
+c c a c e f f f, 2, 4.0
+c c a c f f f f, 2, 2.6666667
+c c a d e f f f, 2, 4.0
+c c a d f f f f, 2, 2.6666667
+c c a e f f f f, 2, 2.6666667
+c c a f f f f f, 2, 2.0
+c c b c d e f f, 2, 8.0
+c c b c d f f f, 2, 4.0
+c c b c e f f f, 2, 4.0
+c c b c f f f f, 2, 2.6666667
+c c b d e f f f, 2, 4.0
+c c b d f f f f, 2, 2.6666667
+c c b e f f f f, 2, 2.6666667
+c c b f f f f f, 2, 2.0
+c c c c d e f f, 2, 8.0
+c c c c d f f f, 2, 4.0
+c c c c e f f f, 2, 4.0
+c c c c f f f f, 2, 2.6666667
+c c c d e f f f, 6, 4.0
+c c c d f f f f, 6, 2.6666667
+c c c e f f f f, 6, 2.6666667
+c c c f f f f f, 6, 2.0
+c c d e e e e f, 2, 8.0
+c c d e e e e g, 2, 4.0
+c c d e e e e h, 2, 2.6666667
+c c d e e e f g, 2, 4.0
+c c d e e e f h, 2, 2.6666667
+c c d e e e g h, 2, 2.6666667
+c c d e e e h h, 2, 2.0
+c c d e e f g h, 2, 2.6666667
+c c d e e f h h, 2, 2.0
+c c d e e g h h, 2, 2.0
+c c d e f f f f, 6, 2.6666667
+c c d e f g h h, 2, 2.0
+c c d f f f f f, 6, 2.0
+c c e e e e f g, 2, 4.0
+c c e e e e f h, 2, 2.6666667
+c c e e e e g h, 2, 2.6666667
+c c e e e e h h, 2, 2.0
+c c e e e f g h, 2, 2.6666667
+c c e e e f h h, 2, 2.0
+c c e e e g h h, 2, 2.0
+c c e e f g h h, 2, 2.0
+c c e f f f f f, 6, 2.0
+c c f f f f f f, 6, 1.6
+c d d e f f f h, 2, 8.0
+c d d e f f h h, 2, 4.0
+c d d e f h h h, 2, 2.6666667
+c d d f f f h h, 2, 4.0
+c d d f f h h h, 2, 2.6666667
+c d e e e e f g, 2, 8.0
+c d e e e e f h, 2, 4.0
+c d e e e e g h, 2, 4.0
+c d e e e e h h, 2, 2.6666667
+c d e e e f g h, 2, 4.0
+c d e e e f h h, 2, 2.6666667
+c d e e e g h h, 2, 2.6666667
+c d e e f g h h, 2, 2.6666667
+c d e f f f f f, 6, 8.0
+c d e f f f h h, 2, 4.0
+c d e f f h h h, 2, 2.6666667
+c d f f f f f f, 6, 4.0
+c d f f f h h h, 2, 2.6666667
+c e e e e f g h, 2, 4.0
+c e e e e f h h, 2, 2.6666667
+c e e e e g h h, 2, 2.6666667
+c e e e f g h h, 2, 2.6666667
+c e f f f f f f, 6, 4.0
+c e f f f h h h, 2, 2.6666667
+c f f f f f f f, 6, 2.6666667
+d d e f f f h h, 2, 8.0
+d d e f f h h h, 2, 4.0
+d d f f f h h h, 2, 4.0
+d e e e e f g h, 2, 8.0
+d e e e e f h h, 2, 4.0
+d e e e e g h h, 2, 4.0
+d e e e f g h h, 2, 4.0
+d e f f f f f f, 6, 8.0
+d e f f f h h h, 2, 8.0
+d f f f f f f f, 6, 4.0
+e e e e f g h h, 2, 8.0
+e f f f f f f f, 6, 8.0
+f f f f f f f f, 6, 8.0
+a a a a b b b b c, 2, 9.0
+a a a a b b b b e, 2, 4.5
+a a a a b b b b f, 2, 3.0
+a a a a b b b b g, 2, 2.25
+a a a a b b b b h, 2, 1.5
+a a a a b b b c e, 2, 4.5
+a a a a b b b c f, 2, 3.0
+a a a a b b b c g, 2, 2.25
+a a a a b b b c h, 2, 1.5
+a a a a b b b e f, 2, 3.0
+a a a a b b b e g, 2, 2.25
+a a a a b b b e h, 2, 1.5
+a a a a b b b f g, 2, 2.25
+a a a a b b b f h, 2, 1.5
+a a a a b b b g g, 2, 1.8
+a a a a b b b g h, 2, 1.5
+a a a a b b c e f, 2, 3.0
+a a a a b b c e g, 2, 2.25
+a a a a b b c e h, 2, 1.5
+a a a a b b c f g, 2, 2.25
+a a a a b b c f h, 2, 1.5
+a a a a b b c g g, 2, 1.8
+a a a a b b c g h, 2, 1.5
+a a a a b b e f g, 2, 2.25
+a a a a b b e f h, 2, 1.5
+a a a a b b e g g, 2, 1.8
+a a a a b b e g h, 2, 1.5
+a a a a b b f g g, 2, 1.8
+a a a a b b f g h, 2, 1.5
+a a a a b b g g h, 2, 1.5
+a a a a b c e f g, 2, 2.25
+a a a a b c e f h, 2, 1.5
+a a a a b c e g g, 2, 1.8
+a a a a b c e g h, 2, 1.5
+a a a a b c f g g, 2, 1.8
+a a a a b c f g h, 2, 1.5
+a a a a b c g g h, 2, 1.5
+a a a a b e f g g, 2, 1.8
+a a a a b e f g h, 2, 1.5
+a a a a b e g g h, 2, 1.5
+a a a a b f g g h, 2, 1.5
+a a a a c e f g g, 2, 1.8
+a a a a c e f g h, 2, 1.5
+a a a a c e g g h, 2, 1.5
+a a a a c f g g h, 2, 1.5
+a a a a e f g g h, 2, 1.5
+a a a b b b b c e, 2, 4.5
+a a a b b b b c f, 2, 3.0
+a a a b b b b c g, 2, 2.25
+a a a b b b b c h, 2, 1.5
+a a a b b b b e f, 2, 3.0
+a a a b b b b e g, 2, 2.25
+a a a b b b b e h, 2, 1.5
+a a a b b b b f g, 2, 2.25
+a a a b b b b f h, 2, 1.5
+a a a b b b b g g, 2, 1.8
+a a a b b b b g h, 2, 1.5
+a a a b b b c e f, 2, 3.0
+a a a b b b c e g, 2, 2.25
+a a a b b b c e h, 2, 1.5
+a a a b b b c f g, 2, 2.25
+a a a b b b c f h, 2, 1.5
+a a a b b b c g g, 2, 1.8
+a a a b b b c g h, 2, 1.5
+a a a b b b e f g, 2, 2.25
+a a a b b b e f h, 2, 1.5
+a a a b b b e g g, 2, 1.8
+a a a b b b e g h, 2, 1.5
+a a a b b b f g g, 2, 1.8
+a a a b b b f g h, 2, 1.5
+a a a b b b g g h, 2, 1.5
+a a a b b c e f g, 2, 2.25
+a a a b b c e f h, 2, 1.5
+a a a b b c e g g, 2, 1.8
+a a a b b c e g h, 2, 1.5
+a a a b b c f g g, 2, 1.8
+a a a b b c f g h, 2, 1.5
+a a a b b c g g h, 2, 1.5
+a a a b b e f g g, 2, 1.8
+a a a b b e f g h, 2, 1.5
+a a a b b e g g h, 2, 1.5
+a a a b b f g g h, 2, 1.5
+a a a b c e f g g, 2, 1.8
+a a a b c e f g h, 2, 1.5
+a a a b c e g g h, 2, 1.5
+a a a b c f g g h, 2, 1.5
+a a a b e f g g h, 2, 1.5
+a a a c e f g g h, 2, 1.5
+a a b b b b c e f, 2, 3.0
+a a b b b b c e g, 2, 2.25
+a a b b b b c e h, 2, 1.5
+a a b b b b c f g, 2, 2.25
+a a b b b b c f h, 2, 1.5
+a a b b b b c g g, 2, 1.8
+a a b b b b c g h, 2, 1.5
+a a b b b b e f g, 2, 2.25
+a a b b b b e f h, 2, 1.5
+a a b b b b e g g, 2, 1.8
+a a b b b b e g h, 2, 1.5
+a a b b b b f g g, 2, 1.8
+a a b b b b f g h, 2, 1.5
+a a b b b b g g h, 2, 1.5
+a a b b b c e f g, 2, 2.25
+a a b b b c e f h, 2, 1.5
+a a b b b c e g g, 2, 1.8
+a a b b b c e g h, 2, 1.5
+a a b b b c f g g, 2, 1.8
+a a b b b c f g h, 2, 1.5
+a a b b b c g g h, 2, 1.5
+a a b b b e f g g, 2, 1.8
+a a b b b e f g h, 2, 1.5
+a a b b b e g g h, 2, 1.5
+a a b b b f g g h, 2, 1.5
+a a b b c e f g g, 2, 1.8
+a a b b c e f g h, 2, 1.5
+a a b b c e g g h, 2, 1.5
+a a b b c f g g h, 2, 1.5
+a a b b e f g g h, 2, 1.5
+a a b c c d e e e, 2, 9.0
+a a b c c d e e f, 2, 3.0
+a a b c c d e e g, 2, 2.25
+a a b c c d e e h, 2, 1.8
+a a b c c d e f g, 2, 2.25
+a a b c c d e f h, 2, 1.8
+a a b c c d e g h, 2, 1.8
+a a b c c d e h h, 2, 1.5
+a a b c c d f g h, 2, 1.8
+a a b c c d f h h, 2, 1.5
+a a b c c d g h h, 2, 1.5
+a a b c c e e e e, 2, 4.5
+a a b c c e e e f, 2, 3.0
+a a b c c e e e g, 2, 2.25
+a a b c c e e e h, 2, 1.8
+a a b c c e e f g, 2, 2.25
+a a b c c e e f h, 2, 1.8
+a a b c c e e g h, 2, 1.8
+a a b c c e e h h, 2, 1.5
+a a b c c e f g h, 2, 1.8
+a a b c c e f h h, 2, 1.5
+a a b c c e g h h, 2, 1.5
+a a b c c f g h h, 2, 1.5
+a a b c d e e e e, 2, 4.5
+a a b c d e e e f, 2, 3.0
+a a b c d e e e g, 2, 2.25
+a a b c d e e e h, 2, 1.8
+a a b c d e e f g, 2, 2.25
+a a b c d e e f h, 2, 1.8
+a a b c d e e g h, 2, 1.8
+a a b c d e e h h, 2, 1.5
+a a b c d e f g h, 2, 1.8
+a a b c d e f h h, 2, 1.5
+a a b c d e g h h, 2, 1.5
+a a b c d f g h h, 2, 1.5
+a a b c e e e e f, 2, 3.0
+a a b c e e e e g, 2, 2.25
+a a b c e e e e h, 2, 1.8
+a a b c e e e f g, 2, 2.25
+a a b c e e e f h, 2, 1.8
+a a b c e e e g h, 2, 1.8
+a a b c e e e h h, 2, 1.5
+a a b c e e f g h, 2, 1.8
+a a b c e e f h h, 2, 1.5
+a a b c e e g h h, 2, 1.5
+a a b c e f g g h, 2, 1.5
+a a b c e f g h h, 2, 1.5
+a a b d e e e e f, 2, 3.0
+a a b d e e e e g, 2, 2.25
+a a b d e e e e h, 2, 1.8
+a a b d e e e f g, 2, 2.25
+a a b d e e e f h, 2, 1.8
+a a b d e e e g h, 2, 1.8
+a a b d e e e h h, 2, 1.5
+a a b d e e f g h, 2, 1.8
+a a b d e e f h h, 2, 1.5
+a a b d e e g h h, 2, 1.5
+a a b d e f g h h, 2, 1.5
+a a b e e e e f g, 2, 2.25
+a a b e e e e f h, 2, 1.8
+a a b e e e e g h, 2, 1.8
+a a b e e e e h h, 2, 1.5
+a a b e e e f g h, 2, 1.8
+a a b e e e f h h, 2, 1.5
+a a b e e e g h h, 2, 1.5
+a a b e e f g h h, 2, 1.5
+a a c c d e e e e, 2, 4.5
+a a c c d e e e f, 2, 3.0
+a a c c d e e e g, 2, 2.25
+a a c c d e e e h, 2, 1.8
+a a c c d e e f g, 2, 2.25
+a a c c d e e f h, 2, 1.8
+a a c c d e e g h, 2, 1.8
+a a c c d e e h h, 2, 1.5
+a a c c d e f g h, 2, 1.8
+a a c c d e f h h, 2, 1.5
+a a c c d e g h h, 2, 1.5
+a a c c d f g h h, 2, 1.5
+a a c c e e e e f, 2, 3.0
+a a c c e e e e g, 2, 2.25
+a a c c e e e e h, 2, 1.8
+a a c c e e e f g, 2, 2.25
+a a c c e e e f h, 2, 1.8
+a a c c e e e g h, 2, 1.8
+a a c c e e e h h, 2, 1.5
+a a c c e e f g h, 2, 1.8
+a a c c e e f h h, 2, 1.5
+a a c c e e g h h, 2, 1.5
+a a c c e f g h h, 2, 1.5
+a a c d e e e e f, 2, 3.0
+a a c d e e e e g, 2, 2.25
+a a c d e e e e h, 2, 1.8
+a a c d e e e f g, 2, 2.25
+a a c d e e e f h, 2, 1.8
+a a c d e e e g h, 2, 1.8
+a a c d e e e h h, 2, 1.5
+a a c d e e f g h, 2, 1.8
+a a c d e e f h h, 2, 1.5
+a a c d e e g h h, 2, 1.5
+a a c d e f f f f, 2, 2.25
+a a c d e f g h h, 2, 1.5
+a a c d f f f f f, 2, 1.8
+a a c e e e e f g, 2, 2.25
+a a c e e e e f h, 2, 1.8
+a a c e e e e g h, 2, 1.8
+a a c e e e e h h, 2, 1.5
+a a c e e e f g h, 2, 1.8
+a a c e e e f h h, 2, 1.5
+a a c e e e g h h, 2, 1.5
+a a c e e f g h h, 2, 1.5
+a a c e f f f f f, 2, 1.8
+a a c f f f f f f, 2, 1.5
+a a d e e e e f g, 2, 2.25
+a a d e e e e f h, 2, 1.8
+a a d e e e e g h, 2, 1.8
+a a d e e e e h h, 2, 1.5
+a a d e e e f g h, 2, 1.8
+a a d e e e f h h, 2, 1.5
+a a d e e e g h h, 2, 1.5
+a a d e e f g h h, 2, 1.5
+a a d e f f f f f, 2, 1.8
+a a d f f f f f f, 2, 1.5
+a a e e e e f g h, 2, 1.8
+a a e e e e f h h, 2, 1.5
+a a e e e e g h h, 2, 1.5
+a a e e e f g h h, 2, 1.5
+a a e f f f f f f, 2, 1.5
+a a f f f f f f f, 2, 1.2857143
+a b a c d e f f f, 2, 3.0
+a b a c d f f f f, 2, 2.25
+a b a c e f f f f, 2, 2.25
+a b a c f f f f f, 2, 1.8
+a b a d e f f f f, 2, 2.25
+a b a d f f f f f, 2, 1.8
+a b a e f f f f f, 2, 1.8
+a b a f f f f f f, 2, 1.5
+a b b b b c e f g, 2, 9.0
+a b b b b c e f h, 2, 3.0
+a b b b b c e g g, 2, 4.5
+a b b b b c e g h, 2, 3.0
+a b b b b c f g g, 2, 4.5
+a b b b b c f g h, 2, 3.0
+a b b b b c g g h, 2, 3.0
+a b b b b e f g g, 2, 4.5
+a b b b b e f g h, 2, 3.0
+a b b b b e g g h, 2, 3.0
+a b b b b f g g h, 2, 3.0
+a b b b c d d e f, 2, 9.0
+a b b b c d d e h, 2, 2.25
+a b b b c d d f f, 2, 4.5
+a b b b c d d f h, 2, 2.25
+a b b b c d d h h, 2, 1.8
+a b b b c d e f f, 2, 4.5
+a b b b c d e f h, 2, 2.25
+a b b b c d e h h, 2, 1.8
+a b b b c d f f f, 2, 3.0
+a b b b c d f f h, 2, 2.25
+a b b b c d f h h, 2, 1.8
+a b b b c d h h h, 2, 1.5
+a b b b c e f f f, 2, 3.0
+a b b b c e f f h, 2, 2.25
+a b b b c e f g g, 2, 4.5
+a b b b c e f g h, 2, 3.0
+a b b b c e f h h, 2, 1.8
+a b b b c e g g h, 2, 3.0
+a b b b c e h h h, 2, 1.5
+a b b b c f f f h, 2, 2.25
+a b b b c f f h h, 2, 1.8
+a b b b c f g g h, 2, 3.0
+a b b b c f h h h, 2, 1.5
+a b b b d d e f f, 2, 4.5
+a b b b d d e f h, 2, 2.25
+a b b b d d e h h, 2, 1.8
+a b b b d d f f f, 2, 3.0
+a b b b d d f f h, 2, 2.25
+a b b b d d f h h, 2, 1.8
+a b b b d d h h h, 2, 1.5
+a b b b d e f f f, 2, 3.0
+a b b b d e f f h, 2, 2.25
+a b b b d e f h h, 2, 1.8
+a b b b d e h h h, 2, 1.5
+a b b b d f f f h, 2, 2.25
+a b b b d f f h h, 2, 1.8
+a b b b d f h h h, 2, 1.5
+a b b b e f f f h, 2, 2.25
+a b b b e f f h h, 2, 1.8
+a b b b e f g g h, 2, 3.0
+a b b b e f h h h, 2, 1.5
+a b b b f f f h h, 2, 1.8
+a b b b f f h h h, 2, 1.5
+a b b c d d e f f, 2, 4.5
+a b b c d d e f h, 2, 2.25
+a b b c d d e h h, 2, 1.8
+a b b c d d f f f, 2, 3.0
+a b b c d d f f h, 2, 2.25
+a b b c d d f h h, 2, 1.8
+a b b c d d h h h, 2, 1.5
+a b b c d e f f f, 4, 3.0
+a b b c d e f f h, 2, 2.25
+a b b c d e f h h, 2, 1.8
+a b b c d e h h h, 2, 1.5
+a b b c d f f f f, 2, 2.25
+a b b c d f f f h, 2, 2.25
+a b b c d f f h h, 2, 1.8
+a b b c d f h h h, 2, 1.5
+a b b c e f f f f, 2, 2.25
+a b b c e f f f h, 2, 2.25
+a b b c e f f h h, 2, 1.8
+a b b c e f g g h, 2, 3.0
+a b b c e f h h h, 2, 1.5
+a b b c f f f f f, 2, 1.8
+a b b c f f f h h, 2, 1.8
+a b b c f f h h h, 2, 1.5
+a b b d d e f f f, 2, 3.0
+a b b d d e f f h, 2, 2.25
+a b b d d e f h h, 2, 1.8
+a b b d d e h h h, 2, 1.5
+a b b d d f f f h, 2, 2.25
+a b b d d f f h h, 2, 1.8
+a b b d d f h h h, 2, 1.5
+a b b d e f f f f, 2, 2.25
+a b b d e f f f h, 2, 2.25
+a b b d e f f h h, 2, 1.8
+a b b d e f h h h, 2, 1.5
+a b b d f f f f f, 2, 1.8
+a b b d f f f h h, 2, 1.8
+a b b d f f h h h, 2, 1.5
+a b b e f f f f f, 2, 1.8
+a b b e f f f h h, 2, 1.8
+a b b e f f h h h, 2, 1.5
+a b b f f f f f f, 2, 1.5
+a b b f f f h h h, 2, 1.5
+a b c a c d e f f, 2, 4.5
+a b c a c d f f f, 2, 3.0
+a b c a c e f f f, 2, 3.0
+a b c a c f f f f, 2, 2.25
+a b c a d e f f f, 2, 3.0
+a b c a d f f f f, 2, 2.25
+a b c a e f f f f, 2, 2.25
+a b c a f f f f f, 2, 1.8
+a b c b c d e f f, 2, 4.5
+a b c b c d f f f, 2, 3.0
+a b c b c e f f f, 2, 3.0
+a b c b c f f f f, 2, 2.25
+a b c b d e f f f, 2, 3.0
+a b c b d f f f f, 2, 2.25
+a b c b e f f f f, 2, 2.25
+a b c b f f f f f, 2, 1.8
+a b c c a c d e f, 2, 9.0
+a b c c a c d f f, 2, 4.5
+a b c c a c e f f, 2, 4.5
+a b c c a c f f f, 2, 3.0
+a b c c a d e f f, 2, 4.5
+a b c c a d f f f, 2, 3.0
+a b c c a e f f f, 2, 3.0
+a b c c a f f f f, 2, 2.25
+a b c c b c d e f, 2, 9.0
+a b c c b c d f f, 2, 4.5
+a b c c b c e f f, 2, 4.5
+a b c c b c f f f, 2, 3.0
+a b c c b d e f f, 2, 4.5
+a b c c b d f f f, 2, 3.0
+a b c c b e f f f, 2, 3.0
+a b c c b f f f f, 2, 2.25
+a b c c c c d e f, 2, 9.0
+a b c c c c d f f, 2, 4.5
+a b c c c c e f f, 2, 4.5
+a b c c c c f f f, 2, 3.0
+a b c c c d e f f, 6, 4.5
+a b c c c d f f f, 6, 3.0
+a b c c c e f f f, 6, 3.0
+a b c c c f f f f, 6, 2.25
+a b c c d e e e e, 2, 9.0
+a b c c d e e e f, 2, 4.5
+a b c c d e e e g, 2, 3.0
+a b c c d e e e h, 2, 2.25
+a b c c d e e f g, 2, 3.0
+a b c c d e e f h, 2, 2.25
+a b c c d e e g h, 2, 2.25
+a b c c d e e h h, 2, 1.8
+a b c c d e f f f, 6, 3.0
+a b c c d e f g h, 2, 2.25
+a b c c d e f h h, 2, 1.8
+a b c c d e g h h, 2, 1.8
+a b c c d f f f f, 6, 2.25
+a b c c d f g h h, 2, 1.8
+a b c c e e e e f, 2, 4.5
+a b c c e e e e g, 2, 3.0
+a b c c e e e e h, 2, 2.25
+a b c c e e e f g, 2, 3.0
+a b c c e e e f h, 2, 2.25
+a b c c e e e g h, 2, 2.25
+a b c c e e e h h, 2, 1.8
+a b c c e e f g h, 2, 2.25
+a b c c e e f h h, 2, 1.8
+a b c c e e g h h, 2, 1.8
+a b c c e f f f f, 6, 2.25
+a b c c e f g h h, 2, 1.8
+a b c c f f f f f, 6, 1.7999998
+a b c d d e f f f, 2, 3.0
+a b c d d e f f h, 2, 2.25
+a b c d d e f h h, 2, 1.8
+a b c d d e h h h, 2, 1.5
+a b c d d f f f h, 2, 2.25
+a b c d d f f h h, 2, 1.8
+a b c d d f h h h, 2, 1.5
+a b c d e e e e f, 2, 4.5
+a b c d e e e e g, 2, 3.0
+a b c d e e e e h, 2, 2.25
+a b c d e e e f g, 2, 3.0
+a b c d e e e f h, 2, 2.25
+a b c d e e e g h, 2, 2.25
+a b c d e e e h h, 2, 1.8
+a b c d e e f g h, 2, 2.25
+a b c d e e f h h, 2, 1.8
+a b c d e e g h h, 2, 1.8
+a b c d e f f f f, 6, 2.25
+a b c d e f f f h, 2, 2.25
+a b c d e f f h h, 2, 1.8
+a b c d e f g h h, 2, 1.8
+a b c d e f h h h, 2, 1.5
+a b c d f f f f f, 6, 1.7999998
+a b c d f f f h h, 2, 1.8
+a b c d f f h h h, 2, 1.5
+a b c e e e e f g, 2, 3.0
+a b c e e e e f h, 2, 2.25
+a b c e e e e g h, 2, 2.25
+a b c e e e e h h, 2, 1.8
+a b c e e e f g h, 2, 2.25
+a b c e e e f h h, 2, 1.8
+a b c e e e g h h, 2, 1.8
+a b c e e f g h h, 2, 1.8
+a b c e f f f f f, 6, 1.7999998
+a b c e f f f h h, 2, 1.8
+a b c e f f h h h, 2, 1.5
+a b c f f f f f f, 6, 1.5
+a b c f f f h h h, 2, 1.5
+a b d d e f f f h, 2, 2.25
+a b d d e f f h h, 2, 1.8
+a b d d e f h h h, 2, 1.5
+a b d d f f f h h, 2, 1.8
+a b d d f f h h h, 2, 1.5
+a b d e e e e f g, 2, 3.0
+a b d e e e e f h, 2, 2.25
+a b d e e e e g h, 2, 2.25
+a b d e e e e h h, 2, 1.8
+a b d e e e f g h, 2, 2.25
+a b d e e e f h h, 2, 1.8
+a b d e e e g h h, 2, 1.8
+a b d e e f g h h, 2, 1.8
+a b d e f f f f f, 6, 1.7999998
+a b d e f f f h h, 2, 1.8
+a b d e f f h h h, 2, 1.5
+a b d f f f f f f, 6, 1.5
+a b d f f f h h h, 2, 1.5
+a b e e e e f g h, 2, 2.25
+a b e e e e f h h, 2, 1.8
+a b e e e e g h h, 2, 1.8
+a b e e e f g h h, 2, 1.8
+a b e f f f f f f, 6, 1.5
+a b e f f f h h h, 2, 1.5
+a b f f f f f f f, 6, 1.2857143
+b a c d e f f f f, 2, 3.0
+b a c d f f f f f, 2, 2.25
+b a c e f f f f f, 2, 2.25
+b a c f f f f f f, 2, 1.8
+b a d e f f f f f, 2, 2.25
+b a d f f f f f f, 2, 1.8
+b a e f f f f f f, 2, 1.8
+b a f f f f f f f, 2, 1.5
+a c a c d e f f f, 2, 3.0
+a c a c d f f f f, 2, 2.25
+a c a c e f f f f, 2, 2.25
+a c a c f f f f f, 2, 1.8
+a c a d e f f f f, 2, 2.25
+a c a d f f f f f, 2, 1.8
+a c a e f f f f f, 2, 1.8
+a c a f f f f f f, 2, 1.5
+a c b c d e f f f, 2, 3.0
+a c b c d f f f f, 2, 2.25
+a c b c e f f f f, 2, 2.25
+a c b c f f f f f, 2, 1.8
+a c b d e f f f f, 2, 2.25
+a c b d f f f f f, 2, 1.8
+a c b e f f f f f, 2, 1.8
+a c b f f f f f f, 2, 1.5
+a c c a c d e f f, 2, 4.5
+a c c a c d f f f, 2, 3.0
+a c c a c e f f f, 2, 3.0
+a c c a c f f f f, 2, 2.25
+a c c a d e f f f, 2, 3.0
+a c c a d f f f f, 2, 2.25
+a c c a e f f f f, 2, 2.25
+a c c a f f f f f, 2, 1.8
+a c c b c d e f f, 2, 4.5
+a c c b c d f f f, 2, 3.0
+a c c b c e f f f, 2, 3.0
+a c c b c f f f f, 2, 2.25
+a c c b d e f f f, 2, 3.0
+a c c b d f f f f, 2, 2.25
+a c c b e f f f f, 2, 2.25
+a c c b f f f f f, 2, 1.8
+a c c c c d e f f, 2, 4.5
+a c c c c d f f f, 2, 3.0
+a c c c c e f f f, 2, 3.0
+a c c c c f f f f, 2, 2.25
+a c c c d e f f f, 6, 3.0
+a c c c d f f f f, 6, 2.25
+a c c c e f f f f, 6, 2.25
+a c c c f f f f f, 6, 1.7999998
+a c c d e e e e f, 2, 4.5
+a c c d e e e e g, 2, 3.0
+a c c d e e e e h, 2, 2.25
+a c c d e e e f g, 2, 3.0
+a c c d e e e f h, 2, 2.25
+a c c d e e e g h, 2, 2.25
+a c c d e e e h h, 2, 1.8
+a c c d e e f g h, 2, 2.25
+a c c d e e f h h, 2, 1.8
+a c c d e e g h h, 2, 1.8
+a c c d e f f f f, 6, 2.25
+a c c d e f g h h, 2, 1.8
+a c c d f f f f f, 6, 1.7999998
+a c c e e e e f g, 2, 3.0
+a c c e e e e f h, 2, 2.25
+a c c e e e e g h, 2, 2.25
+a c c e e e e h h, 2, 1.8
+a c c e e e f g h, 2, 2.25
+a c c e e e f h h, 2, 1.8
+a c c e e e g h h, 2, 1.8
+a c c e e f g h h, 2, 1.8
+a c c e f f f f f, 6, 1.7999998
+a c c f f f f f f, 6, 1.5
+a c d d e f f f h, 2, 2.25
+a c d d e f f h h, 2, 1.8
+a c d d e f h h h, 2, 1.5
+a c d d f f f h h, 2, 1.8
+a c d d f f h h h, 2, 1.5
+a c d e e e e f g, 2, 3.0
+a c d e e e e f h, 2, 2.25
+a c d e e e e g h, 2, 2.25
+a c d e e e e h h, 2, 1.8
+a c d e e e f g h, 2, 2.25
+a c d e e e f h h, 2, 1.8
+a c d e e e g h h, 2, 1.8
+a c d e e f g h h, 2, 1.8
+a c d e f f f f f, 6, 1.7999998
+a c d e f f f h h, 2, 1.8
+a c d e f f h h h, 2, 1.5
+a c d f f f f f f, 6, 1.5
+a c d f f f h h h, 2, 1.5
+a c e e e e f g h, 2, 2.25
+a c e e e e f h h, 2, 1.8
+a c e e e e g h h, 2, 1.8
+a c e e e f g h h, 2, 1.8
+a c e f f f f f f, 6, 1.5
+a c e f f f h h h, 2, 1.5
+a c f f f f f f f, 6, 1.2857143
+c a c d e f f f f, 2, 9.0
+c a c d f f f f f, 2, 4.5
+c a c e f f f f f, 2, 4.5
+c a c f f f f f f, 2, 3.0
+c a d e f f f f f, 2, 4.5
+c a d f f f f f f, 2, 3.0
+c a e f f f f f f, 2, 3.0
+c a f f f f f f f, 2, 2.25
+a d d e f f f h h, 2, 1.8
+a d d e f f h h h, 2, 1.5
+a d d f f f h h h, 2, 1.5
+a d e e e e f g h, 2, 2.25
+a d e e e e f h h, 2, 1.8
+a d e e e e g h h, 2, 1.8
+a d e e e f g h h, 2, 1.8
+a d e f f f f f f, 6, 2.5
+a d e f f f h h h, 2, 1.5
+a d f f f f f f f, 6, 1.8571429
+a e e e e f g h h, 2, 1.8
+a e f f f f f f f, 6, 1.8571429
+a f f f f f f f f, 6, 1.5
+b b b b c e f g g, 2, 9.0
+b b b b c e f g h, 2, 4.5
+b b b b c e g g h, 2, 4.5
+b b b b c f g g h, 2, 4.5
+b b b b e f g g h, 2, 4.5
+b b b c d d e f f, 2, 9.0
+b b b c d d e f h, 2, 3.0
+b b b c d d e h h, 2, 2.25
+b b b c d d f f f, 2, 4.5
+b b b c d d f f h, 2, 3.0
+b b b c d d f h h, 2, 2.25
+b b b c d d h h h, 2, 1.8
+b b b c d e f f f, 2, 4.5
+b b b c d e f f h, 2, 3.0
+b b b c d e f h h, 2, 2.25
+b b b c d e h h h, 2, 1.8
+b b b c d f f f h, 2, 3.0
+b b b c d f f h h, 2, 2.25
+b b b c d f h h h, 2, 1.8
+b b b c e f f f h, 2, 3.0
+b b b c e f f h h, 2, 2.25
+b b b c e f g g h, 2, 4.5
+b b b c e f h h h, 2, 1.8
+b b b c f f f h h, 2, 2.25
+b b b c f f h h h, 2, 1.8
+b b b d d e f f f, 2, 4.5
+b b b d d e f f h, 2, 3.0
+b b b d d e f h h, 2, 2.25
+b b b d d e h h h, 2, 1.8
+b b b d d f f f h, 2, 3.0
+b b b d d f f h h, 2, 2.25
+b b b d d f h h h, 2, 1.8
+b b b d e f f f h, 2, 3.0
+b b b d e f f h h, 2, 2.25
+b b b d e f h h h, 2, 1.8
+b b b d f f f h h, 2, 2.25
+b b b d f f h h h, 2, 1.8
+b b b e f f f h h, 2, 2.25
+b b b e f f h h h, 2, 1.8
+b b b f f f h h h, 2, 1.8
+b b c d d e f f f, 2, 4.5
+b b c d d e f f h, 2, 3.0
+b b c d d e f h h, 2, 2.25
+b b c d d e h h h, 2, 1.8
+b b c d d f f f h, 2, 3.0
+b b c d d f f h h, 2, 2.25
+b b c d d f h h h, 2, 1.8
+b b c d e f f f f, 2, 3.0
+b b c d e f f f h, 2, 3.0
+b b c d e f f h h, 2, 2.25
+b b c d e f h h h, 2, 1.8
+b b c d f f f f f, 2, 2.25
+b b c d f f f h h, 2, 2.25
+b b c d f f h h h, 2, 1.8
+b b c e f f f f f, 2, 2.25
+b b c e f f f h h, 2, 2.25
+b b c e f f h h h, 2, 1.8
+b b c f f f f f f, 2, 1.8
+b b c f f f h h h, 2, 1.8
+b b d d e f f f h, 2, 3.0
+b b d d e f f h h, 2, 2.25
+b b d d e f h h h, 2, 1.8
+b b d d f f f h h, 2, 2.25
+b b d d f f h h h, 2, 1.8
+b b d e f f f f f, 2, 2.25
+b b d e f f f h h, 2, 2.25
+b b d e f f h h h, 2, 1.8
+b b d f f f f f f, 2, 1.8
+b b d f f f h h h, 2, 1.8
+b b e f f f f f f, 2, 1.8
+b b e f f f h h h, 2, 1.8
+b b f f f f f f f, 2, 1.5
+b c a c d e f f f, 2, 4.5
+b c a c d f f f f, 2, 3.0
+b c a c e f f f f, 2, 3.0
+b c a c f f f f f, 2, 2.25
+b c a d e f f f f, 2, 3.0
+b c a d f f f f f, 2, 2.25
+b c a e f f f f f, 2, 2.25
+b c a f f f f f f, 2, 1.8
+b c b c d e f f f, 2, 4.5
+b c b c d f f f f, 2, 3.0
+b c b c e f f f f, 2, 3.0
+b c b c f f f f f, 2, 2.25
+b c b d e f f f f, 2, 3.0
+b c b d f f f f f, 2, 2.25
+b c b e f f f f f, 2, 2.25
+b c b f f f f f f, 2, 1.8
+b c c a c d e f f, 2, 9.0
+b c c a c d f f f, 2, 4.5
+b c c a c e f f f, 2, 4.5
+b c c a c f f f f, 2, 3.0
+b c c a d e f f f, 2, 4.5
+b c c a d f f f f, 2, 3.0
+b c c a e f f f f, 2, 3.0
+b c c a f f f f f, 2, 2.25
+b c c b c d e f f, 2, 9.0
+b c c b c d f f f, 2, 4.5
+b c c b c e f f f, 2, 4.5
+b c c b c f f f f, 2, 3.0
+b c c b d e f f f, 2, 4.5
+b c c b d f f f f, 2, 3.0
+b c c b e f f f f, 2, 3.0
+b c c b f f f f f, 2, 2.25
+b c c c c d e f f, 2, 9.0
+b c c c c d f f f, 2, 4.5
+b c c c c e f f f, 2, 4.5
+b c c c c f f f f, 2, 3.0
+b c c c d e f f f, 6, 4.5
+b c c c d f f f f, 6, 3.0
+b c c c e f f f f, 6, 3.0
+b c c c f f f f f, 6, 2.25
+b c c d e e e e f, 2, 9.0
+b c c d e e e e g, 2, 4.5
+b c c d e e e e h, 2, 3.0
+b c c d e e e f g, 2, 4.5
+b c c d e e e f h, 2, 3.0
+b c c d e e e g h, 2, 3.0
+b c c d e e e h h, 2, 2.25
+b c c d e e f g h, 2, 3.0
+b c c d e e f h h, 2, 2.25
+b c c d e e g h h, 2, 2.25
+b c c d e f f f f, 6, 3.0
+b c c d e f g h h, 2, 2.25
+b c c d f f f f f, 6, 2.25
+b c c e e e e f g, 2, 4.5
+b c c e e e e f h, 2, 3.0
+b c c e e e e g h, 2, 3.0
+b c c e e e e h h, 2, 2.25
+b c c e e e f g h, 2, 3.0
+b c c e e e f h h, 2, 2.25
+b c c e e e g h h, 2, 2.25
+b c c e e f g h h, 2, 2.25
+b c c e f f f f f, 6, 2.25
+b c c f f f f f f, 6, 1.7999998
+b c d d e f f f h, 2, 9.0
+b c d d e f f h h, 2, 4.5
+b c d d e f h h h, 2, 3.0
+b c d d f f f h h, 2, 4.5
+b c d d f f h h h, 2, 3.0
+b c d e e e e f g, 2, 4.5
+b c d e e e e f h, 2, 3.0
+b c d e e e e g h, 2, 3.0
+b c d e e e e h h, 2, 2.25
+b c d e e e f g h, 2, 3.0
+b c d e e e f h h, 2, 2.25
+b c d e e e g h h, 2, 2.25
+b c d e e f g h h, 2, 2.25
+b c d e f f f f f, 6, 2.25
+b c d e f f f h h, 2, 4.5
+b c d e f f h h h, 2, 3.0
+b c d f f f f f f, 6, 1.7999998
+b c d f f f h h h, 2, 3.0
+b c e e e e f g h, 2, 3.0
+b c e e e e f h h, 2, 2.25
+b c e e e e g h h, 2, 2.25
+b c e e e f g h h, 2, 2.25
+b c e f f f f f f, 6, 1.7999998
+b c e f f f h h h, 2, 3.0
+b c f f f f f f f, 6, 1.5
+c b c d e f f f f, 2, 9.0
+c b c d f f f f f, 2, 4.5
+c b c e f f f f f, 2, 4.5
+c b c f f f f f f, 2, 3.0
+c b d e f f f f f, 2, 4.5
+c b d f f f f f f, 2, 3.0
+c b e f f f f f f, 2, 3.0
+c b f f f f f f f, 2, 2.25
+b d d e f f f h h, 2, 4.5
+b d d e f f h h h, 2, 3.0
+b d d f f f h h h, 2, 3.0
+b d e e e e f g h, 2, 3.0
+b d e e e e f h h, 2, 2.25
+b d e e e e g h h, 2, 2.25
+b d e e e f g h h, 2, 2.25
+b d e f f f f f f, 6, 2.6999998
+b d e f f f h h h, 2, 3.0
+b d f f f f f f f, 6, 2.0
+b e e e e f g h h, 2, 2.25
+b e f f f f f f f, 6, 2.0
+b f f f f f f f f, 6, 1.6071429
+c c a c d e f f f, 2, 9.0
+c c a c d f f f f, 2, 4.5
+c c a c e f f f f, 2, 4.5
+c c a c f f f f f, 2, 3.0
+c c a d e f f f f, 2, 4.5
+c c a d f f f f f, 2, 3.0
+c c a e f f f f f, 2, 3.0
+c c a f f f f f f, 2, 2.25
+c c b c d e f f f, 2, 9.0
+c c b c d f f f f, 2, 4.5
+c c b c e f f f f, 2, 4.5
+c c b c f f f f f, 2, 3.0
+c c b d e f f f f, 2, 4.5
+c c b d f f f f f, 2, 3.0
+c c b e f f f f f, 2, 3.0
+c c b f f f f f f, 2, 2.25
+c c c c d e f f f, 2, 9.0
+c c c c d f f f f, 2, 4.5
+c c c c e f f f f, 2, 4.5
+c c c c f f f f f, 2, 3.0
+c c c d e f f f f, 6, 4.5
+c c c d f f f f f, 6, 3.0
+c c c e f f f f f, 6, 3.0
+c c c f f f f f f, 6, 2.25
+c c d e e e e f g, 2, 9.0
+c c d e e e e f h, 2, 4.5
+c c d e e e e g h, 2, 4.5
+c c d e e e e h h, 2, 3.0
+c c d e e e f g h, 2, 4.5
+c c d e e e f h h, 2, 3.0
+c c d e e e g h h, 2, 3.0
+c c d e e f g h h, 2, 3.0
+c c d e f f f f f, 6, 3.0
+c c d f f f f f f, 6, 2.25
+c c e e e e f g h, 2, 4.5
+c c e e e e f h h, 2, 3.0
+c c e e e e g h h, 2, 3.0
+c c e e e f g h h, 2, 3.0
+c c e f f f f f f, 6, 2.25
+c c f f f f f f f, 6, 1.7999998
+c d d e f f f h h, 2, 9.0
+c d d e f f h h h, 2, 4.5
+c d d f f f h h h, 2, 4.5
+c d e e e e f g h, 2, 9.0
+c d e e e e f h h, 2, 4.5
+c d e e e e g h h, 2, 4.5
+c d e e e f g h h, 2, 4.5
+c d e f f f f f f, 6, 9.0
+c d e f f f h h h, 2, 4.5
+c d f f f f f f f, 6, 4.5
+c e e e e f g h h, 2, 4.5
+c e f f f f f f f, 6, 4.5
+c f f f f f f f f, 6, 3.0
+d d e f f f h h h, 2, 9.0
+d e e e e f g h h, 2, 9.0
+d e f f f f f f f, 6, 9.0
+d f f f f f f f f, 6, 4.5
+e f f f f f f f f, 6, 9.0
+f f f f f f f f f, 6, 9.0
+a a a a b b b b c e, 2, 10.0
+a a a a b b b b c f, 2, 5.0
+a a a a b b b b c g, 2, 3.3333333
+a a a a b b b b c h, 2, 2.0
+a a a a b b b b e f, 2, 5.0
+a a a a b b b b e g, 2, 3.3333333
+a a a a b b b b e h, 2, 2.0
+a a a a b b b b f g, 2, 3.3333333
+a a a a b b b b f h, 2, 2.0
+a a a a b b b b g g, 2, 2.5
+a a a a b b b b g h, 2, 2.0
+a a a a b b b c e f, 2, 5.0
+a a a a b b b c e g, 2, 3.3333333
+a a a a b b b c e h, 2, 2.0
+a a a a b b b c f g, 2, 3.3333333
+a a a a b b b c f h, 2, 2.0
+a a a a b b b c g g, 2, 2.5
+a a a a b b b c g h, 2, 2.0
+a a a a b b b e f g, 2, 3.3333333
+a a a a b b b e f h, 2, 2.0
+a a a a b b b e g g, 2, 2.5
+a a a a b b b e g h, 2, 2.0
+a a a a b b b f g g, 2, 2.5
+a a a a b b b f g h, 2, 2.0
+a a a a b b b g g h, 2, 2.0
+a a a a b b c e f g, 2, 3.3333333
+a a a a b b c e f h, 2, 2.0
+a a a a b b c e g g, 2, 2.5
+a a a a b b c e g h, 2, 2.0
+a a a a b b c f g g, 2, 2.5
+a a a a b b c f g h, 2, 2.0
+a a a a b b c g g h, 2, 2.0
+a a a a b b e f g g, 2, 2.5
+a a a a b b e f g h, 2, 2.0
+a a a a b b e g g h, 2, 2.0
+a a a a b b f g g h, 2, 2.0
+a a a a b c e f g g, 2, 2.5
+a a a a b c e f g h, 2, 2.0
+a a a a b c e g g h, 2, 2.0
+a a a a b c f g g h, 2, 2.0
+a a a a b e f g g h, 2, 2.0
+a a a a c e f g g h, 2, 2.0
+a a a b b b b c e f, 2, 5.0
+a a a b b b b c e g, 2, 3.3333333
+a a a b b b b c e h, 2, 2.0
+a a a b b b b c f g, 2, 3.3333333
+a a a b b b b c f h, 2, 2.0
+a a a b b b b c g g, 2, 2.5
+a a a b b b b c g h, 2, 2.0
+a a a b b b b e f g, 2, 3.3333333
+a a a b b b b e f h, 2, 2.0
+a a a b b b b e g g, 2, 2.5
+a a a b b b b e g h, 2, 2.0
+a a a b b b b f g g, 2, 2.5
+a a a b b b b f g h, 2, 2.0
+a a a b b b b g g h, 2, 2.0
+a a a b b b c e f g, 2, 3.3333333
+a a a b b b c e f h, 2, 2.0
+a a a b b b c e g g, 2, 2.5
+a a a b b b c e g h, 2, 2.0
+a a a b b b c f g g, 2, 2.5
+a a a b b b c f g h, 2, 2.0
+a a a b b b c g g h, 2, 2.0
+a a a b b b e f g g, 2, 2.5
+a a a b b b e f g h, 2, 2.0
+a a a b b b e g g h, 2, 2.0
+a a a b b b f g g h, 2, 2.0
+a a a b b c e f g g, 2, 2.5
+a a a b b c e f g h, 2, 2.0
+a a a b b c e g g h, 2, 2.0
+a a a b b c f g g h, 2, 2.0
+a a a b b e f g g h, 2, 2.0
+a a a b c e f g g h, 2, 2.0
+a a b b b b c e f g, 2, 3.3333333
+a a b b b b c e f h, 2, 2.0
+a a b b b b c e g g, 2, 2.5
+a a b b b b c e g h, 2, 2.0
+a a b b b b c f g g, 2, 2.5
+a a b b b b c f g h, 2, 2.0
+a a b b b b c g g h, 2, 2.0
+a a b b b b e f g g, 2, 2.5
+a a b b b b e f g h, 2, 2.0
+a a b b b b e g g h, 2, 2.0
+a a b b b b f g g h, 2, 2.0
+a a b b b c e f g g, 2, 2.5
+a a b b b c e f g h, 2, 2.0
+a a b b b c e g g h, 2, 2.0
+a a b b b c f g g h, 2, 2.0
+a a b b b e f g g h, 2, 2.0
+a a b b c e f g g h, 2, 2.0
+a a b c c d e e e e, 2, 10.0
+a a b c c d e e e f, 2, 5.0
+a a b c c d e e e g, 2, 3.3333333
+a a b c c d e e e h, 2, 2.5
+a a b c c d e e f g, 2, 3.3333333
+a a b c c d e e f h, 2, 2.5
+a a b c c d e e g h, 2, 2.5
+a a b c c d e e h h, 2, 2.0
+a a b c c d e f g h, 2, 2.5
+a a b c c d e f h h, 2, 2.0
+a a b c c d e g h h, 2, 2.0
+a a b c c d f g h h, 2, 2.0
+a a b c c e e e e f, 2, 5.0
+a a b c c e e e e g, 2, 3.3333333
+a a b c c e e e e h, 2, 2.5
+a a b c c e e e f g, 2, 3.3333333
+a a b c c e e e f h, 2, 2.5
+a a b c c e e e g h, 2, 2.5
+a a b c c e e e h h, 2, 2.0
+a a b c c e e f g h, 2, 2.5
+a a b c c e e f h h, 2, 2.0
+a a b c c e e g h h, 2, 2.0
+a a b c c e f g h h, 2, 2.0
+a a b c d e e e e f, 2, 5.0
+a a b c d e e e e g, 2, 3.3333333
+a a b c d e e e e h, 2, 2.5
+a a b c d e e e f g, 2, 3.3333333
+a a b c d e e e f h, 2, 2.5
+a a b c d e e e g h, 2, 2.5
+a a b c d e e e h h, 2, 2.0
+a a b c d e e f g h, 2, 2.5
+a a b c d e e f h h, 2, 2.0
+a a b c d e e g h h, 2, 2.0
+a a b c d e f g h h, 2, 2.0
+a a b c e e e e f g, 2, 3.3333333
+a a b c e e e e f h, 2, 2.5
+a a b c e e e e g h, 2, 2.5
+a a b c e e e e h h, 2, 2.0
+a a b c e e e f g h, 2, 2.5
+a a b c e e e f h h, 2, 2.0
+a a b c e e e g h h, 2, 2.0
+a a b c e e f g h h, 2, 2.0
+a a b d e e e e f g, 2, 3.3333333
+a a b d e e e e f h, 2, 2.5
+a a b d e e e e g h, 2, 2.5
+a a b d e e e e h h, 2, 2.0
+a a b d e e e f g h, 2, 2.5
+a a b d e e e f h h, 2, 2.0
+a a b d e e e g h h, 2, 2.0
+a a b d e e f g h h, 2, 2.0
+a a b e e e e f g h, 2, 2.5
+a a b e e e e f h h, 2, 2.0
+a a b e e e e g h h, 2, 2.0
+a a b e e e f g h h, 2, 2.0
+a a c c d e e e e f, 2, 5.0
+a a c c d e e e e g, 2, 3.3333333
+a a c c d e e e e h, 2, 2.5
+a a c c d e e e f g, 2, 3.3333333
+a a c c d e e e f h, 2, 2.5
+a a c c d e e e g h, 2, 2.5
+a a c c d e e e h h, 2, 2.0
+a a c c d e e f g h, 2, 2.5
+a a c c d e e f h h, 2, 2.0
+a a c c d e e g h h, 2, 2.0
+a a c c d e f g h h, 2, 2.0
+a a c c e e e e f g, 2, 3.3333333
+a a c c e e e e f h, 2, 2.5
+a a c c e e e e g h, 2, 2.5
+a a c c e e e e h h, 2, 2.0
+a a c c e e e f g h, 2, 2.5
+a a c c e e e f h h, 2, 2.0
+a a c c e e e g h h, 2, 2.0
+a a c c e e f g h h, 2, 2.0
+a a c d e e e e f g, 2, 3.3333333
+a a c d e e e e f h, 2, 2.5
+a a c d e e e e g h, 2, 2.5
+a a c d e e e e h h, 2, 2.0
+a a c d e e e f g h, 2, 2.5
+a a c d e e e f h h, 2, 2.0
+a a c d e e e g h h, 2, 2.0
+a a c d e e f g h h, 2, 2.0
+a a c d e f f f f f, 2, 2.5
+a a c d f f f f f f, 2, 2.0
+a a c e e e e f g h, 2, 2.5
+a a c e e e e f h h, 2, 2.0
+a a c e e e e g h h, 2, 2.0
+a a c e e e f g h h, 2, 2.0
+a a c e f f f f f f, 2, 2.0
+a a c f f f f f f f, 2, 1.6666666
+a a d e e e e f g h, 2, 2.5
+a a d e e e e f h h, 2, 2.0
+a a d e e e e g h h, 2, 2.0
+a a d e e e f g h h, 2, 2.0
+a a d e f f f f f f, 2, 2.0
+a a d f f f f f f f, 2, 1.6666666
+a a e e e e f g h h, 2, 2.0
+a a e f f f f f f f, 2, 1.6666666
+a a f f f f f f f f, 2, 1.4285715
+a b a c d e f f f f, 2, 3.3333333
+a b a c d f f f f f, 2, 2.5
+a b a c e f f f f f, 2, 2.5
+a b a c f f f f f f, 2, 2.0
+a b a d e f f f f f, 2, 2.5
+a b a d f f f f f f, 2, 2.0
+a b a e f f f f f f, 2, 2.0
+a b a f f f f f f f, 2, 1.6666666
+a b b b b c e f g g, 2, 10.0
+a b b b b c e f g h, 2, 5.0
+a b b b b c e g g h, 2, 5.0
+a b b b b c f g g h, 2, 5.0
+a b b b b e f g g h, 2, 5.0
+a b b b c d d e f f, 2, 10.0
+a b b b c d d e f h, 2, 3.3333333
+a b b b c d d e h h, 2, 2.5
+a b b b c d d f f f, 2, 5.0
+a b b b c d d f f h, 2, 3.3333333
+a b b b c d d f h h, 2, 2.5
+a b b b c d d h h h, 2, 2.0
+a b b b c d e f f f, 2, 5.0
+a b b b c d e f f h, 2, 3.3333333
+a b b b c d e f h h, 2, 2.5
+a b b b c d e h h h, 2, 2.0
+a b b b c d f f f h, 2, 3.3333333
+a b b b c d f f h h, 2, 2.5
+a b b b c d f h h h, 2, 2.0
+a b b b c e f f f h, 2, 3.3333333
+a b b b c e f f h h, 2, 2.5
+a b b b c e f g g h, 2, 5.0
+a b b b c e f h h h, 2, 2.0
+a b b b c f f f h h, 2, 2.5
+a b b b c f f h h h, 2, 2.0
+a b b b d d e f f f, 2, 5.0
+a b b b d d e f f h, 2, 3.3333333
+a b b b d d e f h h, 2, 2.5
+a b b b d d e h h h, 2, 2.0
+a b b b d d f f f h, 2, 3.3333333
+a b b b d d f f h h, 2, 2.5
+a b b b d d f h h h, 2, 2.0
+a b b b d e f f f h, 2, 3.3333333
+a b b b d e f f h h, 2, 2.5
+a b b b d e f h h h, 2, 2.0
+a b b b d f f f h h, 2, 2.5
+a b b b d f f h h h, 2, 2.0
+a b b b e f f f h h, 2, 2.5
+a b b b e f f h h h, 2, 2.0
+a b b b f f f h h h, 2, 2.0
+a b b c d d e f f f, 2, 5.0
+a b b c d d e f f h, 2, 3.3333333
+a b b c d d e f h h, 2, 2.5
+a b b c d d e h h h, 2, 2.0
+a b b c d d f f f h, 2, 3.3333333
+a b b c d d f f h h, 2, 2.5
+a b b c d d f h h h, 2, 2.0
+a b b c d e f f f f, 2, 3.3333333
+a b b c d e f f f h, 2, 3.3333333
+a b b c d e f f h h, 2, 2.5
+a b b c d e f h h h, 2, 2.0
+a b b c d f f f f f, 2, 2.5
+a b b c d f f f h h, 2, 2.5
+a b b c d f f h h h, 2, 2.0
+a b b c e f f f f f, 2, 2.5
+a b b c e f f f h h, 2, 2.5
+a b b c e f f h h h, 2, 2.0
+a b b c f f f f f f, 2, 2.0
+a b b c f f f h h h, 2, 2.0
+a b b d d e f f f h, 2, 3.3333333
+a b b d d e f f h h, 2, 2.5
+a b b d d e f h h h, 2, 2.0
+a b b d d f f f h h, 2, 2.5
+a b b d d f f h h h, 2, 2.0
+a b b d e f f f f f, 2, 2.5
+a b b d e f f f h h, 2, 2.5
+a b b d e f f h h h, 2, 2.0
+a b b d f f f f f f, 2, 2.0
+a b b d f f f h h h, 2, 2.0
+a b b e f f f f f f, 2, 2.0
+a b b e f f f h h h, 2, 2.0
+a b b f f f f f f f, 2, 1.6666666
+a b c a c d e f f f, 2, 5.0
+a b c a c d f f f f, 2, 3.3333333
+a b c a c e f f f f, 2, 3.3333333
+a b c a c f f f f f, 2, 2.5
+a b c a d e f f f f, 2, 3.3333333
+a b c a d f f f f f, 2, 2.5
+a b c a e f f f f f, 2, 2.5
+a b c a f f f f f f, 2, 2.0
+a b c b c d e f f f, 2, 5.0
+a b c b c d f f f f, 2, 3.3333333
+a b c b c e f f f f, 2, 3.3333333
+a b c b c f f f f f, 2, 2.5
+a b c b d e f f f f, 2, 3.3333333
+a b c b d f f f f f, 2, 2.5
+a b c b e f f f f f, 2, 2.5
+a b c b f f f f f f, 2, 2.0
+a b c c a c d e f f, 2, 10.0
+a b c c a c d f f f, 2, 5.0
+a b c c a c e f f f, 2, 5.0
+a b c c a c f f f f, 2, 3.3333333
+a b c c a d e f f f, 2, 5.0
+a b c c a d f f f f, 2, 3.3333333
+a b c c a e f f f f, 2, 3.3333333
+a b c c a f f f f f, 2, 2.5
+a b c c b c d e f f, 2, 10.0
+a b c c b c d f f f, 2, 5.0
+a b c c b c e f f f, 2, 5.0
+a b c c b c f f f f, 2, 3.3333333
+a b c c b d e f f f, 2, 5.0
+a b c c b d f f f f, 2, 3.3333333
+a b c c b e f f f f, 2, 3.3333333
+a b c c b f f f f f, 2, 2.5
+a b c c c c d e f f, 2, 10.0
+a b c c c c d f f f, 2, 5.0
+a b c c c c e f f f, 2, 5.0
+a b c c c c f f f f, 2, 3.3333333
+a b c c c d e f f f, 6, 5.0
+a b c c c d f f f f, 6, 3.3333333
+a b c c c e f f f f, 6, 3.3333333
+a b c c c f f f f f, 6, 2.5
+a b c c d e e e e f, 2, 10.0
+a b c c d e e e e g, 2, 5.0
+a b c c d e e e e h, 2, 3.3333333
+a b c c d e e e f g, 2, 5.0
+a b c c d e e e f h, 2, 3.3333333
+a b c c d e e e g h, 2, 3.3333333
+a b c c d e e e h h, 2, 2.5
+a b c c d e e f g h, 2, 3.3333333
+a b c c d e e f h h, 2, 2.5
+a b c c d e e g h h, 2, 2.5
+a b c c d e f f f f, 6, 3.3333333
+a b c c d e f g h h, 2, 2.5
+a b c c d f f f f f, 6, 2.5
+a b c c e e e e f g, 2, 5.0
+a b c c e e e e f h, 2, 3.3333333
+a b c c e e e e g h, 2, 3.3333333
+a b c c e e e e h h, 2, 2.5
+a b c c e e e f g h, 2, 3.3333333
+a b c c e e e f h h, 2, 2.5
+a b c c e e e g h h, 2, 2.5
+a b c c e e f g h h, 2, 2.5
+a b c c e f f f f f, 6, 2.5
+a b c c f f f f f f, 6, 2.0
+a b c d d e f f f h, 2, 3.3333333
+a b c d d e f f h h, 2, 2.5
+a b c d d e f h h h, 2, 2.0
+a b c d d f f f h h, 2, 2.5
+a b c d d f f h h h, 2, 2.0
+a b c d e e e e f g, 2, 5.0
+a b c d e e e e f h, 2, 3.3333333
+a b c d e e e e g h, 2, 3.3333333
+a b c d e e e e h h, 2, 2.5
+a b c d e e e f g h, 2, 3.3333333
+a b c d e e e f h h, 2, 2.5
+a b c d e e e g h h, 2, 2.5
+a b c d e e f g h h, 2, 2.5
+a b c d e f f f f f, 6, 2.5
+a b c d e f f f h h, 2, 2.5
+a b c d e f f h h h, 2, 2.0
+a b c d f f f f f f, 6, 2.0
+a b c d f f f h h h, 2, 2.0
+a b c e e e e f g h, 2, 3.3333333
+a b c e e e e f h h, 2, 2.5
+a b c e e e e g h h, 2, 2.5
+a b c e e e f g h h, 2, 2.5
+a b c e f f f f f f, 6, 2.0
+a b c e f f f h h h, 2, 2.0
+a b c f f f f f f f, 6, 1.6666666
+a b d d e f f f h h, 2, 2.5
+a b d d e f f h h h, 2, 2.0
+a b d d f f f h h h, 2, 2.0
+a b d e e e e f g h, 2, 3.3333333
+a b d e e e e f h h, 2, 2.5
+a b d e e e e g h h, 2, 2.5
+a b d e e e f g h h, 2, 2.5
+a b d e f f f f f f, 6, 2.0
+a b d e f f f h h h, 2, 2.0
+a b d f f f f f f f, 6, 1.6666666
+a b e e e e f g h h, 2, 2.5
+a b e f f f f f f f, 6, 1.6666666
+a b f f f f f f f f, 6, 1.4285715
+b a c d e f f f f f, 2, 3.3333333
+b a c d f f f f f f, 2, 2.5
+b a c e f f f f f f, 2, 2.5
+b a c f f f f f f f, 2, 2.0
+b a d e f f f f f f, 2, 2.5
+b a d f f f f f f f, 2, 2.0
+b a e f f f f f f f, 2, 2.0
+b a f f f f f f f f, 2, 1.6666666
+a c a c d e f f f f, 2, 3.3333333
+a c a c d f f f f f, 2, 2.5
+a c a c e f f f f f, 2, 2.5
+a c a c f f f f f f, 2, 2.0
+a c a d e f f f f f, 2, 2.5
+a c a d f f f f f f, 2, 2.0
+a c a e f f f f f f, 2, 2.0
+a c a f f f f f f f, 2, 1.6666666
+a c b c d e f f f f, 2, 3.3333333
+a c b c d f f f f f, 2, 2.5
+a c b c e f f f f f, 2, 2.5
+a c b c f f f f f f, 2, 2.0
+a c b d e f f f f f, 2, 2.5
+a c b d f f f f f f, 2, 2.0
+a c b e f f f f f f, 2, 2.0
+a c b f f f f f f f, 2, 1.6666666
+a c c a c d e f f f, 2, 5.0
+a c c a c d f f f f, 2, 3.3333333
+a c c a c e f f f f, 2, 3.3333333
+a c c a c f f f f f, 2, 2.5
+a c c a d e f f f f, 2, 3.3333333
+a c c a d f f f f f, 2, 2.5
+a c c a e f f f f f, 2, 2.5
+a c c a f f f f f f, 2, 2.0
+a c c b c d e f f f, 2, 5.0
+a c c b c d f f f f, 2, 3.3333333
+a c c b c e f f f f, 2, 3.3333333
+a c c b c f f f f f, 2, 2.5
+a c c b d e f f f f, 2, 3.3333333
+a c c b d f f f f f, 2, 2.5
+a c c b e f f f f f, 2, 2.5
+a c c b f f f f f f, 2, 2.0
+a c c c c d e f f f, 2, 5.0
+a c c c c d f f f f, 2, 3.3333333
+a c c c c e f f f f, 2, 3.3333333
+a c c c c f f f f f, 2, 2.5
+a c c c d e f f f f, 6, 3.3333333
+a c c c d f f f f f, 6, 2.5
+a c c c e f f f f f, 6, 2.5
+a c c c f f f f f f, 6, 2.0
+a c c d e e e e f g, 2, 5.0
+a c c d e e e e f h, 2, 3.3333333
+a c c d e e e e g h, 2, 3.3333333
+a c c d e e e e h h, 2, 2.5
+a c c d e e e f g h, 2, 3.3333333
+a c c d e e e f h h, 2, 2.5
+a c c d e e e g h h, 2, 2.5
+a c c d e e f g h h, 2, 2.5
+a c c d e f f f f f, 6, 2.5
+a c c d f f f f f f, 6, 2.0
+a c c e e e e f g h, 2, 3.3333333
+a c c e e e e f h h, 2, 2.5
+a c c e e e e g h h, 2, 2.5
+a c c e e e f g h h, 2, 2.5
+a c c e f f f f f f, 6, 2.0
+a c c f f f f f f f, 6, 1.6666666
+a c d d e f f f h h, 2, 2.5
+a c d d e f f h h h, 2, 2.0
+a c d d f f f h h h, 2, 2.0
+a c d e e e e f g h, 2, 3.3333333
+a c d e e e e f h h, 2, 2.5
+a c d e e e e g h h, 2, 2.5
+a c d e e e f g h h, 2, 2.5
+a c d e f f f f f f, 6, 2.0
+a c d e f f f h h h, 2, 2.0
+a c d f f f f f f f, 6, 1.6666666
+a c e e e e f g h h, 2, 2.5
+a c e f f f f f f f, 6, 1.6666666
+a c f f f f f f f f, 6, 1.4285715
+c a c d e f f f f f, 2, 10.0
+c a c d f f f f f f, 2, 5.0
+c a c e f f f f f f, 2, 5.0
+c a c f f f f f f f, 2, 3.3333333
+c a d e f f f f f f, 2, 5.0
+c a d f f f f f f f, 2, 3.3333333
+c a e f f f f f f f, 2, 3.3333333
+c a f f f f f f f f, 2, 2.5
+a d d e f f f h h h, 2, 2.0
+a d e e e e f g h h, 2, 2.5
+a d e f f f f f f f, 6, 2.7777777
+a d f f f f f f f f, 6, 2.063492
+a e f f f f f f f f, 6, 2.063492
+a f f f f f f f f f, 6, 1.6666666
+b b b b c e f g g h, 2, 10.0
+b b b c d d e f f f, 2, 10.0
+b b b c d d e f f h, 2, 5.0
+b b b c d d e f h h, 2, 3.3333333
+b b b c d d e h h h, 2, 2.5
+b b b c d d f f f h, 2, 5.0
+b b b c d d f f h h, 2, 3.3333333
+b b b c d d f h h h, 2, 2.5
+b b b c d e f f f h, 2, 5.0
+b b b c d e f f h h, 2, 3.3333333
+b b b c d e f h h h, 2, 2.5
+b b b c d f f f h h, 2, 3.3333333
+b b b c d f f h h h, 2, 2.5
+b b b c e f f f h h, 2, 3.3333333
+b b b c e f f h h h, 2, 2.5
+b b b c f f f h h h, 2, 2.5
+b b b d d e f f f h, 2, 5.0
+b b b d d e f f h h, 2, 3.3333333
+b b b d d e f h h h, 2, 2.5
+b b b d d f f f h h, 2, 3.3333333
+b b b d d f f h h h, 2, 2.5
+b b b d e f f f h h, 2, 3.3333333
+b b b d e f f h h h, 2, 2.5
+b b b d f f f h h h, 2, 2.5
+b b b e f f f h h h, 2, 2.5
+b b c d d e f f f h, 2, 5.0
+b b c d d e f f h h, 2, 3.3333333
+b b c d d e f h h h, 2, 2.5
+b b c d d f f f h h, 2, 3.3333333
+b b c d d f f h h h, 2, 2.5
+b b c d e f f f f f, 2, 3.3333333
+b b c d e f f f h h, 2, 3.3333333
+b b c d e f f h h h, 2, 2.5
+b b c d f f f f f f, 2, 2.5
+b b c d f f f h h h, 2, 2.5
+b b c e f f f f f f, 2, 2.5
+b b c e f f f h h h, 2, 2.5
+b b c f f f f f f f, 2, 2.0
+b b d d e f f f h h, 2, 3.3333333
+b b d d e f f h h h, 2, 2.5
+b b d d f f f h h h, 2, 2.5
+b b d e f f f f f f, 2, 2.5
+b b d e f f f h h h, 2, 2.5
+b b d f f f f f f f, 2, 2.0
+b b e f f f f f f f, 2, 2.0
+b b f f f f f f f f, 2, 1.6666666
+b c a c d e f f f f, 2, 5.0
+b c a c d f f f f f, 2, 3.3333333
+b c a c e f f f f f, 2, 3.3333333
+b c a c f f f f f f, 2, 2.5
+b c a d e f f f f f, 2, 3.3333333
+b c a d f f f f f f, 2, 2.5
+b c a e f f f f f f, 2, 2.5
+b c a f f f f f f f, 2, 2.0
+b c b c d e f f f f, 2, 5.0
+b c b c d f f f f f, 2, 3.3333333
+b c b c e f f f f f, 2, 3.3333333
+b c b c f f f f f f, 2, 2.5
+b c b d e f f f f f, 2, 3.3333333
+b c b d f f f f f f, 2, 2.5
+b c b e f f f f f f, 2, 2.5
+b c b f f f f f f f, 2, 2.0
+b c c a c d e f f f, 2, 10.0
+b c c a c d f f f f, 2, 5.0
+b c c a c e f f f f, 2, 5.0
+b c c a c f f f f f, 2, 3.3333333
+b c c a d e f f f f, 2, 5.0
+b c c a d f f f f f, 2, 3.3333333
+b c c a e f f f f f, 2, 3.3333333
+b c c a f f f f f f, 2, 2.5
+b c c b c d e f f f, 2, 10.0
+b c c b c d f f f f, 2, 5.0
+b c c b c e f f f f, 2, 5.0
+b c c b c f f f f f, 2, 3.3333333
+b c c b d e f f f f, 2, 5.0
+b c c b d f f f f f, 2, 3.3333333
+b c c b e f f f f f, 2, 3.3333333
+b c c b f f f f f f, 2, 2.5
+b c c c c d e f f f, 2, 10.0
+b c c c c d f f f f, 2, 5.0
+b c c c c e f f f f, 2, 5.0
+b c c c c f f f f f, 2, 3.3333333
+b c c c d e f f f f, 6, 5.0
+b c c c d f f f f f, 6, 3.3333333
+b c c c e f f f f f, 6, 3.3333333
+b c c c f f f f f f, 6, 2.5
+b c c d e e e e f g, 2, 10.0
+b c c d e e e e f h, 2, 5.0
+b c c d e e e e g h, 2, 5.0
+b c c d e e e e h h, 2, 3.3333333
+b c c d e e e f g h, 2, 5.0
+b c c d e e e f h h, 2, 3.3333333
+b c c d e e e g h h, 2, 3.3333333
+b c c d e e f g h h, 2, 3.3333333
+b c c d e f f f f f, 6, 3.3333333
+b c c d f f f f f f, 6, 2.5
+b c c e e e e f g h, 2, 5.0
+b c c e e e e f h h, 2, 3.3333333
+b c c e e e e g h h, 2, 3.3333333
+b c c e e e f g h h, 2, 3.3333333
+b c c e f f f f f f, 6, 2.5
+b c c f f f f f f f, 6, 2.0
+b c d d e f f f h h, 2, 10.0
+b c d d e f f h h h, 2, 5.0
+b c d d f f f h h h, 2, 5.0
+b c d e e e e f g h, 2, 5.0
+b c d e e e e f h h, 2, 3.3333333
+b c d e e e e g h h, 2, 3.3333333
+b c d e e e f g h h, 2, 3.3333333
+b c d e f f f f f f, 6, 2.5
+b c d e f f f h h h, 2, 5.0
+b c d f f f f f f f, 6, 2.0
+b c e e e e f g h h, 2, 3.3333333
+b c e f f f f f f f, 6, 2.0
+b c f f f f f f f f, 6, 1.6666666
+c b c d e f f f f f, 2, 10.0
+c b c d f f f f f f, 2, 5.0
+c b c e f f f f f f, 2, 5.0
+c b c f f f f f f f, 2, 3.3333333
+c b d e f f f f f f, 2, 5.0
+c b d f f f f f f f, 2, 3.3333333
+c b e f f f f f f f, 2, 3.3333333
+c b f f f f f f f f, 2, 2.5
+b d d e f f f h h h, 2, 5.0
+b d e e e e f g h h, 2, 3.3333333
+b d e f f f f f f f, 6, 3.0
+b d f f f f f f f f, 6, 2.222222
+b e f f f f f f f f, 6, 2.222222
+b f f f f f f f f f, 6, 1.7857143
+c c a c d e f f f f, 2, 10.0
+c c a c d f f f f f, 2, 5.0
+c c a c e f f f f f, 2, 5.0
+c c a c f f f f f f, 2, 3.3333333
+c c a d e f f f f f, 2, 5.0
+c c a d f f f f f f, 2, 3.3333333
+c c a e f f f f f f, 2, 3.3333333
+c c a f f f f f f f, 2, 2.5
+c c b c d e f f f f, 2, 10.0
+c c b c d f f f f f, 2, 5.0
+c c b c e f f f f f, 2, 5.0
+c c b c f f f f f f, 2, 3.3333333
+c c b d e f f f f f, 2, 5.0
+c c b d f f f f f f, 2, 3.3333333
+c c b e f f f f f f, 2, 3.3333333
+c c b f f f f f f f, 2, 2.5
+c c c c d e f f f f, 2, 10.0
+c c c c d f f f f f, 2, 5.0
+c c c c e f f f f f, 2, 5.0
+c c c c f f f f f f, 2, 3.3333333
+c c c d e f f f f f, 6, 5.0
+c c c d f f f f f f, 6, 3.3333333
+c c c e f f f f f f, 6, 3.3333333
+c c c f f f f f f f, 6, 2.5
+c c d e e e e f g h, 2, 10.0
+c c d e e e e f h h, 2, 5.0
+c c d e e e e g h h, 2, 5.0
+c c d e e e f g h h, 2, 5.0
+c c d e f f f f f f, 6, 3.3333333
+c c d f f f f f f f, 6, 2.5
+c c e e e e f g h h, 2, 5.0
+c c e f f f f f f f, 6, 2.5
+c c f f f f f f f f, 6, 2.0
+c d d e f f f h h h, 2, 10.0
+c d e e e e f g h h, 2, 10.0
+c d e f f f f f f f, 6, 10.0
+c d f f f f f f f f, 6, 5.0
+c e f f f f f f f f, 6, 5.0
+c f f f f f f f f f, 6, 3.3333333
+d e f f f f f f f f, 6, 10.0
+d f f f f f f f f f, 6, 5.0
+e f f f f f f f f f, 6, 10.0
+a a a a b b b b c e f, 2, 11.0
+a a a a b b b b c e g, 2, 5.5
+a a a a b b b b c e h, 2, 2.75
+a a a a b b b b c f g, 2, 5.5
+a a a a b b b b c f h, 2, 2.75
+a a a a b b b b c g g, 2, 3.6666667
+a a a a b b b b c g h, 2, 2.75
+a a a a b b b b e f g, 2, 5.5
+a a a a b b b b e f h, 2, 2.75
+a a a a b b b b e g g, 2, 3.6666667
+a a a a b b b b e g h, 2, 2.75
+a a a a b b b b f g g, 2, 3.6666667
+a a a a b b b b f g h, 2, 2.75
+a a a a b b b b g g h, 2, 2.75
+a a a a b b b c e f g, 2, 5.5
+a a a a b b b c e f h, 2, 2.75
+a a a a b b b c e g g, 2, 3.6666667
+a a a a b b b c e g h, 2, 2.75
+a a a a b b b c f g g, 2, 3.6666667
+a a a a b b b c f g h, 2, 2.75
+a a a a b b b c g g h, 2, 2.75
+a a a a b b b e f g g, 2, 3.6666667
+a a a a b b b e f g h, 2, 2.75
+a a a a b b b e g g h, 2, 2.75
+a a a a b b b f g g h, 2, 2.75
+a a a a b b c e f g g, 2, 3.6666667
+a a a a b b c e f g h, 2, 2.75
+a a a a b b c e g g h, 2, 2.75
+a a a a b b c f g g h, 2, 2.75
+a a a a b b e f g g h, 2, 2.75
+a a a a b c e f g g h, 2, 2.75
+a a a b b b b c e f g, 2, 5.5
+a a a b b b b c e f h, 2, 2.75
+a a a b b b b c e g g, 2, 3.6666667
+a a a b b b b c e g h, 2, 2.75
+a a a b b b b c f g g, 2, 3.6666667
+a a a b b b b c f g h, 2, 2.75
+a a a b b b b c g g h, 2, 2.75
+a a a b b b b e f g g, 2, 3.6666667
+a a a b b b b e f g h, 2, 2.75
+a a a b b b b e g g h, 2, 2.75
+a a a b b b b f g g h, 2, 2.75
+a a a b b b c e f g g, 2, 3.6666667
+a a a b b b c e f g h, 2, 2.75
+a a a b b b c e g g h, 2, 2.75
+a a a b b b c f g g h, 2, 2.75
+a a a b b b e f g g h, 2, 2.75
+a a a b b c e f g g h, 2, 2.75
+a a b b b b c e f g g, 2, 3.6666667
+a a b b b b c e f g h, 2, 2.75
+a a b b b b c e g g h, 2, 2.75
+a a b b b b c f g g h, 2, 2.75
+a a b b b b e f g g h, 2, 2.75
+a a b b b c e f g g h, 2, 2.75
+a a b c c d e e e e f, 2, 11.0
+a a b c c d e e e e g, 2, 5.5
+a a b c c d e e e e h, 2, 3.6666667
+a a b c c d e e e f g, 2, 5.5
+a a b c c d e e e f h, 2, 3.6666667
+a a b c c d e e e g h, 2, 3.6666667
+a a b c c d e e e h h, 2, 2.75
+a a b c c d e e f g h, 2, 3.6666667
+a a b c c d e e f h h, 2, 2.75
+a a b c c d e e g h h, 2, 2.75
+a a b c c d e f g h h, 2, 2.75
+a a b c c e e e e f g, 2, 5.5
+a a b c c e e e e f h, 2, 3.6666667
+a a b c c e e e e g h, 2, 3.6666667
+a a b c c e e e e h h, 2, 2.75
+a a b c c e e e f g h, 2, 3.6666667
+a a b c c e e e f h h, 2, 2.75
+a a b c c e e e g h h, 2, 2.75
+a a b c c e e f g h h, 2, 2.75
+a a b c d e e e e f g, 2, 5.5
+a a b c d e e e e f h, 2, 3.6666667
+a a b c d e e e e g h, 2, 3.6666667
+a a b c d e e e e h h, 2, 2.75
+a a b c d e e e f g h, 2, 3.6666667
+a a b c d e e e f h h, 2, 2.75
+a a b c d e e e g h h, 2, 2.75
+a a b c d e e f g h h, 2, 2.75
+a a b c e e e e f g h, 2, 3.6666667
+a a b c e e e e f h h, 2, 2.75
+a a b c e e e e g h h, 2, 2.75
+a a b c e e e f g h h, 2, 2.75
+a a b d e e e e f g h, 2, 3.6666667
+a a b d e e e e f h h, 2, 2.75
+a a b d e e e e g h h, 2, 2.75
+a a b d e e e f g h h, 2, 2.75
+a a b e e e e f g h h, 2, 2.75
+a a c c d e e e e f g, 2, 5.5
+a a c c d e e e e f h, 2, 3.6666667
+a a c c d e e e e g h, 2, 3.6666667
+a a c c d e e e e h h, 2, 2.75
+a a c c d e e e f g h, 2, 3.6666667
+a a c c d e e e f h h, 2, 2.75
+a a c c d e e e g h h, 2, 2.75
+a a c c d e e f g h h, 2, 2.75
+a a c c e e e e f g h, 2, 3.6666667
+a a c c e e e e f h h, 2, 2.75
+a a c c e e e e g h h, 2, 2.75
+a a c c e e e f g h h, 2, 2.75
+a a c d e e e e f g h, 2, 3.6666667
+a a c d e e e e f h h, 2, 2.75
+a a c d e e e e g h h, 2, 2.75
+a a c d e e e f g h h, 2, 2.75
+a a c d e f f f f f f, 2, 2.75
+a a c d f f f f f f f, 2, 2.2
+a a c e e e e f g h h, 2, 2.75
+a a c e f f f f f f f, 2, 2.2
+a a c f f f f f f f f, 2, 1.8333334
+a a d e e e e f g h h, 2, 2.75
+a a d e f f f f f f f, 2, 2.2
+a a d f f f f f f f f, 2, 1.8333334
+a a e f f f f f f f f, 2, 1.8333334
+a a f f f f f f f f f, 2, 1.5714285
+a b a c d e f f f f f, 2, 3.6666667
+a b a c d f f f f f f, 2, 2.75
+a b a c e f f f f f f, 2, 2.75
+a b a c f f f f f f f, 2, 2.2
+a b a d e f f f f f f, 2, 2.75
+a b a d f f f f f f f, 2, 2.2
+a b a e f f f f f f f, 2, 2.2
+a b a f f f f f f f f, 2, 1.8333334
+a b b b b c e f g g h, 2, 11.0
+a b b b c d d e f f f, 2, 11.0
+a b b b c d d e f f h, 2, 5.5
+a b b b c d d e f h h, 2, 3.6666667
+a b b b c d d e h h h, 2, 2.75
+a b b b c d d f f f h, 2, 5.5
+a b b b c d d f f h h, 2, 3.6666667
+a b b b c d d f h h h, 2, 2.75
+a b b b c d e f f f h, 2, 5.5
+a b b b c d e f f h h, 2, 3.6666667
+a b b b c d e f h h h, 2, 2.75
+a b b b c d f f f h h, 2, 3.6666667
+a b b b c d f f h h h, 2, 2.75
+a b b b c e f f f h h, 2, 3.6666667
+a b b b c e f f h h h, 2, 2.75
+a b b b c f f f h h h, 2, 2.75
+a b b b d d e f f f h, 2, 5.5
+a b b b d d e f f h h, 2, 3.6666667
+a b b b d d e f h h h, 2, 2.75
+a b b b d d f f f h h, 2, 3.6666667
+a b b b d d f f h h h, 2, 2.75
+a b b b d e f f f h h, 2, 3.6666667
+a b b b d e f f h h h, 2, 2.75
+a b b b d f f f h h h, 2, 2.75
+a b b b e f f f h h h, 2, 2.75
+a b b c d d e f f f h, 2, 5.5
+a b b c d d e f f h h, 2, 3.6666667
+a b b c d d e f h h h, 2, 2.75
+a b b c d d f f f h h, 2, 3.6666667
+a b b c d d f f h h h, 2, 2.75
+a b b c d e f f f f f, 2, 3.6666667
+a b b c d e f f f h h, 2, 3.6666667
+a b b c d e f f h h h, 2, 2.75
+a b b c d f f f f f f, 2, 2.75
+a b b c d f f f h h h, 2, 2.75
+a b b c e f f f f f f, 2, 2.75
+a b b c e f f f h h h, 2, 2.75
+a b b c f f f f f f f, 2, 2.2
+a b b d d e f f f h h, 2, 3.6666667
+a b b d d e f f h h h, 2, 2.75
+a b b d d f f f h h h, 2, 2.75
+a b b d e f f f f f f, 2, 2.75
+a b b d e f f f h h h, 2, 2.75
+a b b d f f f f f f f, 2, 2.2
+a b b e f f f f f f f, 2, 2.2
+a b b f f f f f f f f, 2, 1.8333334
+a b c a c d e f f f f, 2, 5.5
+a b c a c d f f f f f, 2, 3.6666667
+a b c a c e f f f f f, 2, 3.6666667
+a b c a c f f f f f f, 2, 2.75
+a b c a d e f f f f f, 2, 3.6666667
+a b c a d f f f f f f, 2, 2.75
+a b c a e f f f f f f, 2, 2.75
+a b c a f f f f f f f, 2, 2.2
+a b c b c d e f f f f, 2, 5.5
+a b c b c d f f f f f, 2, 3.6666667
+a b c b c e f f f f f, 2, 3.6666667
+a b c b c f f f f f f, 2, 2.75
+a b c b d e f f f f f, 2, 3.6666667
+a b c b d f f f f f f, 2, 2.75
+a b c b e f f f f f f, 2, 2.75
+a b c b f f f f f f f, 2, 2.2
+a b c c a c d e f f f, 2, 11.0
+a b c c a c d f f f f, 2, 5.5
+a b c c a c e f f f f, 2, 5.5
+a b c c a c f f f f f, 2, 3.6666667
+a b c c a d e f f f f, 2, 5.5
+a b c c a d f f f f f, 2, 3.6666667
+a b c c a e f f f f f, 2, 3.6666667
+a b c c a f f f f f f, 2, 2.75
+a b c c b c d e f f f, 2, 11.0
+a b c c b c d f f f f, 2, 5.5
+a b c c b c e f f f f, 2, 5.5
+a b c c b c f f f f f, 2, 3.6666667
+a b c c b d e f f f f, 2, 5.5
+a b c c b d f f f f f, 2, 3.6666667
+a b c c b e f f f f f, 2, 3.6666667
+a b c c b f f f f f f, 2, 2.75
+a b c c c c d e f f f, 2, 11.0
+a b c c c c d f f f f, 2, 5.5
+a b c c c c e f f f f, 2, 5.5
+a b c c c c f f f f f, 2, 3.6666667
+a b c c c d e f f f f, 6, 5.5
+a b c c c d f f f f f, 6, 3.6666667
+a b c c c e f f f f f, 6, 3.6666667
+a b c c c f f f f f f, 6, 2.75
+a b c c d e e e e f g, 2, 11.0
+a b c c d e e e e f h, 2, 5.5
+a b c c d e e e e g h, 2, 5.5
+a b c c d e e e e h h, 2, 3.6666667
+a b c c d e e e f g h, 2, 5.5
+a b c c d e e e f h h, 2, 3.6666667
+a b c c d e e e g h h, 2, 3.6666667
+a b c c d e e f g h h, 2, 3.6666667
+a b c c d e f f f f f, 6, 3.6666667
+a b c c d f f f f f f, 6, 2.75
+a b c c e e e e f g h, 2, 5.5
+a b c c e e e e f h h, 2, 3.6666667
+a b c c e e e e g h h, 2, 3.6666667
+a b c c e e e f g h h, 2, 3.6666667
+a b c c e f f f f f f, 6, 2.75
+a b c c f f f f f f f, 6, 2.2
+a b c d d e f f f h h, 2, 3.6666667
+a b c d d e f f h h h, 2, 2.75
+a b c d d f f f h h h, 2, 2.75
+a b c d e e e e f g h, 2, 5.5
+a b c d e e e e f h h, 2, 3.6666667
+a b c d e e e e g h h, 2, 3.6666667
+a b c d e e e f g h h, 2, 3.6666667
+a b c d e f f f f f f, 6, 2.75
+a b c d e f f f h h h, 2, 2.75
+a b c d f f f f f f f, 6, 2.2
+a b c e e e e f g h h, 2, 3.6666667
+a b c e f f f f f f f, 6, 2.2
+a b c f f f f f f f f, 6, 1.8333334
+a b d d e f f f h h h, 2, 2.75
+a b d e e e e f g h h, 2, 3.6666667
+a b d e f f f f f f f, 6, 2.2
+a b d f f f f f f f f, 6, 1.8333334
+a b e f f f f f f f f, 6, 1.8333334
+a b f f f f f f f f f, 6, 1.5714284
+b a c d e f f f f f f, 2, 3.6666667
+b a c d f f f f f f f, 2, 2.75
+b a c e f f f f f f f, 2, 2.75
+b a c f f f f f f f f, 2, 2.2
+b a d e f f f f f f f, 2, 2.75
+b a d f f f f f f f f, 2, 2.2
+b a e f f f f f f f f, 2, 2.2
+b a f f f f f f f f f, 2, 1.8333334
+a c a c d e f f f f f, 2, 3.6666667
+a c a c d f f f f f f, 2, 2.75
+a c a c e f f f f f f, 2, 2.75
+a c a c f f f f f f f, 2, 2.2
+a c a d e f f f f f f, 2, 2.75
+a c a d f f f f f f f, 2, 2.2
+a c a e f f f f f f f, 2, 2.2
+a c a f f f f f f f f, 2, 1.8333334
+a c b c d e f f f f f, 2, 3.6666667
+a c b c d f f f f f f, 2, 2.75
+a c b c e f f f f f f, 2, 2.75
+a c b c f f f f f f f, 2, 2.2
+a c b d e f f f f f f, 2, 2.75
+a c b d f f f f f f f, 2, 2.2
+a c b e f f f f f f f, 2, 2.2
+a c b f f f f f f f f, 2, 1.8333334
+a c c a c d e f f f f, 2, 5.5
+a c c a c d f f f f f, 2, 3.6666667
+a c c a c e f f f f f, 2, 3.6666667
+a c c a c f f f f f f, 2, 2.75
+a c c a d e f f f f f, 2, 3.6666667
+a c c a d f f f f f f, 2, 2.75
+a c c a e f f f f f f, 2, 2.75
+a c c a f f f f f f f, 2, 2.2
+a c c b c d e f f f f, 2, 5.5
+a c c b c d f f f f f, 2, 3.6666667
+a c c b c e f f f f f, 2, 3.6666667
+a c c b c f f f f f f, 2, 2.75
+a c c b d e f f f f f, 2, 3.6666667
+a c c b d f f f f f f, 2, 2.75
+a c c b e f f f f f f, 2, 2.75
+a c c b f f f f f f f, 2, 2.2
+a c c c c d e f f f f, 2, 5.5
+a c c c c d f f f f f, 2, 3.6666667
+a c c c c e f f f f f, 2, 3.6666667
+a c c c c f f f f f f, 2, 2.75
+a c c c d e f f f f f, 6, 3.6666667
+a c c c d f f f f f f, 6, 2.75
+a c c c e f f f f f f, 6, 2.75
+a c c c f f f f f f f, 6, 2.2
+a c c d e e e e f g h, 2, 5.5
+a c c d e e e e f h h, 2, 3.6666667
+a c c d e e e e g h h, 2, 3.6666667
+a c c d e e e f g h h, 2, 3.6666667
+a c c d e f f f f f f, 6, 2.75
+a c c d f f f f f f f, 6, 2.2
+a c c e e e e f g h h, 2, 3.6666667
+a c c e f f f f f f f, 6, 2.2
+a c c f f f f f f f f, 6, 1.8333334
+a c d d e f f f h h h, 2, 2.75
+a c d e e e e f g h h, 2, 3.6666667
+a c d e f f f f f f f, 6, 2.2
+a c d f f f f f f f f, 6, 1.8333334
+a c e f f f f f f f f, 6, 1.8333334
+a c f f f f f f f f f, 6, 1.5714284
+c a c d e f f f f f f, 2, 11.0
+c a c d f f f f f f f, 2, 5.5
+c a c e f f f f f f f, 2, 5.5
+c a c f f f f f f f f, 2, 3.6666667
+c a d e f f f f f f f, 2, 5.5
+c a d f f f f f f f f, 2, 3.6666667
+c a e f f f f f f f f, 2, 3.6666667
+c a f f f f f f f f f, 2, 2.75
+a d e f f f f f f f f, 6, 3.0555556
+a d f f f f f f f f f, 6, 2.2698412
+a e f f f f f f f f f, 6, 2.2698412
+b b b c d d e f f f h, 2, 11.0
+b b b c d d e f f h h, 2, 5.5
+b b b c d d e f h h h, 2, 3.6666667
+b b b c d d f f f h h, 2, 5.5
+b b b c d d f f h h h, 2, 3.6666667
+b b b c d e f f f h h, 2, 5.5
+b b b c d e f f h h h, 2, 3.6666667
+b b b c d f f f h h h, 2, 3.6666667
+b b b c e f f f h h h, 2, 3.6666667
+b b b d d e f f f h h, 2, 5.5
+b b b d d e f f h h h, 2, 3.6666667
+b b b d d f f f h h h, 2, 3.6666667
+b b b d e f f f h h h, 2, 3.6666667
+b b c d d e f f f h h, 2, 5.5
+b b c d d e f f h h h, 2, 3.6666667
+b b c d d f f f h h h, 2, 3.6666667
+b b c d e f f f f f f, 2, 3.6666667
+b b c d e f f f h h h, 2, 3.6666667
+b b c d f f f f f f f, 2, 2.75
+b b c e f f f f f f f, 2, 2.75
+b b c f f f f f f f f, 2, 2.2
+b b d d e f f f h h h, 2, 3.6666667
+b b d e f f f f f f f, 2, 2.75
+b b d f f f f f f f f, 2, 2.2
+b b e f f f f f f f f, 2, 2.2
+b b f f f f f f f f f, 2, 1.8333334
+b c a c d e f f f f f, 2, 5.5
+b c a c d f f f f f f, 2, 3.6666667
+b c a c e f f f f f f, 2, 3.6666667
+b c a c f f f f f f f, 2, 2.75
+b c a d e f f f f f f, 2, 3.6666667
+b c a d f f f f f f f, 2, 2.75
+b c a e f f f f f f f, 2, 2.75
+b c a f f f f f f f f, 2, 2.2
+b c b c d e f f f f f, 2, 5.5
+b c b c d f f f f f f, 2, 3.6666667
+b c b c e f f f f f f, 2, 3.6666667
+b c b c f f f f f f f, 2, 2.75
+b c b d e f f f f f f, 2, 3.6666667
+b c b d f f f f f f f, 2, 2.75
+b c b e f f f f f f f, 2, 2.75
+b c b f f f f f f f f, 2, 2.2
+b c c a c d e f f f f, 2, 11.0
+b c c a c d f f f f f, 2, 5.5
+b c c a c e f f f f f, 2, 5.5
+b c c a c f f f f f f, 2, 3.6666667
+b c c a d e f f f f f, 2, 5.5
+b c c a d f f f f f f, 2, 3.6666667
+b c c a e f f f f f f, 2, 3.6666667
+b c c a f f f f f f f, 2, 2.75
+b c c b c d e f f f f, 2, 11.0
+b c c b c d f f f f f, 2, 5.5
+b c c b c e f f f f f, 2, 5.5
+b c c b c f f f f f f, 2, 3.6666667
+b c c b d e f f f f f, 2, 5.5
+b c c b d f f f f f f, 2, 3.6666667
+b c c b e f f f f f f, 2, 3.6666667
+b c c b f f f f f f f, 2, 2.75
+b c c c c d e f f f f, 2, 11.0
+b c c c c d f f f f f, 2, 5.5
+b c c c c e f f f f f, 2, 5.5
+b c c c c f f f f f f, 2, 3.6666667
+b c c c d e f f f f f, 6, 5.5
+b c c c d f f f f f f, 6, 3.6666667
+b c c c e f f f f f f, 6, 3.6666667
+b c c c f f f f f f f, 6, 2.75
+b c c d e e e e f g h, 2, 11.0
+b c c d e e e e f h h, 2, 5.5
+b c c d e e e e g h h, 2, 5.5
+b c c d e e e f g h h, 2, 5.5
+b c c d e f f f f f f, 6, 3.6666667
+b c c d f f f f f f f, 6, 2.75
+b c c e e e e f g h h, 2, 5.5
+b c c e f f f f f f f, 6, 2.75
+b c c f f f f f f f f, 6, 2.2
+b c d d e f f f h h h, 2, 11.0
+b c d e e e e f g h h, 2, 5.5
+b c d e f f f f f f f, 6, 2.75
+b c d f f f f f f f f, 6, 2.2
+b c e f f f f f f f f, 6, 2.2
+b c f f f f f f f f f, 6, 1.8333334
+c b c d e f f f f f f, 2, 11.0
+c b c d f f f f f f f, 2, 5.5
+c b c e f f f f f f f, 2, 5.5
+c b c f f f f f f f f, 2, 3.6666667
+c b d e f f f f f f f, 2, 5.5
+c b d f f f f f f f f, 2, 3.6666667
+c b e f f f f f f f f, 2, 3.6666667
+c b f f f f f f f f f, 2, 2.75
+b d e f f f f f f f f, 6, 3.3000002
+b d f f f f f f f f f, 6, 2.4444444
+b e f f f f f f f f f, 6, 2.4444444
+c c a c d e f f f f f, 2, 11.0
+c c a c d f f f f f f, 2, 5.5
+c c a c e f f f f f f, 2, 5.5
+c c a c f f f f f f f, 2, 3.6666667
+c c a d e f f f f f f, 2, 5.5
+c c a d f f f f f f f, 2, 3.6666667
+c c a e f f f f f f f, 2, 3.6666667
+c c a f f f f f f f f, 2, 2.75
+c c b c d e f f f f f, 2, 11.0
+c c b c d f f f f f f, 2, 5.5
+c c b c e f f f f f f, 2, 5.5
+c c b c f f f f f f f, 2, 3.6666667
+c c b d e f f f f f f, 2, 5.5
+c c b d f f f f f f f, 2, 3.6666667
+c c b e f f f f f f f, 2, 3.6666667
+c c b f f f f f f f f, 2, 2.75
+c c c c d e f f f f f, 2, 11.0
+c c c c d f f f f f f, 2, 5.5
+c c c c e f f f f f f, 2, 5.5
+c c c c f f f f f f f, 2, 3.6666667
+c c c d e f f f f f f, 6, 5.5
+c c c d f f f f f f f, 6, 3.6666667
+c c c e f f f f f f f, 6, 3.6666667
+c c c f f f f f f f f, 6, 2.75
+c c d e e e e f g h h, 2, 11.0
+c c d e f f f f f f f, 6, 3.6666667
+c c d f f f f f f f f, 6, 2.75
+c c e f f f f f f f f, 6, 2.75
+c c f f f f f f f f f, 6, 2.2
+c d e f f f f f f f f, 6, 11.0
+c d f f f f f f f f f, 6, 5.5
+c e f f f f f f f f f, 6, 5.5
+d e f f f f f f f f f, 6, 11.0
+a a a a b b b b c e f g, 2, 12.0
+a a a a b b b b c e f h, 2, 4.0
+a a a a b b b b c e g g, 2, 6.0
+a a a a b b b b c e g h, 2, 4.0
+a a a a b b b b c f g g, 2, 6.0
+a a a a b b b b c f g h, 2, 4.0
+a a a a b b b b c g g h, 2, 4.0
+a a a a b b b b e f g g, 2, 6.0
+a a a a b b b b e f g h, 2, 4.0
+a a a a b b b b e g g h, 2, 4.0
+a a a a b b b b f g g h, 2, 4.0
+a a a a b b b c e f g g, 2, 6.0
+a a a a b b b c e f g h, 2, 4.0
+a a a a b b b c e g g h, 2, 4.0
+a a a a b b b c f g g h, 2, 4.0
+a a a a b b b e f g g h, 2, 4.0
+a a a a b b c e f g g h, 2, 4.0
+a a a b b b b c e f g g, 2, 6.0
+a a a b b b b c e f g h, 2, 4.0
+a a a b b b b c e g g h, 2, 4.0
+a a a b b b b c f g g h, 2, 4.0
+a a a b b b b e f g g h, 2, 4.0
+a a a b b b c e f g g h, 2, 4.0
+a a b b b b c e f g g h, 2, 4.0
+a a b c c d e e e e f g, 2, 12.0
+a a b c c d e e e e f h, 2, 6.0
+a a b c c d e e e e g h, 2, 6.0
+a a b c c d e e e e h h, 2, 4.0
+a a b c c d e e e f g h, 2, 6.0
+a a b c c d e e e f h h, 2, 4.0
+a a b c c d e e e g h h, 2, 4.0
+a a b c c d e e f g h h, 2, 4.0
+a a b c c e e e e f g h, 2, 6.0
+a a b c c e e e e f h h, 2, 4.0
+a a b c c e e e e g h h, 2, 4.0
+a a b c c e e e f g h h, 2, 4.0
+a a b c d e e e e f g h, 2, 6.0
+a a b c d e e e e f h h, 2, 4.0
+a a b c d e e e e g h h, 2, 4.0
+a a b c d e e e f g h h, 2, 4.0
+a a b c e e e e f g h h, 2, 4.0
+a a b d e e e e f g h h, 2, 4.0
+a a c c d e e e e f g h, 2, 6.0
+a a c c d e e e e f h h, 2, 4.0
+a a c c d e e e e g h h, 2, 4.0
+a a c c d e e e f g h h, 2, 4.0
+a a c c e e e e f g h h, 2, 4.0
+a a c d e e e e f g h h, 2, 4.0
+a a c d e f f f f f f f, 2, 3.0
+a a c d f f f f f f f f, 2, 2.4
+a a c e f f f f f f f f, 2, 2.4
+a a c f f f f f f f f f, 2, 2.0
+a a d e f f f f f f f f, 2, 2.4
+a a d f f f f f f f f f, 2, 2.0
+a a e f f f f f f f f f, 2, 2.0
+a b a c d e f f f f f f, 2, 4.0
+a b a c d f f f f f f f, 2, 3.0
+a b a c e f f f f f f f, 2, 3.0
+a b a c f f f f f f f f, 2, 2.4
+a b a d e f f f f f f f, 2, 3.0
+a b a d f f f f f f f f, 2, 2.4
+a b a e f f f f f f f f, 2, 2.4
+a b a f f f f f f f f f, 2, 2.0
+a b b b c d d e f f f h, 2, 12.0
+a b b b c d d e f f h h, 2, 6.0
+a b b b c d d e f h h h, 2, 4.0
+a b b b c d d f f f h h, 2, 6.0
+a b b b c d d f f h h h, 2, 4.0
+a b b b c d e f f f h h, 2, 6.0
+a b b b c d e f f h h h, 2, 4.0
+a b b b c d f f f h h h, 2, 4.0
+a b b b c e f f f h h h, 2, 4.0
+a b b b d d e f f f h h, 2, 6.0
+a b b b d d e f f h h h, 2, 4.0
+a b b b d d f f f h h h, 2, 4.0
+a b b b d e f f f h h h, 2, 4.0
+a b b c d d e f f f h h, 2, 6.0
+a b b c d d e f f h h h, 2, 4.0
+a b b c d d f f f h h h, 2, 4.0
+a b b c d e f f f f f f, 2, 4.0
+a b b c d e f f f h h h, 2, 4.0
+a b b c d f f f f f f f, 2, 3.0
+a b b c e f f f f f f f, 2, 3.0
+a b b c f f f f f f f f, 2, 2.4
+a b b d d e f f f h h h, 2, 4.0
+a b b d e f f f f f f f, 2, 3.0
+a b b d f f f f f f f f, 2, 2.4
+a b b e f f f f f f f f, 2, 2.4
+a b b f f f f f f f f f, 2, 2.0
+a b c a c d e f f f f f, 2, 6.0
+a b c a c d f f f f f f, 2, 4.0
+a b c a c e f f f f f f, 2, 4.0
+a b c a c f f f f f f f, 2, 3.0
+a b c a d e f f f f f f, 2, 4.0
+a b c a d f f f f f f f, 2, 3.0
+a b c a e f f f f f f f, 2, 3.0
+a b c a f f f f f f f f, 2, 2.4
+a b c b c d e f f f f f, 2, 6.0
+a b c b c d f f f f f f, 2, 4.0
+a b c b c e f f f f f f, 2, 4.0
+a b c b c f f f f f f f, 2, 3.0
+a b c b d e f f f f f f, 2, 4.0
+a b c b d f f f f f f f, 2, 3.0
+a b c b e f f f f f f f, 2, 3.0
+a b c b f f f f f f f f, 2, 2.4
+a b c c a c d e f f f f, 2, 12.0
+a b c c a c d f f f f f, 2, 6.0
+a b c c a c e f f f f f, 2, 6.0
+a b c c a c f f f f f f, 2, 4.0
+a b c c a d e f f f f f, 2, 6.0
+a b c c a d f f f f f f, 2, 4.0
+a b c c a e f f f f f f, 2, 4.0
+a b c c a f f f f f f f, 2, 3.0
+a b c c b c d e f f f f, 2, 12.0
+a b c c b c d f f f f f, 2, 6.0
+a b c c b c e f f f f f, 2, 6.0
+a b c c b c f f f f f f, 2, 4.0
+a b c c b d e f f f f f, 2, 6.0
+a b c c b d f f f f f f, 2, 4.0
+a b c c b e f f f f f f, 2, 4.0
+a b c c b f f f f f f f, 2, 3.0
+a b c c c c d e f f f f, 2, 12.0
+a b c c c c d f f f f f, 2, 6.0
+a b c c c c e f f f f f, 2, 6.0
+a b c c c c f f f f f f, 2, 4.0
+a b c c c d e f f f f f, 6, 6.0
+a b c c c d f f f f f f, 6, 4.0
+a b c c c e f f f f f f, 6, 4.0
+a b c c c f f f f f f f, 6, 3.0
+a b c c d e e e e f g h, 2, 12.0
+a b c c d e e e e f h h, 2, 6.0
+a b c c d e e e e g h h, 2, 6.0
+a b c c d e e e f g h h, 2, 6.0
+a b c c d e f f f f f f, 6, 4.0
+a b c c d f f f f f f f, 6, 3.0
+a b c c e e e e f g h h, 2, 6.0
+a b c c e f f f f f f f, 6, 3.0
+a b c c f f f f f f f f, 6, 2.4
+a b c d d e f f f h h h, 2, 4.0
+a b c d e e e e f g h h, 2, 6.0
+a b c d e f f f f f f f, 6, 3.0
+a b c d f f f f f f f f, 6, 2.4
+a b c e f f f f f f f f, 6, 2.4
+a b c f f f f f f f f f, 6, 2.0
+a b d e f f f f f f f f, 6, 2.4
+a b d f f f f f f f f f, 6, 2.0
+a b e f f f f f f f f f, 6, 2.0
+b a c d e f f f f f f f, 2, 4.0
+b a c d f f f f f f f f, 2, 3.0
+b a c e f f f f f f f f, 2, 3.0
+b a c f f f f f f f f f, 2, 2.4
+b a d e f f f f f f f f, 2, 3.0
+b a d f f f f f f f f f, 2, 2.4
+b a e f f f f f f f f f, 2, 2.4
+a c a c d e f f f f f f, 2, 4.0
+a c a c d f f f f f f f, 2, 3.0
+a c a c e f f f f f f f, 2, 3.0
+a c a c f f f f f f f f, 2, 2.4
+a c a d e f f f f f f f, 2, 3.0
+a c a d f f f f f f f f, 2, 2.4
+a c a e f f f f f f f f, 2, 2.4
+a c a f f f f f f f f f, 2, 2.0
+a c b c d e f f f f f f, 2, 4.0
+a c b c d f f f f f f f, 2, 3.0
+a c b c e f f f f f f f, 2, 3.0
+a c b c f f f f f f f f, 2, 2.4
+a c b d e f f f f f f f, 2, 3.0
+a c b d f f f f f f f f, 2, 2.4
+a c b e f f f f f f f f, 2, 2.4
+a c b f f f f f f f f f, 2, 2.0
+a c c a c d e f f f f f, 2, 6.0
+a c c a c d f f f f f f, 2, 4.0
+a c c a c e f f f f f f, 2, 4.0
+a c c a c f f f f f f f, 2, 3.0
+a c c a d e f f f f f f, 2, 4.0
+a c c a d f f f f f f f, 2, 3.0
+a c c a e f f f f f f f, 2, 3.0
+a c c a f f f f f f f f, 2, 2.4
+a c c b c d e f f f f f, 2, 6.0
+a c c b c d f f f f f f, 2, 4.0
+a c c b c e f f f f f f, 2, 4.0
+a c c b c f f f f f f f, 2, 3.0
+a c c b d e f f f f f f, 2, 4.0
+a c c b d f f f f f f f, 2, 3.0
+a c c b e f f f f f f f, 2, 3.0
+a c c b f f f f f f f f, 2, 2.4
+a c c c c d e f f f f f, 2, 6.0
+a c c c c d f f f f f f, 2, 4.0
+a c c c c e f f f f f f, 2, 4.0
+a c c c c f f f f f f f, 2, 3.0
+a c c c d e f f f f f f, 6, 4.0
+a c c c d f f f f f f f, 6, 3.0
+a c c c e f f f f f f f, 6, 3.0
+a c c c f f f f f f f f, 6, 2.4
+a c c d e e e e f g h h, 2, 6.0
+a c c d e f f f f f f f, 6, 3.0
+a c c d f f f f f f f f, 6, 2.4
+a c c e f f f f f f f f, 6, 2.4
+a c c f f f f f f f f f, 6, 2.0
+a c d e f f f f f f f f, 6, 2.4
+a c d f f f f f f f f f, 6, 2.0
+a c e f f f f f f f f f, 6, 2.0
+c a c d e f f f f f f f, 2, 12.0
+c a c d f f f f f f f f, 2, 6.0
+c a c e f f f f f f f f, 2, 6.0
+c a c f f f f f f f f f, 2, 4.0
+c a d e f f f f f f f f, 2, 6.0
+c a d f f f f f f f f f, 2, 4.0
+c a e f f f f f f f f f, 2, 4.0
+a d e f f f f f f f f f, 6, 3.3333333
+b b b c d d e f f f h h, 2, 12.0
+b b b c d d e f f h h h, 2, 6.0
+b b b c d d f f f h h h, 2, 6.0
+b b b c d e f f f h h h, 2, 6.0
+b b b d d e f f f h h h, 2, 6.0
+b b c d d e f f f h h h, 2, 6.0
+b b c d e f f f f f f f, 2, 4.0
+b b c d f f f f f f f f, 2, 3.0
+b b c e f f f f f f f f, 2, 3.0
+b b c f f f f f f f f f, 2, 2.4
+b b d e f f f f f f f f, 2, 3.0
+b b d f f f f f f f f f, 2, 2.4
+b b e f f f f f f f f f, 2, 2.4
+b c a c d e f f f f f f, 2, 6.0
+b c a c d f f f f f f f, 2, 4.0
+b c a c e f f f f f f f, 2, 4.0
+b c a c f f f f f f f f, 2, 3.0
+b c a d e f f f f f f f, 2, 4.0
+b c a d f f f f f f f f, 2, 3.0
+b c a e f f f f f f f f, 2, 3.0
+b c a f f f f f f f f f, 2, 2.4
+b c b c d e f f f f f f, 2, 6.0
+b c b c d f f f f f f f, 2, 4.0
+b c b c e f f f f f f f, 2, 4.0
+b c b c f f f f f f f f, 2, 3.0
+b c b d e f f f f f f f, 2, 4.0
+b c b d f f f f f f f f, 2, 3.0
+b c b e f f f f f f f f, 2, 3.0
+b c b f f f f f f f f f, 2, 2.4
+b c c a c d e f f f f f, 2, 12.0
+b c c a c d f f f f f f, 2, 6.0
+b c c a c e f f f f f f, 2, 6.0
+b c c a c f f f f f f f, 2, 4.0
+b c c a d e f f f f f f, 2, 6.0
+b c c a d f f f f f f f, 2, 4.0
+b c c a e f f f f f f f, 2, 4.0
+b c c a f f f f f f f f, 2, 3.0
+b c c b c d e f f f f f, 2, 12.0
+b c c b c d f f f f f f, 2, 6.0
+b c c b c e f f f f f f, 2, 6.0
+b c c b c f f f f f f f, 2, 4.0
+b c c b d e f f f f f f, 2, 6.0
+b c c b d f f f f f f f, 2, 4.0
+b c c b e f f f f f f f, 2, 4.0
+b c c b f f f f f f f f, 2, 3.0
+b c c c c d e f f f f f, 2, 12.0
+b c c c c d f f f f f f, 2, 6.0
+b c c c c e f f f f f f, 2, 6.0
+b c c c c f f f f f f f, 2, 4.0
+b c c c d e f f f f f f, 6, 6.0
+b c c c d f f f f f f f, 6, 4.0
+b c c c e f f f f f f f, 6, 4.0
+b c c c f f f f f f f f, 6, 3.0
+b c c d e e e e f g h h, 2, 12.0
+b c c d e f f f f f f f, 6, 4.0
+b c c d f f f f f f f f, 6, 3.0
+b c c e f f f f f f f f, 6, 3.0
+b c c f f f f f f f f f, 6, 2.4
+b c d e f f f f f f f f, 6, 3.0
+b c d f f f f f f f f f, 6, 2.4
+b c e f f f f f f f f f, 6, 2.4
+c b c d e f f f f f f f, 2, 12.0
+c b c d f f f f f f f f, 2, 6.0
+c b c e f f f f f f f f, 2, 6.0
+c b c f f f f f f f f f, 2, 4.0
+c b d e f f f f f f f f, 2, 6.0
+c b d f f f f f f f f f, 2, 4.0
+c b e f f f f f f f f f, 2, 4.0
+b d e f f f f f f f f f, 6, 3.6000001
+c c a c d e f f f f f f, 2, 12.0
+c c a c d f f f f f f f, 2, 6.0
+c c a c e f f f f f f f, 2, 6.0
+c c a c f f f f f f f f, 2, 4.0
+c c a d e f f f f f f f, 2, 6.0
+c c a d f f f f f f f f, 2, 4.0
+c c a e f f f f f f f f, 2, 4.0
+c c a f f f f f f f f f, 2, 3.0
+c c b c d e f f f f f f, 2, 12.0
+c c b c d f f f f f f f, 2, 6.0
+c c b c e f f f f f f f, 2, 6.0
+c c b c f f f f f f f f, 2, 4.0
+c c b d e f f f f f f f, 2, 6.0
+c c b d f f f f f f f f, 2, 4.0
+c c b e f f f f f f f f, 2, 4.0
+c c b f f f f f f f f f, 2, 3.0
+c c c c d e f f f f f f, 2, 12.0
+c c c c d f f f f f f f, 2, 6.0
+c c c c e f f f f f f f, 2, 6.0
+c c c c f f f f f f f f, 2, 4.0
+c c c d e f f f f f f f, 6, 6.0
+c c c d f f f f f f f f, 6, 4.0
+c c c e f f f f f f f f, 6, 4.0
+c c c f f f f f f f f f, 6, 3.0
+c c d e f f f f f f f f, 6, 4.0
+c c d f f f f f f f f f, 6, 3.0
+c c e f f f f f f f f f, 6, 3.0
+c d e f f f f f f f f f, 6, 12.0
+a a a a b b b b c e f g g, 2, 13.0
+a a a a b b b b c e f g h, 2, 6.5
+a a a a b b b b c e g g h, 2, 6.5
+a a a a b b b b c f g g h, 2, 6.5
+a a a a b b b b e f g g h, 2, 6.5
+a a a a b b b c e f g g h, 2, 6.5
+a a a b b b b c e f g g h, 2, 6.5
+a a b c c d e e e e f g h, 2, 13.0
+a a b c c d e e e e f h h, 2, 6.5
+a a b c c d e e e e g h h, 2, 6.5
+a a b c c d e e e f g h h, 2, 6.5
+a a b c c e e e e f g h h, 2, 6.5
+a a b c d e e e e f g h h, 2, 6.5
+a a c c d e e e e f g h h, 2, 6.5
+a a c d e f f f f f f f f, 2, 3.25
+a a c d f f f f f f f f f, 2, 2.6
+a a c e f f f f f f f f f, 2, 2.6
+a a d e f f f f f f f f f, 2, 2.6
+a b a c d e f f f f f f f, 2, 4.3333335
+a b a c d f f f f f f f f, 2, 3.25
+a b a c e f f f f f f f f, 2, 3.25
+a b a c f f f f f f f f f, 2, 2.6
+a b a d e f f f f f f f f, 2, 3.25
+a b a d f f f f f f f f f, 2, 2.6
+a b a e f f f f f f f f f, 2, 2.6
+a b b b c d d e f f f h h, 2, 13.0
+a b b b c d d e f f h h h, 2, 6.5
+a b b b c d d f f f h h h, 2, 6.5
+a b b b c d e f f f h h h, 2, 6.5
+a b b b d d e f f f h h h, 2, 6.5
+a b b c d d e f f f h h h, 2, 6.5
+a b b c d e f f f f f f f, 2, 4.3333335
+a b b c d f f f f f f f f, 2, 3.25
+a b b c e f f f f f f f f, 2, 3.25
+a b b c f f f f f f f f f, 2, 2.6
+a b b d e f f f f f f f f, 2, 3.25
+a b b d f f f f f f f f f, 2, 2.6
+a b b e f f f f f f f f f, 2, 2.6
+a b c a c d e f f f f f f, 2, 6.5
+a b c a c d f f f f f f f, 2, 4.3333335
+a b c a c e f f f f f f f, 2, 4.3333335
+a b c a c f f f f f f f f, 2, 3.25
+a b c a d e f f f f f f f, 2, 4.3333335
+a b c a d f f f f f f f f, 2, 3.25
+a b c a e f f f f f f f f, 2, 3.25
+a b c a f f f f f f f f f, 2, 2.6
+a b c b c d e f f f f f f, 2, 6.5
+a b c b c d f f f f f f f, 2, 4.3333335
+a b c b c e f f f f f f f, 2, 4.3333335
+a b c b c f f f f f f f f, 2, 3.25
+a b c b d e f f f f f f f, 2, 4.3333335
+a b c b d f f f f f f f f, 2, 3.25
+a b c b e f f f f f f f f, 2, 3.25
+a b c b f f f f f f f f f, 2, 2.6
+a b c c a c d e f f f f f, 2, 13.0
+a b c c a c d f f f f f f, 2, 6.5
+a b c c a c e f f f f f f, 2, 6.5
+a b c c a c f f f f f f f, 2, 4.3333335
+a b c c a d e f f f f f f, 2, 6.5
+a b c c a d f f f f f f f, 2, 4.3333335
+a b c c a e f f f f f f f, 2, 4.3333335
+a b c c a f f f f f f f f, 2, 3.25
+a b c c b c d e f f f f f, 2, 13.0
+a b c c b c d f f f f f f, 2, 6.5
+a b c c b c e f f f f f f, 2, 6.5
+a b c c b c f f f f f f f, 2, 4.3333335
+a b c c b d e f f f f f f, 2, 6.5
+a b c c b d f f f f f f f, 2, 4.3333335
+a b c c b e f f f f f f f, 2, 4.3333335
+a b c c b f f f f f f f f, 2, 3.25
+a b c c c c d e f f f f f, 2, 13.0
+a b c c c c d f f f f f f, 2, 6.5
+a b c c c c e f f f f f f, 2, 6.5
+a b c c c c f f f f f f f, 2, 4.3333335
+a b c c c d e f f f f f f, 6, 6.5000005
+a b c c c d f f f f f f f, 6, 4.3333335
+a b c c c e f f f f f f f, 6, 4.3333335
+a b c c c f f f f f f f f, 6, 3.2500002
+a b c c d e e e e f g h h, 2, 13.0
+a b c c d e f f f f f f f, 6, 4.3333335
+a b c c d f f f f f f f f, 6, 3.2500002
+a b c c e f f f f f f f f, 6, 3.2500002
+a b c c f f f f f f f f f, 6, 2.6
+a b c d e f f f f f f f f, 6, 3.2500002
+a b c d f f f f f f f f f, 6, 2.6
+a b c e f f f f f f f f f, 6, 2.6
+a b d e f f f f f f f f f, 6, 2.6
+b a c d e f f f f f f f f, 2, 4.3333335
+b a c d f f f f f f f f f, 2, 3.25
+b a c e f f f f f f f f f, 2, 3.25
+b a d e f f f f f f f f f, 2, 3.25
+a c a c d e f f f f f f f, 2, 4.3333335
+a c a c d f f f f f f f f, 2, 3.25
+a c a c e f f f f f f f f, 2, 3.25
+a c a c f f f f f f f f f, 2, 2.6
+a c a d e f f f f f f f f, 2, 3.25
+a c a d f f f f f f f f f, 2, 2.6
+a c a e f f f f f f f f f, 2, 2.6
+a c b c d e f f f f f f f, 2, 4.3333335
+a c b c d f f f f f f f f, 2, 3.25
+a c b c e f f f f f f f f, 2, 3.25
+a c b c f f f f f f f f f, 2, 2.6
+a c b d e f f f f f f f f, 2, 3.25
+a c b d f f f f f f f f f, 2, 2.6
+a c b e f f f f f f f f f, 2, 2.6
+a c c a c d e f f f f f f, 2, 6.5
+a c c a c d f f f f f f f, 2, 4.3333335
+a c c a c e f f f f f f f, 2, 4.3333335
+a c c a c f f f f f f f f, 2, 3.25
+a c c a d e f f f f f f f, 2, 4.3333335
+a c c a d f f f f f f f f, 2, 3.25
+a c c a e f f f f f f f f, 2, 3.25
+a c c a f f f f f f f f f, 2, 2.6
+a c c b c d e f f f f f f, 2, 6.5
+a c c b c d f f f f f f f, 2, 4.3333335
+a c c b c e f f f f f f f, 2, 4.3333335
+a c c b c f f f f f f f f, 2, 3.25
+a c c b d e f f f f f f f, 2, 4.3333335
+a c c b d f f f f f f f f, 2, 3.25
+a c c b e f f f f f f f f, 2, 3.25
+a c c b f f f f f f f f f, 2, 2.6
+a c c c c d e f f f f f f, 2, 6.5
+a c c c c d f f f f f f f, 2, 4.3333335
+a c c c c e f f f f f f f, 2, 4.3333335
+a c c c c f f f f f f f f, 2, 3.25
+a c c c d e f f f f f f f, 6, 4.3333335
+a c c c d f f f f f f f f, 6, 3.2500002
+a c c c e f f f f f f f f, 6, 3.2500002
+a c c c f f f f f f f f f, 6, 2.6
+a c c d e f f f f f f f f, 6, 3.2500002
+a c c d f f f f f f f f f, 6, 2.6
+a c c e f f f f f f f f f, 6, 2.6
+a c d e f f f f f f f f f, 6, 2.6
+c a c d e f f f f f f f f, 2, 13.0
+c a c d f f f f f f f f f, 2, 6.5
+c a c e f f f f f f f f f, 2, 6.5
+c a d e f f f f f f f f f, 2, 6.5
+b b b c d d e f f f h h h, 2, 13.0
+b b c d e f f f f f f f f, 2, 4.3333335
+b b c d f f f f f f f f f, 2, 3.25
+b b c e f f f f f f f f f, 2, 3.25
+b b d e f f f f f f f f f, 2, 3.25
+b c a c d e f f f f f f f, 2, 6.5
+b c a c d f f f f f f f f, 2, 4.3333335
+b c a c e f f f f f f f f, 2, 4.3333335
+b c a c f f f f f f f f f, 2, 3.25
+b c a d e f f f f f f f f, 2, 4.3333335
+b c a d f f f f f f f f f, 2, 3.25
+b c a e f f f f f f f f f, 2, 3.25
+b c b c d e f f f f f f f, 2, 6.5
+b c b c d f f f f f f f f, 2, 4.3333335
+b c b c e f f f f f f f f, 2, 4.3333335
+b c b c f f f f f f f f f, 2, 3.25
+b c b d e f f f f f f f f, 2, 4.3333335
+b c b d f f f f f f f f f, 2, 3.25
+b c b e f f f f f f f f f, 2, 3.25
+b c c a c d e f f f f f f, 2, 13.0
+b c c a c d f f f f f f f, 2, 6.5
+b c c a c e f f f f f f f, 2, 6.5
+b c c a c f f f f f f f f, 2, 4.3333335
+b c c a d e f f f f f f f, 2, 6.5
+b c c a d f f f f f f f f, 2, 4.3333335
+b c c a e f f f f f f f f, 2, 4.3333335
+b c c a f f f f f f f f f, 2, 3.25
+b c c b c d e f f f f f f, 2, 13.0
+b c c b c d f f f f f f f, 2, 6.5
+b c c b c e f f f f f f f, 2, 6.5
+b c c b c f f f f f f f f, 2, 4.3333335
+b c c b d e f f f f f f f, 2, 6.5
+b c c b d f f f f f f f f, 2, 4.3333335
+b c c b e f f f f f f f f, 2, 4.3333335
+b c c b f f f f f f f f f, 2, 3.25
+b c c c c d e f f f f f f, 2, 13.0
+b c c c c d f f f f f f f, 2, 6.5
+b c c c c e f f f f f f f, 2, 6.5
+b c c c c f f f f f f f f, 2, 4.3333335
+b c c c d e f f f f f f f, 6, 6.5000005
+b c c c d f f f f f f f f, 6, 4.3333335
+b c c c e f f f f f f f f, 6, 4.3333335
+b c c c f f f f f f f f f, 6, 3.2500002
+b c c d e f f f f f f f f, 6, 4.3333335
+b c c d f f f f f f f f f, 6, 3.2500002
+b c c e f f f f f f f f f, 6, 3.2500002
+b c d e f f f f f f f f f, 6, 3.2500002
+c b c d e f f f f f f f f, 2, 13.0
+c b c d f f f f f f f f f, 2, 6.5
+c b c e f f f f f f f f f, 2, 6.5
+c b d e f f f f f f f f f, 2, 6.5
+c c a c d e f f f f f f f, 2, 13.0
+c c a c d f f f f f f f f, 2, 6.5
+c c a c e f f f f f f f f, 2, 6.5
+c c a c f f f f f f f f f, 2, 4.3333335
+c c a d e f f f f f f f f, 2, 6.5
+c c a d f f f f f f f f f, 2, 4.3333335
+c c a e f f f f f f f f f, 2, 4.3333335
+c c b c d e f f f f f f f, 2, 13.0
+c c b c d f f f f f f f f, 2, 6.5
+c c b c e f f f f f f f f, 2, 6.5
+c c b c f f f f f f f f f, 2, 4.3333335
+c c b d e f f f f f f f f, 2, 6.5
+c c b d f f f f f f f f f, 2, 4.3333335
+c c b e f f f f f f f f f, 2, 4.3333335
+c c c c d e f f f f f f f, 2, 13.0
+c c c c d f f f f f f f f, 2, 6.5
+c c c c e f f f f f f f f, 2, 6.5
+c c c c f f f f f f f f f, 2, 4.3333335
+c c c d e f f f f f f f f, 6, 6.5000005
+c c c d f f f f f f f f f, 6, 4.3333335
+c c c e f f f f f f f f f, 6, 4.3333335
+c c d e f f f f f f f f f, 6, 4.3333335
+a a a a b b b b c e f g g h, 2, 14.0
+a a b c c d e e e e f g h h, 2, 14.0
+a a c d e f f f f f f f f f, 2, 3.5
+a b a c d e f f f f f f f f, 2, 4.6666665
+a b a c d f f f f f f f f f, 2, 3.5
+a b a c e f f f f f f f f f, 2, 3.5
+a b a d e f f f f f f f f f, 2, 3.5
+a b b b c d d e f f f h h h, 2, 14.0
+a b b c d e f f f f f f f f, 2, 4.6666665
+a b b c d f f f f f f f f f, 2, 3.5
+a b b c e f f f f f f f f f, 2, 3.5
+a b b d e f f f f f f f f f, 2, 3.5
+a b c a c d e f f f f f f f, 2, 7.0
+a b c a c d f f f f f f f f, 2, 4.6666665
+a b c a c e f f f f f f f f, 2, 4.6666665
+a b c a c f f f f f f f f f, 2, 3.5
+a b c a d e f f f f f f f f, 2, 4.6666665
+a b c a d f f f f f f f f f, 2, 3.5
+a b c a e f f f f f f f f f, 2, 3.5
+a b c b c d e f f f f f f f, 2, 7.0
+a b c b c d f f f f f f f f, 2, 4.6666665
+a b c b c e f f f f f f f f, 2, 4.6666665
+a b c b c f f f f f f f f f, 2, 3.5
+a b c b d e f f f f f f f f, 2, 4.6666665
+a b c b d f f f f f f f f f, 2, 3.5
+a b c b e f f f f f f f f f, 2, 3.5
+a b c c a c d e f f f f f f, 2, 14.0
+a b c c a c d f f f f f f f, 2, 7.0
+a b c c a c e f f f f f f f, 2, 7.0
+a b c c a c f f f f f f f f, 2, 4.6666665
+a b c c a d e f f f f f f f, 2, 7.0
+a b c c a d f f f f f f f f, 2, 4.6666665
+a b c c a e f f f f f f f f, 2, 4.6666665
+a b c c a f f f f f f f f f, 2, 3.5
+a b c c b c d e f f f f f f, 2, 14.0
+a b c c b c d f f f f f f f, 2, 7.0
+a b c c b c e f f f f f f f, 2, 7.0
+a b c c b c f f f f f f f f, 2, 4.6666665
+a b c c b d e f f f f f f f, 2, 7.0
+a b c c b d f f f f f f f f, 2, 4.6666665
+a b c c b e f f f f f f f f, 2, 4.6666665
+a b c c b f f f f f f f f f, 2, 3.5
+a b c c c c d e f f f f f f, 2, 14.0
+a b c c c c d f f f f f f f, 2, 7.0
+a b c c c c e f f f f f f f, 2, 7.0
+a b c c c c f f f f f f f f, 2, 4.6666665
+a b c c c d e f f f f f f f, 6, 6.9999995
+a b c c c d f f f f f f f f, 6, 4.6666665
+a b c c c e f f f f f f f f, 6, 4.6666665
+a b c c c f f f f f f f f f, 6, 3.4999998
+a b c c d e f f f f f f f f, 6, 4.6666665
+a b c c d f f f f f f f f f, 6, 3.4999998
+a b c c e f f f f f f f f f, 6, 3.4999998
+a b c d e f f f f f f f f f, 6, 3.4999998
+b a c d e f f f f f f f f f, 2, 4.6666665
+a c a c d e f f f f f f f f, 2, 4.6666665
+a c a c d f f f f f f f f f, 2, 3.5
+a c a c e f f f f f f f f f, 2, 3.5
+a c a d e f f f f f f f f f, 2, 3.5
+a c b c d e f f f f f f f f, 2, 4.6666665
+a c b c d f f f f f f f f f, 2, 3.5
+a c b c e f f f f f f f f f, 2, 3.5
+a c b d e f f f f f f f f f, 2, 3.5
+a c c a c d e f f f f f f f, 2, 7.0
+a c c a c d f f f f f f f f, 2, 4.6666665
+a c c a c e f f f f f f f f, 2, 4.6666665
+a c c a c f f f f f f f f f, 2, 3.5
+a c c a d e f f f f f f f f, 2, 4.6666665
+a c c a d f f f f f f f f f, 2, 3.5
+a c c a e f f f f f f f f f, 2, 3.5
+a c c b c d e f f f f f f f, 2, 7.0
+a c c b c d f f f f f f f f, 2, 4.6666665
+a c c b c e f f f f f f f f, 2, 4.6666665
+a c c b c f f f f f f f f f, 2, 3.5
+a c c b d e f f f f f f f f, 2, 4.6666665
+a c c b d f f f f f f f f f, 2, 3.5
+a c c b e f f f f f f f f f, 2, 3.5
+a c c c c d e f f f f f f f, 2, 7.0
+a c c c c d f f f f f f f f, 2, 4.6666665
+a c c c c e f f f f f f f f, 2, 4.6666665
+a c c c c f f f f f f f f f, 2, 3.5
+a c c c d e f f f f f f f f, 6, 4.6666665
+a c c c d f f f f f f f f f, 6, 3.4999998
+a c c c e f f f f f f f f f, 6, 3.4999998
+a c c d e f f f f f f f f f, 6, 3.4999998
+c a c d e f f f f f f f f f, 2, 14.0
+b b c d e f f f f f f f f f, 2, 4.6666665
+b c a c d e f f f f f f f f, 2, 7.0
+b c a c d f f f f f f f f f, 2, 4.6666665
+b c a c e f f f f f f f f f, 2, 4.6666665
+b c a d e f f f f f f f f f, 2, 4.6666665
+b c b c d e f f f f f f f f, 2, 7.0
+b c b c d f f f f f f f f f, 2, 4.6666665
+b c b c e f f f f f f f f f, 2, 4.6666665
+b c b d e f f f f f f f f f, 2, 4.6666665
+b c c a c d e f f f f f f f, 2, 14.0
+b c c a c d f f f f f f f f, 2, 7.0
+b c c a c e f f f f f f f f, 2, 7.0
+b c c a c f f f f f f f f f, 2, 4.6666665
+b c c a d e f f f f f f f f, 2, 7.0
+b c c a d f f f f f f f f f, 2, 4.6666665
+b c c a e f f f f f f f f f, 2, 4.6666665
+b c c b c d e f f f f f f f, 2, 14.0
+b c c b c d f f f f f f f f, 2, 7.0
+b c c b c e f f f f f f f f, 2, 7.0
+b c c b c f f f f f f f f f, 2, 4.6666665
+b c c b d e f f f f f f f f, 2, 7.0
+b c c b d f f f f f f f f f, 2, 4.6666665
+b c c b e f f f f f f f f f, 2, 4.6666665
+b c c c c d e f f f f f f f, 2, 14.0
+b c c c c d f f f f f f f f, 2, 7.0
+b c c c c e f f f f f f f f, 2, 7.0
+b c c c c f f f f f f f f f, 2, 4.6666665
+b c c c d e f f f f f f f f, 6, 6.9999995
+b c c c d f f f f f f f f f, 6, 4.6666665
+b c c c e f f f f f f f f f, 6, 4.6666665
+b c c d e f f f f f f f f f, 6, 4.6666665
+c b c d e f f f f f f f f f, 2, 14.0
+c c a c d e f f f f f f f f, 2, 14.0
+c c a c d f f f f f f f f f, 2, 7.0
+c c a c e f f f f f f f f f, 2, 7.0
+c c a d e f f f f f f f f f, 2, 7.0
+c c b c d e f f f f f f f f, 2, 14.0
+c c b c d f f f f f f f f f, 2, 7.0
+c c b c e f f f f f f f f f, 2, 7.0
+c c b d e f f f f f f f f f, 2, 7.0
+c c c c d e f f f f f f f f, 2, 14.0
+c c c c d f f f f f f f f f, 2, 7.0
+c c c c e f f f f f f f f f, 2, 7.0
+c c c d e f f f f f f f f f, 6, 6.9999995
+a b a c d e f f f f f f f f f, 2, 5.0
+a b b c d e f f f f f f f f f, 2, 5.0
+a b c a c d e f f f f f f f f, 2, 7.5
+a b c a c d f f f f f f f f f, 2, 5.0
+a b c a c e f f f f f f f f f, 2, 5.0
+a b c a d e f f f f f f f f f, 2, 5.0
+a b c b c d e f f f f f f f f, 2, 7.5
+a b c b c d f f f f f f f f f, 2, 5.0
+a b c b c e f f f f f f f f f, 2, 5.0
+a b c b d e f f f f f f f f f, 2, 5.0
+a b c c a c d e f f f f f f f, 2, 15.0
+a b c c a c d f f f f f f f f, 2, 7.5
+a b c c a c e f f f f f f f f, 2, 7.5
+a b c c a c f f f f f f f f f, 2, 5.0
+a b c c a d e f f f f f f f f, 2, 7.5
+a b c c a d f f f f f f f f f, 2, 5.0
+a b c c a e f f f f f f f f f, 2, 5.0
+a b c c b c d e f f f f f f f, 2, 15.0
+a b c c b c d f f f f f f f f, 2, 7.5
+a b c c b c e f f f f f f f f, 2, 7.5
+a b c c b c f f f f f f f f f, 2, 5.0
+a b c c b d e f f f f f f f f, 2, 7.5
+a b c c b d f f f f f f f f f, 2, 5.0
+a b c c b e f f f f f f f f f, 2, 5.0
+a b c c c c d e f f f f f f f, 2, 15.0
+a b c c c c d f f f f f f f f, 2, 7.5
+a b c c c c e f f f f f f f f, 2, 7.5
+a b c c c c f f f f f f f f f, 2, 5.0
+a b c c c d e f f f f f f f f, 6, 7.5
+a b c c c d f f f f f f f f f, 6, 5.0
+a b c c c e f f f f f f f f f, 6, 5.0
+a b c c d e f f f f f f f f f, 6, 5.0
+a c a c d e f f f f f f f f f, 2, 5.0
+a c b c d e f f f f f f f f f, 2, 5.0
+a c c a c d e f f f f f f f f, 2, 7.5
+a c c a c d f f f f f f f f f, 2, 5.0
+a c c a c e f f f f f f f f f, 2, 5.0
+a c c a d e f f f f f f f f f, 2, 5.0
+a c c b c d e f f f f f f f f, 2, 7.5
+a c c b c d f f f f f f f f f, 2, 5.0
+a c c b c e f f f f f f f f f, 2, 5.0
+a c c b d e f f f f f f f f f, 2, 5.0
+a c c c c d e f f f f f f f f, 2, 7.5
+a c c c c d f f f f f f f f f, 2, 5.0
+a c c c c e f f f f f f f f f, 2, 5.0
+a c c c d e f f f f f f f f f, 6, 5.0
+b c a c d e f f f f f f f f f, 2, 7.5
+b c b c d e f f f f f f f f f, 2, 7.5
+b c c a c d e f f f f f f f f, 2, 15.0
+b c c a c d f f f f f f f f f, 2, 7.5
+b c c a c e f f f f f f f f f, 2, 7.5
+b c c a d e f f f f f f f f f, 2, 7.5
+b c c b c d e f f f f f f f f, 2, 15.0
+b c c b c d f f f f f f f f f, 2, 7.5
+b c c b c e f f f f f f f f f, 2, 7.5
+b c c b d e f f f f f f f f f, 2, 7.5
+b c c c c d e f f f f f f f f, 2, 15.0
+b c c c c d f f f f f f f f f, 2, 7.5
+b c c c c e f f f f f f f f f, 2, 7.5
+b c c c d e f f f f f f f f f, 6, 7.5
+c c a c d e f f f f f f f f f, 2, 15.0
+c c b c d e f f f f f f f f f, 2, 15.0
+c c c c d e f f f f f f f f f, 2, 15.0
+a b c a c d e f f f f f f f f f, 2, 8.0
+a b c b c d e f f f f f f f f f, 2, 8.0
+a b c c a c d e f f f f f f f f, 2, 16.0
+a b c c a c d f f f f f f f f f, 2, 8.0
+a b c c a c e f f f f f f f f f, 2, 8.0
+a b c c a d e f f f f f f f f f, 2, 8.0
+a b c c b c d e f f f f f f f f, 2, 16.0
+a b c c b c d f f f f f f f f f, 2, 8.0
+a b c c b c e f f f f f f f f f, 2, 8.0
+a b c c b d e f f f f f f f f f, 2, 8.0
+a b c c c c d e f f f f f f f f, 2, 16.0
+a b c c c c d f f f f f f f f f, 2, 8.0
+a b c c c c e f f f f f f f f f, 2, 8.0
+a b c c c d e f f f f f f f f f, 6, 8.0
+a c c a c d e f f f f f f f f f, 2, 8.0
+a c c b c d e f f f f f f f f f, 2, 8.0
+a c c c c d e f f f f f f f f f, 2, 8.0
+b c c a c d e f f f f f f f f f, 2, 16.0
+b c c b c d e f f f f f f f f f, 2, 16.0
+b c c c c d e f f f f f f f f f, 2, 16.0
+a b c c a c d e f f f f f f f f f, 2, 17.0
+a b c c b c d e f f f f f f f f f, 2, 17.0
+a b c c c c d e f f f f f f f f f, 2, 17.0
