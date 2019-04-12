@@ -99,7 +99,159 @@ public class SequenceDatabase {
                 //Zayd added this line to make the data in the right format
 		addSequence(format(thisLine.split(",")[2].trim()).split(" "));
             }
-            double minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
+            double minSupRelative ;
+            if(minSupportAbsolute<1)
+                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
+            else
+                minSupRelative = minSupportAbsolute;
+           // double support = (int) (minSupport * sequences.size());
+            Set<Item> items = frequentItems.keySet();
+            Set<Item> itemsToRemove = new HashSet<Item>();
+            for (Item item : items) {
+                Pattern pattern = frequentItems.get(item);
+                if (pattern.getSupport() < minSupRelative) {
+                    itemsToRemove.add(item);
+                }
+            }
+            for (Item nonFrequent : itemsToRemove) {
+                frequentItems.remove(nonFrequent);
+            }
+
+            shrinkDatabase(frequentItems.keySet());
+        } catch (Exception e) {
+        } finally {
+            if (myInput != null) {
+                myInput.close();
+            }
+        }
+    }
+    /**
+     * It loads the database contained in the file path given as parameter.
+     * Besides, all the frequent 1-patterns are identified and the original database
+     * is updated by removing the non-frequent items
+     * @param path File path of the original database
+     * @param minSupportAbsolute Minimum absolute support
+     * @throws IOException 
+     */
+    public void loadFile(String path, double minSupportAbsolute, int start, int end) throws IOException {
+        String thisLine;
+        BufferedReader myInput = null;
+        int ctr = 0;
+        try {
+            FileInputStream fis = new FileInputStream(new File(path));
+            myInput = new BufferedReader(new InputStreamReader(fis));
+            while ((thisLine = myInput.readLine()) != null) {
+                if(ctr>=start){
+                    if(ctr<end){
+                        addSequence(format(thisLine.split(",")[2].trim()).split(" "));}
+                    else
+                        break;
+                }
+                ctr ++;
+            }
+            double minSupRelative ;
+            if(minSupportAbsolute<1)
+                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
+            else
+                minSupRelative = minSupportAbsolute;
+           // double support = (int) (minSupport * sequences.size());
+            Set<Item> items = frequentItems.keySet();
+            Set<Item> itemsToRemove = new HashSet<Item>();
+            for (Item item : items) {
+                Pattern pattern = frequentItems.get(item);
+                if (pattern.getSupport() < minSupRelative) {
+                    itemsToRemove.add(item);
+                }
+            }
+            for (Item nonFrequent : itemsToRemove) {
+                frequentItems.remove(nonFrequent);
+            }
+
+            shrinkDatabase(frequentItems.keySet());
+        } catch (Exception e) {
+        } finally {
+            if (myInput != null) {
+                myInput.close();
+            }
+        }
+    }
+    /**
+     * It loads the database contained in the file path given as parameter.
+     * Besides, all the frequent 1-patterns are identified and the original database
+     * is updated by removing the non-frequent items
+     * @param path File path of the original database
+     * @param minSupportAbsolute Minimum absolute support
+     * @throws IOException 
+     */
+    public void loadFile(String path, int index, double minSupportAbsolute, int start) throws IOException {
+        String thisLine;
+        BufferedReader myInput = null;
+        int ctr = 0;
+        try {
+            FileInputStream fis = new FileInputStream(new File(path));
+            myInput = new BufferedReader(new InputStreamReader(fis));
+            while ((thisLine = myInput.readLine()) != null) {
+                
+                if(ctr>=start){
+                    addSequence(format(thisLine.split(",")[index].trim()).split(" "),thisLine.split(",")[0].trim());
+                }
+                
+                ctr ++;
+            }
+            double minSupRelative ;
+            if(minSupportAbsolute<1)
+                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
+            else
+                minSupRelative = minSupportAbsolute;
+           // double support = (int) (minSupport * sequences.size());
+            Set<Item> items = frequentItems.keySet();
+            Set<Item> itemsToRemove = new HashSet<Item>();
+            for (Item item : items) {
+                Pattern pattern = frequentItems.get(item);
+                if (pattern.getSupport() < minSupRelative) {
+                    itemsToRemove.add(item);
+                }
+            }
+            for (Item nonFrequent : itemsToRemove) {
+                frequentItems.remove(nonFrequent);
+            }
+
+            shrinkDatabase(frequentItems.keySet());
+        } catch (Exception e) {
+        } finally {
+            if (myInput != null) {
+                myInput.close();
+            }
+        }
+    }
+    /**
+     * It loads the database contained in the file path given as parameter.
+     * Besides, all the frequent 1-patterns are identified and the original database
+     * is updated by removing the non-frequent items
+     * @param path File path of the original database
+     * @param minSupportAbsolute Minimum absolute support
+     * @param index column that contains the items
+     * @throws IOException 
+     */
+    public void loadFile(String path, double minSupportAbsolute, int start,int end,String s, int index) throws IOException {
+        String thisLine;
+        BufferedReader myInput = null;
+        int ctr = 0;
+        try {
+            FileInputStream fis = new FileInputStream(new File(path));
+            myInput = new BufferedReader(new InputStreamReader(fis));
+            while ((thisLine = myInput.readLine()) != null) {
+                
+                if(ctr>=start && ctr<end && thisLine.split(",")[0].trim().equals(s)){
+                    addSequence(format(thisLine.split(",")[index].trim()).split(" "));
+                }
+                ctr ++;
+            }
+            double minSupRelative ;
+            if(minSupportAbsolute<1)
+                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
+            else
+                minSupRelative = minSupportAbsolute;
            // double support = (int) (minSupport * sequences.size());
             Set<Item> items = frequentItems.keySet();
             Set<Item> itemsToRemove = new HashSet<Item>();
@@ -144,6 +296,41 @@ public class SequenceDatabase {
                 itemset = new Itemset();
                 itemset.setTimestamp(time);
             } else if (integers[i].equals("-2")) { // indica el final de la secuencia
+                sequences.add(sequence);
+            } else {
+                // extract the value for an item
+                Item item = itemFactory.getItem(integers[i]);
+                Pattern pattern = frequentItems.get(item);
+                if (pattern == null) {
+                    pattern = patternCreator.createPattern(creadorPares.getItemAbstractionPair(item, abstractionCreator.CreateDefaultAbstraction()));
+                    frequentItems.put(item, pattern);
+                }
+                pattern.addAppearance(sequence.getId());
+                itemset.addItem(item);
+
+            }
+        }
+    }
+    
+    public void addSequence(String[] integers, String classe) {
+        ItemAbstractionPairCreator creadorPares = ItemAbstractionPairCreator.getInstance();
+        long timestamp;
+        Sequence sequence = new Sequence(sequences.size());
+        Itemset itemset = new Itemset();
+        
+        for (int i = 0; i < integers.length; i++) {
+            if (integers[i].codePointAt(0) == '<') {  // Timestamp
+                String value = integers[i].substring(1, integers[i].length() - 1);
+                timestamp = Long.parseLong(value);
+                itemset.setTimestamp(timestamp);
+            } else if (integers[i].equals("-1")) { // indica el final de un itemset
+                long time = itemset.getTimestamp() + 1;
+                sequence.addItemset(itemset);
+                
+                itemset = new Itemset();
+                itemset.setTimestamp(time);
+            } else if (integers[i].equals("-2")) { // indica el final de la secuencia
+                sequence.setClasse(classe);
                 sequences.add(sequence);
             } else {
                 // extract the value for an item

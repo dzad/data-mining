@@ -1,5 +1,6 @@
 package ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items;
 
+import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.patterns.Pattern;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +42,10 @@ public class Sequence {
      * Sequence identifier.
      */
     private int id;
-
+    /**
+     * Sequence Class
+     */
+    private String classe;
     /**
      * Constructor for a Sequence.
      * @param id an integer identifier
@@ -211,6 +215,14 @@ public class Sequence {
         return itemsets.get(itemsets.size() - 1).getTimestamp() - itemsets.get(0).getTimestamp();
     }
 
+    public String getClasse() {
+        return classe;
+    }
+
+    public void setClasse(String classe) {
+        this.classe = classe;
+    }
+
     /**
      * It returns a pair <itemset index, item index> indicanting the first appearance of an item in the sequence.
      * The starting point where the method takes the search up is given as parameter.
@@ -358,5 +370,29 @@ public class Sequence {
         }
         size+=(itemsets.get(itemsetIndex).size()-itemIndex-1);
         return size;
+    }
+    
+    public void fromString(String[] integers){
+        long timestamp;
+        
+        Itemset itemset = new Itemset();
+        for (int i = 0; i < integers.length; i++) {
+            if (integers[i].codePointAt(0) == '<') {  // Timestamp
+                String value = integers[i].substring(1, integers[i].length() - 1);
+                timestamp = Long.parseLong(value);
+                itemset.setTimestamp(timestamp);
+            } else if (integers[i].equals("-1")) { // indica el final de un itemset
+                long time = itemset.getTimestamp() + 1;
+                this.addItemset(itemset);
+                
+                itemset = new Itemset();
+                itemset.setTimestamp(time);
+            }else {
+                // extract the value for an item
+                Item item = new Item(integers[i]);
+                
+                itemset.addItem(item);
+            } 
+        }
     }
 }

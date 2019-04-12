@@ -39,6 +39,7 @@ import java.util.Objects;
  * 
  * @author agomariz
  */
+
 public class Pattern implements Comparable<Pattern> {
 
     /**
@@ -55,6 +56,7 @@ public class Pattern implements Comparable<Pattern> {
      * 
      */
     private float moy_coh;
+    private float val_imp;
     
     /**
      * Standard constructor that sets all the attributes to empty values
@@ -139,6 +141,8 @@ public class Pattern implements Comparable<Pattern> {
         result.append(appearingIn.cardinality());
         result.append(", ");
         result.append(this.moy_coh);
+        result.append(", ");
+        result.append(this.val_imp);
         // if the user wants the sequence IDs, we will show them
         if(outputSequenceIdentifiers) {
         	result.append(", ");
@@ -344,8 +348,9 @@ public class Pattern implements Comparable<Pattern> {
      * by Zayd
      */
     public void calculateMoyCoh(Sequence seq){
-        int distance = 0;
-        boolean chk = false;
+        
+        int distance = Integer.MAX_VALUE;
+        boolean chk = true;
         boolean update = true;
         int[] positions = new int[elements.size()];
         int[] lastPositions = new int[elements.size()];
@@ -354,68 +359,61 @@ public class Pattern implements Comparable<Pattern> {
             lastPositions[j] = -1;
         }
         positions[0] = -1;
+        int ctr = -1;
+        boolean updt = true;
         
-        while(!chk){
-            for(int i=0; i<elements.size(); i++){
-                int[] pos = null;
+        while(chk){
+            ctr = positions[0]+1;
+            int ctr2 = ctr;
+            for(int i =0; i<elements.size();i++){
+                int[] pos = seq.searchForTheFirstAppearance(ctr2, 
+                                        0, 
+                                        this.elements.get(i).getItem());
                 
-                if(i==0){
-                    if(positions[i]+1<seq.size())
-                        try{
-                            pos = seq.searchForTheFirstAppearance(positions[i]+1, 
-                                    0, 
-                                    this.elements.get(i).getItem());
-                        }catch(Exception e){
-                            
-                        }               
-                    else
-                        try{
-                            pos = seq.searchForTheFirstAppearance(positions[i], 
-                                    0, 
-                                    this.elements.get(i).getItem());
-                        }catch(Exception e){
-                            
-                        }
-                }else{
-                    if(positions[i-1]+1<seq.size())
-                        try{
-                        pos = seq.searchForTheFirstAppearance(positions[i-1]+1, 
-                                0, 
-                                this.elements.get(i).getItem());
-                        }catch(Exception e){
-                            
-                        }
-                    else
-                        try{
-                            pos = seq.searchForTheFirstAppearance(positions[i-1], 
-                                    0, 
-                                    this.elements.get(i).getItem());
-                        }catch(Exception e){
-                            
-                        }
-                }
                 if(!Objects.isNull(pos)){
-                    if(i < this.elements.size() - 1){
-                        if(pos[0]<positions[i+1]){
-                            positions[i] = pos[0];
-                        }
-                    }else if(update){
-                        positions[i] = pos[0];
-                    }
+                    ctr2 = pos[0]+1;
+                    positions[i] = pos[0];
+                }else{
+                    updt = false;
+                    chk = false;
                 }
             }
-            if(!Arrays.asList(positions).contains(Integer.MAX_VALUE))
-                update = false;
-            chk = Arrays.equals(lastPositions, positions);
-            lastPositions = positions.clone();
+            for(int i =1;i<positions.length; i++){
+                if(positions[i-1]>positions[i])
+                {
+                    updt = false;
+                    chk = false;
+                    break;
+                }
+            }
+            if(updt){
+                distance = Math.min(distance, positions[elements.size()-1]  - positions[0] - (elements.size()-1));
+                if (distance == 0)
+                    break;
+            }else{
+                chk = false;
+            }
+            
         }
-        
-        distance = positions[elements.size()-1]  - positions[0] - (elements.size()-1);
         
         float coh = (float)this.elements.size()/(distance + 1);
         
         this.moy_coh = (float)(this.moy_coh + coh/(this.appearingIn.cardinality()));
-        
     }
-        
+    
+    public float getMoyCoh(){
+        return this.moy_coh;
+    }
+    
+    public void setMoyCoh(float moy){
+        this.moy_coh = moy;
+    }
+    
+    public void calculateValImp(){
+        this.val_imp = this.appearingIn.cardinality() * this.moy_coh;
+    }
+    
+    public float getValImp(){
+        return this.val_imp;
+    }
 }

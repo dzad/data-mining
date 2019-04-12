@@ -84,6 +84,7 @@ class SupportCounting {
         Set<Pattern> result = new LinkedHashSet<Pattern>();
         //We keep all the frequent candidates and we put them in the indexation map
         for (Pattern candidate : candidateSet) {
+            
             if (candidate.getSupport() >= minSupportAbsolute) {
                 result.add(candidate);
                 putInIndexationMap(candidate);
@@ -103,6 +104,7 @@ class SupportCounting {
     private void checkCandidateInSequence(Sequence sequence, int k, List<Pattern> candidateSet) {
         //For each candidate
         for (Pattern candidate : candidateSet) {
+            
             //We define a list of k positions, all initialized at itemset 0, item 0, i.e. first itemset, first item.
             List<int[]> position = new ArrayList<int[]>(k);
             for (int i = 0; i < k; i++) {

@@ -31,11 +31,13 @@ import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Item;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Sequence;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.SequenceDatabase;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.Sequences;
+import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.abstractions.ItemAbstractionPair;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.creators.AbstractionCreator;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.patterns.Pattern;
 import ca.pfv.spmf.tools.MemoryLogger;
 import java.util.BitSet;
 import javax.sound.midi.MidiSystem;
+import javax.swing.table.DefaultTableModel;
 
 /**
  * This is an implementation of the GSP algorithm. GSP was proposed by Srikant
@@ -83,12 +85,16 @@ public class AlgoGSP {
     boolean isAbsolute;
     // save sequence identifiers to file
     boolean outputSequenceIdentifiers = false;
+    // boolean to be able to stop algorithm
+    boolean running;
+    
+    DefaultTableModel dm;
 
     /**
      * Constructor for GSP algorithm. It initializes most of the class'
      * attributes.
      */
-    public AlgoGSP(double minSupRelative, double mingap, double maxgap, double windowSize, AbstractionCreator abstractionCreator, boolean isRelative) {
+    public AlgoGSP(double minSupRelative, double mingap, double maxgap, double windowSize, AbstractionCreator abstractionCreator, boolean isAbsolute) {
         this.minSupRelative = minSupRelative;
         this.minGap = mingap;
         this.maxGap = maxgap;
@@ -96,6 +102,18 @@ public class AlgoGSP {
         this.abstractionCreator = abstractionCreator;
         this.isSorted = false;
         this.isAbsolute = isAbsolute;
+        this.dm = null;
+    }
+    
+    public AlgoGSP(double minSupRelative, double mingap, double maxgap, double windowSize, AbstractionCreator abstractionCreator, boolean isAbsolute, DefaultTableModel dm) {
+        this.minSupRelative = minSupRelative;
+        this.minGap = mingap;
+        this.maxGap = maxgap;
+        this.windowSize = windowSize;
+        this.abstractionCreator = abstractionCreator;
+        this.isSorted = false;
+        this.isAbsolute = isAbsolute;
+        this.dm = dm;
     }
 
     /**
@@ -172,6 +190,8 @@ public class AlgoGSP {
         /*We define a set where we temporaly keep the current frequent k-level.
          * It was called Lk in the original algorithm.
          */
+        
+        running = true;
         Set<Pattern> frequentSet = new LinkedHashSet<Pattern>(frequentItems.size());
         //And we add it the frequent 1-sequences
         frequentSet.addAll(frequentItems);
@@ -184,15 +204,36 @@ public class AlgoGSP {
 
         //Updating the number of frequent candidates adding the number of frequent items
         numberOfFrequentPatterns += frequentItems.size();
+        if(dm != null){
+            for (Pattern pattern : frequentSet) {
+                int i = 0;
+                String itemset = "";
+                itemset = pattern.getElements().stream().map((element) -> " " + element.getItem().toString()).reduce(itemset, String::concat);
+                pattern.setMoyCoh((float) pattern.getSupport());
+                pattern.calculateValImp();
+                dm.addRow(new Object[]{itemset.trim(),pattern.getSupport(),pattern.getMoyCoh()});
+                
+                i++;
+            }
+        }else{
+            for (Pattern pattern : frequentSet) {
+                pattern.setMoyCoh((float) pattern.getSupport());
+                pattern.calculateValImp();
+                
+            }
+        }
+        
+        
         //From k=1
         int k = 1;
         //We repeat the same loop. MAIN LOOP
-        while (frequentSet != null && !frequentSet.isEmpty()) {
+        while (frequentSet != null && !frequentSet.isEmpty() && running) {
             //We start with the k+1 level
+            try{
             k++;
             if (verbose) {
-                //System.out.println("k=" + k);
-                //System.out.println("generating candidates...");
+                System.out.println("k=" + k);
+                System.out.println("generating candidates...");
             }
             //We get the candidate set
             candidateSet = candidateGenerator.generateCandidates(frequentSet, abstractionCreator, indexationMap, k, minSupAbsolute);
@@ -202,35 +243,19 @@ public class AlgoGSP {
                 break;
             }
             //Otherwise we continue counting the support of each candidate of the set
-            if (verbose) {
+            //if (verbose) {
                 //System.out.println(candidateSet.size() + "  Candidates have been created!");
                 //System.out.println("checking frequency...");
-            }
+            //}
             
             // check the memory usage for statistics
             MemoryLogger.getInstance().checkMemory();
             
             frequentSet = supportCounter.countSupport(candidateSet, k, minSupAbsolute);
-            if (verbose) {
+            //if (verbose) {
                 //System.out.println(frequentSet.size() + " frequent patterns\n");
-            }
-            
-            // Calculate the moy_coh here
-            // By Zayd
-            
-            for (Pattern pattern : frequentSet) {
-                int i = 0;
-                for (Sequence seq : database.getSequences()) {
-                    if(pattern.getAppearingIn().get(i)){
-                        pattern.calculateMoyCoh(seq);
-                    }
-                    i++;
-                    }
-                
-            }
-            
-            
-            
+            //}
+            System.out.println(runningTime());
             // check the memory usage for statistics
             MemoryLogger.getInstance().checkMemory();
 
@@ -255,12 +280,38 @@ public class AlgoGSP {
                  */
             }else if (writer != null) {
                 if (!frequentSet.isEmpty()) {
-                    for (Pattern seq : patterns.getLevel(level)) {
-                        writer.write(seq.toStringToFile(outputSequenceIdentifiers));
+                    for (Pattern p : patterns.getLevel(level)) {
+                        if(!running)
+                                break;
+                        // Calculate the moy_coh here
+                        // By Zayd
+                        int i = 0;
+                        for (Sequence seq : database.getSequences()) {
+                            if(!running)
+                                break;
+                            
+                            if(p.getAppearingIn().get(i)){
+                                p.calculateMoyCoh(seq);
+                            }
+                            i++;
+                            
+                        }
+                        p.calculateValImp();
+                        if(dm != null){
+                            String itemset = "";
+                            itemset = p.getElements().stream().map((element) -> " " + element.getItem().toString()).reduce(itemset, String::concat);
+
+                            dm.addRow(new Object[]{itemset.trim(),""+p.getSupport(),""+p.getMoyCoh()});
+                        }
+
+                        writer.write(p.toStringToFile(outputSequenceIdentifiers));
                         writer.newLine();
+                        
                     }
                     patterns.delete(level);
                 }
+            }}catch(Exception e){
+                System.out.println(e.getMessage());
             }
         }
         /*When the loop is over, if we were interested in keeping the output in
@@ -271,6 +322,8 @@ public class AlgoGSP {
             if (writer != null) {
                 int level = patterns.getLevelCount();
                 for (Pattern seq : patterns.getLevel(level)) {
+                    if(!running)
+                                break;
                     writer.write(seq.toStringToFile(outputSequenceIdentifiers));
                     writer.newLine();
                 }
@@ -279,6 +332,7 @@ public class AlgoGSP {
         }
         // check the memory usage for statistics
 	MemoryLogger.getInstance().checkMemory();
+                            
     }
 
     /**
@@ -371,5 +425,9 @@ public class AlgoGSP {
         patterns.clear();
         frequentItems.clear();
         abstractionCreator = null;
+    }
+    
+    public void stop(){
+        running = false;
     }
 }
