@@ -72,168 +72,18 @@ public class SequenceDatabase {
     public SequenceDatabase(AbstractionCreator abstractionCreator) {
         this.abstractionCreator = abstractionCreator;
     }
-
     /**
      * It loads the database contained in the file path given as parameter.
      * Besides, all the frequent 1-patterns are identified and the original database
      * is updated by removing the non-frequent items
      * @param path File path of the original database
      * @param minSupportAbsolute Minimum absolute support
-     * @throws IOException 
-     */
-    public void loadFile(String path, double minSupportAbsolute) throws IOException {
-        String thisLine;
-        BufferedReader myInput = null;
-        
-        try {
-            FileInputStream fis = new FileInputStream(new File(path));
-            myInput = new BufferedReader(new InputStreamReader(fis));
-            while ((thisLine = myInput.readLine()) != null) {
-                // Zayd has modified this
-                // if the line is not a comment
-            	/*if (thisLine.charAt(0) != '#' && thisLine.charAt(0) != '%'
-						&& thisLine.charAt(0) != '@') {
-                    // añade una secuencia
-                    addSequence(thisLine.split(" "));
-                }*/
-                //Zayd added this line to make the data in the right format
-		addSequence(format(thisLine.split(",")[2].trim()).split(" "));
-            }
-            double minSupRelative ;
-            if(minSupportAbsolute<1)
-                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
-            else
-                minSupRelative = minSupportAbsolute;
-           // double support = (int) (minSupport * sequences.size());
-            Set<Item> items = frequentItems.keySet();
-            Set<Item> itemsToRemove = new HashSet<Item>();
-            for (Item item : items) {
-                Pattern pattern = frequentItems.get(item);
-                if (pattern.getSupport() < minSupRelative) {
-                    itemsToRemove.add(item);
-                }
-            }
-            for (Item nonFrequent : itemsToRemove) {
-                frequentItems.remove(nonFrequent);
-            }
-
-            shrinkDatabase(frequentItems.keySet());
-        } catch (Exception e) {
-        } finally {
-            if (myInput != null) {
-                myInput.close();
-            }
-        }
-    }
-    /**
-     * It loads the database contained in the file path given as parameter.
-     * Besides, all the frequent 1-patterns are identified and the original database
-     * is updated by removing the non-frequent items
-     * @param path File path of the original database
-     * @param minSupportAbsolute Minimum absolute support
-     * @throws IOException 
-     */
-    public void loadFile(String path, double minSupportAbsolute, int start, int end) throws IOException {
-        String thisLine;
-        BufferedReader myInput = null;
-        int ctr = 0;
-        try {
-            FileInputStream fis = new FileInputStream(new File(path));
-            myInput = new BufferedReader(new InputStreamReader(fis));
-            while ((thisLine = myInput.readLine()) != null) {
-                if(ctr>=start){
-                    if(ctr<end){
-                        addSequence(format(thisLine.split(",")[2].trim()).split(" "));}
-                    else
-                        break;
-                }
-                ctr ++;
-            }
-            double minSupRelative ;
-            if(minSupportAbsolute<1)
-                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
-            else
-                minSupRelative = minSupportAbsolute;
-           // double support = (int) (minSupport * sequences.size());
-            Set<Item> items = frequentItems.keySet();
-            Set<Item> itemsToRemove = new HashSet<Item>();
-            for (Item item : items) {
-                Pattern pattern = frequentItems.get(item);
-                if (pattern.getSupport() < minSupRelative) {
-                    itemsToRemove.add(item);
-                }
-            }
-            for (Item nonFrequent : itemsToRemove) {
-                frequentItems.remove(nonFrequent);
-            }
-
-            shrinkDatabase(frequentItems.keySet());
-        } catch (Exception e) {
-        } finally {
-            if (myInput != null) {
-                myInput.close();
-            }
-        }
-    }
-    /**
-     * It loads the database contained in the file path given as parameter.
-     * Besides, all the frequent 1-patterns are identified and the original database
-     * is updated by removing the non-frequent items
-     * @param path File path of the original database
-     * @param minSupportAbsolute Minimum absolute support
-     * @throws IOException 
-     */
-    public void loadFile(String path, int index, double minSupportAbsolute, int start) throws IOException {
-        String thisLine;
-        BufferedReader myInput = null;
-        int ctr = 0;
-        try {
-            FileInputStream fis = new FileInputStream(new File(path));
-            myInput = new BufferedReader(new InputStreamReader(fis));
-            while ((thisLine = myInput.readLine()) != null) {
-                
-                if(ctr>=start){
-                    addSequence(format(thisLine.split(",")[index].trim()).split(" "),thisLine.split(",")[0].trim());
-                }
-                
-                ctr ++;
-            }
-            double minSupRelative ;
-            if(minSupportAbsolute<1)
-                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
-            else
-                minSupRelative = minSupportAbsolute;
-           // double support = (int) (minSupport * sequences.size());
-            Set<Item> items = frequentItems.keySet();
-            Set<Item> itemsToRemove = new HashSet<Item>();
-            for (Item item : items) {
-                Pattern pattern = frequentItems.get(item);
-                if (pattern.getSupport() < minSupRelative) {
-                    itemsToRemove.add(item);
-                }
-            }
-            for (Item nonFrequent : itemsToRemove) {
-                frequentItems.remove(nonFrequent);
-            }
-
-            shrinkDatabase(frequentItems.keySet());
-        } catch (Exception e) {
-        } finally {
-            if (myInput != null) {
-                myInput.close();
-            }
-        }
-    }
-    /**
-     * It loads the database contained in the file path given as parameter.
-     * Besides, all the frequent 1-patterns are identified and the original database
-     * is updated by removing the non-frequent items
-     * @param path File path of the original database
-     * @param minSupportAbsolute Minimum absolute support
+     * @param s which class to load
      * @param index column that contains the items
+     * @param classIndex column that contains the class
      * @throws IOException 
      */
-    public void loadFile(String path, double minSupportAbsolute, int start,int end,String s, int index) throws IOException {
+    public void loadFile(String path, double minSupportAbsolute, int index, int classIndex) throws IOException {
         String thisLine;
         BufferedReader myInput = null;
         int ctr = 0;
@@ -242,8 +92,59 @@ public class SequenceDatabase {
             myInput = new BufferedReader(new InputStreamReader(fis));
             while ((thisLine = myInput.readLine()) != null) {
                 
-                if(ctr>=start && ctr<end && thisLine.split(",")[0].trim().equals(s)){
-                    addSequence(format(thisLine.split(",")[index].trim()).split(" "));
+                addSequence(format(thisLine.split(",")[index].trim()).split(" "),thisLine.split(",")[classIndex].trim());
+                
+                ctr ++;
+            }
+            double minSupRelative ;
+            if(minSupportAbsolute<1)
+                minSupRelative = (int) Math.ceil(minSupportAbsolute * sequences.size());
+            else
+                minSupRelative = minSupportAbsolute;
+           // double support = (int) (minSupport * sequences.size());
+            Set<Item> items = frequentItems.keySet();
+            Set<Item> itemsToRemove = new HashSet<Item>();
+            for (Item item : items) {
+                Pattern pattern = frequentItems.get(item);
+                if (pattern.getSupport() < minSupRelative) {
+                    itemsToRemove.add(item);
+                }
+            }
+            for (Item nonFrequent : itemsToRemove) {
+                frequentItems.remove(nonFrequent);
+            }
+
+            shrinkDatabase(frequentItems.keySet());
+        } catch (Exception e) {
+        } finally {
+            if (myInput != null) {
+                myInput.close();
+            }
+        }
+    }
+    
+    /**
+     * It loads the database contained in the file path given as parameter.
+     * Besides, all the frequent 1-patterns are identified and the original database
+     * is updated by removing the non-frequent items
+     * @param path File path of the original database
+     * @param minSupportAbsolute Minimum absolute support
+     * @param s which class to load
+     * @param index column that contains the items
+     * @param classIndex column that contains the class
+     * @throws IOException 
+     */
+    public void loadFile(String path, double minSupportAbsolute,String s, int index, int classIndex) throws IOException {
+        String thisLine;
+        BufferedReader myInput = null;
+        int ctr = 0;
+        try {
+            FileInputStream fis = new FileInputStream(new File(path));
+            myInput = new BufferedReader(new InputStreamReader(fis));
+            while ((thisLine = myInput.readLine()) != null) {
+                
+                if(thisLine.split(",")[classIndex].trim().equals(s)){
+                    addSequence(format(thisLine.split(",")[index].trim()).split(" "),s);
                 }
                 ctr ++;
             }
@@ -428,6 +329,7 @@ public class SequenceDatabase {
     
     public String format(String line){
 	String out = "";
+        line = line.toLowerCase();
 	boolean betweenBrkt = false;
 	for(int i = 0; i<line.length(); i++){
             if(line.charAt(i) == '('){

@@ -35,6 +35,7 @@ import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.abstractions.Item
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.creators.AbstractionCreator;
 import ca.pfv.spmf.algorithms.sequentialpatterns.gsp_AGP.items.patterns.Pattern;
 import ca.pfv.spmf.tools.MemoryLogger;
+import java.io.PrintWriter;
 import java.util.BitSet;
 import javax.sound.midi.MidiSystem;
 import javax.swing.table.DefaultTableModel;
@@ -81,6 +82,8 @@ public class AlgoGSP {
     private int numberOfFrequentPatterns;
     // writer to write output file
     BufferedWriter writer = null;
+    PrintWriter out = null;
+    FileWriter fw = null;
     // bool to check if the user want to explicitly set the value of minSupAbsolute
     boolean isAbsolute;
     // save sequence identifiers to file
@@ -136,7 +139,9 @@ public class AlgoGSP {
         if (outputFilePath == null) {
             writer = null;
         } else { // if the user want to save the result to a file
-            writer = new BufferedWriter(new FileWriter(outputFilePath));
+            fw = new FileWriter(outputFilePath, true);
+            writer = new BufferedWriter(fw);
+            out = new PrintWriter(writer);
         }
         
         /*we calculate in how many sequences a pattern have to appear to be
@@ -162,7 +167,9 @@ public class AlgoGSP {
 
         // close the output file if the result was saved to a file
         if (writer != null) {
+            out.close();
             writer.close();
+            fw.close();
         }
 
         return patterns;
@@ -230,62 +237,107 @@ public class AlgoGSP {
         while (frequentSet != null && !frequentSet.isEmpty() && running) {
             //We start with the k+1 level
             try{
-            k++;
-            if (verbose) {
-                System.out.println("k=" + k);
-                System.out.println("generating candidates...");
-            }
-            //We get the candidate set
-            candidateSet = candidateGenerator.generateCandidates(frequentSet, abstractionCreator, indexationMap, k, minSupAbsolute);
-            frequentSet = null;
-            //And we break the loop if the set of candidates is empty
-            if (candidateSet == null) {
-                break;
-            }
-            //Otherwise we continue counting the support of each candidate of the set
-            //if (verbose) {
-                //System.out.println(candidateSet.size() + "  Candidates have been created!");
-                //System.out.println("checking frequency...");
-            //}
-            
-            // check the memory usage for statistics
-            MemoryLogger.getInstance().checkMemory();
-            
-            frequentSet = supportCounter.countSupport(candidateSet, k, minSupAbsolute);
-            //if (verbose) {
-                //System.out.println(frequentSet.size() + " frequent patterns\n");
-            //}
-            System.out.println(runningTime());
-            // check the memory usage for statistics
-            MemoryLogger.getInstance().checkMemory();
-
-           //We update the number of frequent patterns, adding the number (k+1)-frequent patterns found
-            numberOfFrequentPatterns += frequentSet.size();
-            /*And we prepare the next iteration, updating the indexation map and
-             * the frequent level capable of generating the new candidates
-             */
-
-            indexationMap = supportCounter.getIndexationMap();
-            patterns.addSequences(new ArrayList<Pattern>(frequentSet), k);
-            /*Finally, we remove the previous level if we are not interested in
-             * keeping the frequent patterns in memory
-             */
-            int level = k - 1;  
-            if (!keepPatterns) {
-                if (!frequentSet.isEmpty()) {
-                    patterns.delete(level);
+                k++;
+                System.out.println(k);
+                /*if (verbose) {
+                    System.out.println("k=" + k);
+                    System.out.println("generating candidates...");
+                }*/
+                //We get the candidate set
+                candidateSet = candidateGenerator.generateCandidates(frequentSet, abstractionCreator, indexationMap, k, minSupAbsolute);
+                frequentSet = null;
+                //And we break the loop if the set of candidates is empty
+                if (candidateSet == null) {
+                    break;
                 }
-                /*Or even if we are interested in, but we want to keep them in
-                 * a file 
+                //Otherwise we continue counting the support of each candidate of the set
+                //if (verbose) {
+                    //System.out.println(candidateSet.size() + "  Candidates have been created!");
+                    //System.out.println("checking frequency...");
+                //}
+
+                // check the memory usage for statistics
+                MemoryLogger.getInstance().checkMemory();
+
+                frequentSet = supportCounter.countSupport(candidateSet, k, minSupAbsolute);
+                //if (verbose) {
+                    //System.out.println(frequentSet.size() + " frequent patterns\n");
+                //}
+                // check the memory usage for statistics
+                MemoryLogger.getInstance().checkMemory();
+
+               //We update the number of frequent patterns, adding the number (k+1)-frequent patterns found
+                numberOfFrequentPatterns += frequentSet.size();
+                /*And we prepare the next iteration, updating the indexation map and
+                 * the frequent level capable of generating the new candidates
                  */
-            }else if (writer != null) {
-                if (!frequentSet.isEmpty()) {
-                    for (Pattern p : patterns.getLevel(level)) {
-                        if(!running)
+
+                indexationMap = supportCounter.getIndexationMap();
+                patterns.addSequences(new ArrayList<Pattern>(frequentSet), k);
+                /*Finally, we remove the previous level if we are not interested in
+                 * keeping the frequent patterns in memory
+                 */
+                int level = k - 1;  
+                if (!keepPatterns) {
+                    if (!frequentSet.isEmpty()) {
+                        patterns.delete(level);
+                    }
+                    /*Or even if we are interested in, but we want to keep them in
+                     * a file 
+                     */
+                }else if (writer != null) {
+                    if (!frequentSet.isEmpty()) {
+                        for (Pattern p : patterns.getLevel(level)) {
+                            if(!running)
+                                    break;
+                            // Calculate the moy_coh here
+                            // By Zayd
+                            int i = 0;
+                            for (Sequence seq : database.getSequences()) {
+                                if(!running)
+                                    break;
+
+                                if(p.getAppearingIn().get(i)){
+                                    p.calculateMoyCoh(seq);
+                                }
+                                i++;
+
+                            }
+                            p.calculateValImp();
+                            if(dm != null){
+                                String itemset = "";
+                                itemset = p.getElements().stream().map((element) -> " " + element.getItem().toString()).reduce(itemset, String::concat);
+
+                                dm.addRow(new Object[]{itemset.trim(),""+p.getSupport(),""+p.getMoyCoh()});
+                            }
+
+                            out.println(p.toStringToFile(outputSequenceIdentifiers));
+                            out.flush();
+                            
+                            
+                            //writer.write(p.toStringToFile(outputSequenceIdentifiers));
+                            //writer.newLine();
+                            //writer.flush();
+                        }
+                        patterns.delete(level);
+                    }
+                }
+            }catch(Exception e){
+                System.out.println(e.getMessage());
+            }
+        }
+        /*When the loop is over, if we were interested in keeping the output in
+         * a file, we store the last level found.
+         */
+        
+        if (keepPatterns) {
+            if (writer != null) {
+                int level = patterns.getLevelCount();
+                for (Pattern p : patterns.getLevel(level)) {
+                    if(!running)
                                 break;
-                        // Calculate the moy_coh here
-                        // By Zayd
-                        int i = 0;
+                    
+                    int i = 0;
                         for (Sequence seq : database.getSequences()) {
                             if(!running)
                                 break;
@@ -297,36 +349,13 @@ public class AlgoGSP {
                             
                         }
                         p.calculateValImp();
-                        if(dm != null){
-                            String itemset = "";
-                            itemset = p.getElements().stream().map((element) -> " " + element.getItem().toString()).reduce(itemset, String::concat);
-
-                            dm.addRow(new Object[]{itemset.trim(),""+p.getSupport(),""+p.getMoyCoh()});
-                        }
-
-                        writer.write(p.toStringToFile(outputSequenceIdentifiers));
-                        writer.newLine();
-                        
-                    }
-                    patterns.delete(level);
+                    
+                    out.println(p.toStringToFile(outputSequenceIdentifiers));
+                    out.flush();
                 }
-            }}catch(Exception e){
-                System.out.println(e.getMessage());
-            }
-        }
-        /*When the loop is over, if we were interested in keeping the output in
-         * a file, we store the last level found.
-         */
-        
-        if (keepPatterns) {
-            if (writer != null) {
-                int level = patterns.getLevelCount();
-                for (Pattern seq : patterns.getLevel(level)) {
-                    if(!running)
-                                break;
-                    writer.write(seq.toStringToFile(outputSequenceIdentifiers));
-                    writer.newLine();
-                }
+                out.close();
+                writer.close();
+                fw.close();
                 patterns.delete(level);
             }
         }
@@ -353,9 +382,9 @@ public class AlgoGSP {
         sb.append(" Frequent sequences count : ");
         sb.append(numberOfFrequentPatterns);
         sb.append('\n');
-        sb.append(" Max memory (mb):");
+        /*sb.append(" Max memory (mb):");
 	sb.append(MemoryLogger.getInstance().getMaxMemory());
-        sb.append('\n');
+        sb.append('\n');*/
         if (writer == null) {
             sb.append(patterns.toString());
         }

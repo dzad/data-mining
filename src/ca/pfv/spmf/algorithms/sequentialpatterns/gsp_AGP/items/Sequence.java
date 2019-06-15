@@ -145,15 +145,15 @@ public class Sequence {
     public String toString() {
         StringBuilder sb = new StringBuilder("");
         for (Itemset itemset : itemsets) {
-            sb.append("{t=");
+            /*sb.append("{t=");
             sb.append(itemset.getTimestamp());
-            sb.append(", ");
+            sb.append(", ");*/
             for (Item item : itemset.getItems()) {
                 String string = item.toString();
                 sb.append(string);
-                sb.append(' ');
+                //sb.append(' ');
             }
-            sb.append('}');
+            //sb.append('}');
         }
         return sb.append("    ").toString();
     }
