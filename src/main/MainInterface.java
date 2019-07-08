@@ -611,7 +611,7 @@ public class MainInterface extends javax.swing.JFrame {
                 sequenceDatabaseTrainNeg.loadFile(java.net.URLDecoder.decode(filePath,"UTF-8"), support,"-",index,classIndex);
                 
                 // read test db
-                sequenceDatabaseTest.loadFile(java.net.URLDecoder.decode(filePath,"UTF-8"), support, index, classIndex);
+                sequenceDatabaseTest.loadFile(java.net.URLDecoder.decode(testPath,"UTF-8"), support, index, classIndex);
                 
             } catch (IOException ex) {
                 JOptionPane.showMessageDialog(this, 
