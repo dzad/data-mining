@@ -933,9 +933,9 @@ public class MainInterface extends javax.swing.JFrame {
                     myInputs = new BufferedReader(new InputStreamReader(fis));
                     String thisLine;
                     thisLine = myInputs.readLine();
-                    String posFile = mPath.getParent().toString() + thisLine.split(":.")[1];
+                    String posFile = mPath.getParent().toString() + thisLine.split(":")[1];
                     thisLine = myInputs.readLine();
-                    String negFile = mPath.getParent().toString() + thisLine.split(":.")[1];
+                    String negFile = mPath.getParent().toString() + thisLine.split(":")[1];
                     
                     // predict the sequence class
                     boolean predicted = false;
@@ -1033,9 +1033,9 @@ public class MainInterface extends javax.swing.JFrame {
             try {
                 BufferedWriter writer1 = new BufferedWriter(new FileWriter(outPath+".model"));
 
-                writer1.write("pos:"+outFilePathPos);
+                writer1.write("pos:"+outFilePathPos.substring(outFilePathPos.lastIndexOf("\\")));
                 writer1.newLine();
-                writer1.write("neg:"+outFilePathNeg);
+                writer1.write("neg:"+outFilePathNeg.substring(outFilePathNeg.lastIndexOf("\\")));
                 writer1.newLine();
                 writer1.close();
             } catch (IOException ex) {
@@ -1043,8 +1043,8 @@ public class MainInterface extends javax.swing.JFrame {
             }finally{
                 modelPath.setText(outPath+".model");
                 try {
-                    Files.copy(Paths.get(outFilePathNeg), Paths.get(outPath.substring(0,outPath.lastIndexOf("\\"))+outFilePathNeg.substring(1)), StandardCopyOption.REPLACE_EXISTING);
-                    Files.copy(Paths.get(outFilePathPos), Paths.get(outPath.substring(0,outPath.lastIndexOf("\\"))+outFilePathPos.substring(1)), StandardCopyOption.REPLACE_EXISTING);
+                    Files.copy(Paths.get(outFilePathNeg), Paths.get(outPath.substring(0,outPath.lastIndexOf("\\"))+outFilePathNeg.substring(outFilePathNeg.lastIndexOf("\\"))), StandardCopyOption.REPLACE_EXISTING);
+                    Files.copy(Paths.get(outFilePathPos), Paths.get(outPath.substring(0,outPath.lastIndexOf("\\"))+outFilePathPos.substring(outFilePathPos.lastIndexOf("\\"))), StandardCopyOption.REPLACE_EXISTING);
                 } catch (IOException ex) {
                     Logger.getLogger(MainInterface.class.getName()).log(Level.SEVERE, null, ex);
                 }
