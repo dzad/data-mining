@@ -211,24 +211,15 @@ public class AlgoGSP {
 
         //Updating the number of frequent candidates adding the number of frequent items
         numberOfFrequentPatterns += frequentItems.size();
-        if(dm != null){
-            for (Pattern pattern : frequentSet) {
-                int i = 0;
-                String itemset = "";
-                itemset = pattern.getElements().stream().map((element) -> " " + element.getItem().toString()).reduce(itemset, String::concat);
-                pattern.setMoyCoh((float) pattern.getSupport());
-                pattern.calculateValImp();
-                dm.addRow(new Object[]{itemset.trim(),pattern.getSupport(),pattern.getMoyCoh()});
-                
-                i++;
-            }
-        }else{
-            for (Pattern pattern : frequentSet) {
-                pattern.setMoyCoh((float) pattern.getSupport());
-                pattern.calculateValImp();
-                
-            }
+        
+        for (Pattern pattern : frequentSet) {
+            System.out.println((float) pattern.getSupport());
+            pattern.setMoyCoh((float) pattern.getSupport());
+            pattern.calculateValImp();
+            out.println(pattern.toStringToFile(outputSequenceIdentifiers));
+            out.flush();
         }
+        
         
         
         //From k=1
@@ -287,39 +278,31 @@ public class AlgoGSP {
                      */
                 }else if (writer != null) {
                     if (!frequentSet.isEmpty()) {
-                        for (Pattern p : patterns.getLevel(level)) {
-                            if(!running)
-                                    break;
-                            // Calculate the moy_coh here
-                            // By Zayd
-                            int i = 0;
-                            for (Sequence seq : database.getSequences()) {
+                        if (k>2){
+                            for (Pattern p : patterns.getLevel(level)) {
                                 if(!running)
-                                    break;
+                                        break;
+                                // Calculate the moy_coh here
+                                // By Zayd
+                                int i = 0;
+                                for (Sequence seq : database.getSequences()) {
+                                    if(!running)
+                                        break;
 
-                                if(p.getAppearingIn().get(i)){
-                                    p.calculateMoyCoh(seq);
+                                    if(p.getAppearingIn().get(i)){
+                                        p.calculateMoyCoh(seq);
+                                    }
+                                    i++;
+
                                 }
-                                i++;
+                                p.calculateValImp();
 
+                                out.println(p.toStringToFile(outputSequenceIdentifiers));
+                                out.flush();
                             }
-                            p.calculateValImp();
-                            if(dm != null){
-                                String itemset = "";
-                                itemset = p.getElements().stream().map((element) -> " " + element.getItem().toString()).reduce(itemset, String::concat);
-
-                                dm.addRow(new Object[]{itemset.trim(),""+p.getSupport(),""+p.getMoyCoh()});
-                            }
-
-                            out.println(p.toStringToFile(outputSequenceIdentifiers));
-                            out.flush();
-                            
-                            
-                            //writer.write(p.toStringToFile(outputSequenceIdentifiers));
-                            //writer.newLine();
-                            //writer.flush();
                         }
                         patterns.delete(level);
+                        
                     }
                 }
             }catch(Exception e){

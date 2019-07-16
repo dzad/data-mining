@@ -409,6 +409,10 @@ public class Pattern implements Comparable<Pattern> {
         this.moy_coh = moy;
     }
     
+    public void setMoyCoh(int moy){
+        this.moy_coh = moy;
+    }
+    
     public void calculateValImp(){
         this.val_imp = this.appearingIn.cardinality() * this.moy_coh;
     }
